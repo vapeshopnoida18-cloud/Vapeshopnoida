@@ -102,7 +102,7 @@ export default function ProductDetailClient({ product, relatedProducts = [] }) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-start">
           
           {/* Left Column: Product Image Showcase */}
-          <div className="lg:col-span-6 sticky top-24">
+          <div className="lg:col-span-6 lg:sticky lg:top-24">
             <div className="relative w-full aspect-square bg-gray-50/80 rounded-2xl border border-gray-200/90 shadow-[0_4px_25px_rgb(0,0,0,0.05)] overflow-hidden group">
               <Image
                 src={product.image}

@@ -1,10 +1,11 @@
 import ContactClient from "./ContactClient";
 
 export const metadata = {
-  title: "Contact Us | Vape Shop Noida Sector 76 - Store Location & Helpline",
+  title: "Contact Us | Vape Shop in Noida Sector 76 - Store Location & Helpline",
   description:
-    "Contact Vape Shop Noida. Visit our retail hub at Shop no 38,39, Lower Ground Floor, Street 76, Market, Amarpali Silicon City, Sector 76, Noida 201316. WhatsApp/Call: +91 81687 38374 for 60-90 min express delivery.",
+    "Contact Vape Shop in Noida. Visit our retail hub at Shop no 38,39, Lower Ground Floor, Street 76, Market, Amarpali Silicon City, Sector 76, Noida 201316. WhatsApp/Call: +91 81687 38374 for 60-90 min express delivery.",
   keywords: [
+    "vape shop in noida",
     "contact vape shop noida",
     "vape shop sector 76 noida",
     "vape shop amarpali silicon city",
@@ -18,13 +19,19 @@ export const metadata = {
     canonical: "https://vapeshopinnoida.com/contact",
   },
   openGraph: {
-    title: "Contact Us | Vape Shop Noida Sector 76 - Express Delivery & Store Support",
+    title: "Contact Us | Vape Shop in Noida Sector 76 - Express Delivery & Store Support",
     description:
-      "Get in touch with Vape Shop Noida at Sector 76, Amarpali Silicon City. Express 60-90 min vape delivery across all Noida sectors. Call/WhatsApp: +91 81687 38374.",
+      "Get in touch with Vape Shop in Noida at Sector 76, Amarpali Silicon City. Express 60-90 min vape delivery across all Noida sectors. Call/WhatsApp: +91 81687 38374.",
     url: "https://vapeshopinnoida.com/contact",
-    siteName: "Vape Shop Noida",
+    siteName: "Vape Shop in Noida",
     locale: "en_IN",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Us | Vape Shop in Noida Sector 76",
+    description:
+      "Express 60-90 min vape delivery across Noida. Helpline: +91 81687 38374.",
   },
 };
 

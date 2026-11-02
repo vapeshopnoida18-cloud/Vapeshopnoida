@@ -16,10 +16,11 @@ import { FaWhatsapp } from "react-icons/fa";
 import { WHATSAPP_NUMBER } from "@/data/products";
 
 export const metadata = {
-  title: "About Us | Vape Shop Noida - Authentic Vapes & Express 60-90 Min Delivery",
+  title: "About Us | Vape Shop in Noida - Authentic Vapes & Express Delivery",
   description:
-    "Learn about Vape Shop Noida, operating from Sector 76 Amarpali Silicon City. Delivering 100% genuine disposable vapes, pod systems & nic salts with 60-90 mins doorstep express dispatch across Noida & Greater Noida.",
+    "Learn about Vape Shop in Noida, operating from Sector 76 Amarpali Silicon City. Delivering 100% genuine disposable vapes, pod systems & nic salts with 60-90 mins doorstep express dispatch across Noida & Greater Noida.",
   keywords: [
+    "vape shop in noida",
     "about vape shop noida",
     "authentic vape store noida",
     "vape shop sector 76 noida",
@@ -32,13 +33,19 @@ export const metadata = {
     canonical: "https://vapeshopinnoida.com/about",
   },
   openGraph: {
-    title: "About Us | Vape Shop Noida - 100% Authentic Vapes & Express Delivery",
+    title: "About Us | Vape Shop in Noida - 100% Authentic Vapes & Express Delivery",
     description:
-      "Vape Shop Noida is Gautam Buddha Nagar's trusted destination for genuine disposable vapes, refillable pod mods & nic salts. 60-90 min express dispatch across Noida.",
+      "Vape Shop in Noida is Gautam Buddha Nagar's trusted destination for genuine disposable vapes, refillable pod mods & nic salts. 60-90 min express dispatch across Noida.",
     url: "https://vapeshopinnoida.com/about",
-    siteName: "Vape Shop Noida",
+    siteName: "Vape Shop in Noida",
     locale: "en_IN",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us | Vape Shop in Noida",
+    description:
+      "100% genuine vapes & pod systems delivered in 60-90 mins across Noida. COD available.",
   },
 };
 

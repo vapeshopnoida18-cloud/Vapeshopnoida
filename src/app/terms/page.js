@@ -15,10 +15,11 @@ import { FaWhatsapp } from "react-icons/fa";
 import { WHATSAPP_NUMBER } from "@/data/products";
 
 export const metadata = {
-  title: "Terms & Conditions | Vape Shop Noida - Ordering & Delivery Policies",
+  title: "Terms & Conditions | Vape Shop in Noida - Ordering & Delivery Policies",
   description:
-    "Official Terms and Conditions for ordering vapes, pod kits, and e-liquids at Vape Shop Noida. Details on 21+ age eligibility, 60-90 mins express dispatch, COD, and return policy.",
+    "Official Terms and Conditions for ordering vapes, pod kits, and e-liquids at Vape Shop in Noida. Details on 21+ age eligibility, 60-90 mins express dispatch, COD, and return policy.",
   keywords: [
+    "vape shop in noida",
     "terms and conditions vape shop noida",
     "vape delivery terms noida",
     "cod policy vape shop noida",
@@ -29,13 +30,19 @@ export const metadata = {
     canonical: "https://vapeshopinnoida.com/terms",
   },
   openGraph: {
-    title: "Terms & Conditions | Vape Shop Noida Official",
+    title: "Terms & Conditions | Vape Shop in Noida",
     description:
-      "Review the official terms of service for Vape Shop Noida. Express 60-90 min delivery, authentic sealed products, and COD guidelines.",
+      "Review the official terms of service for Vape Shop in Noida. Express 60-90 min delivery, authentic sealed products, and COD guidelines.",
     url: "https://vapeshopinnoida.com/terms",
-    siteName: "Vape Shop Noida",
+    siteName: "Vape Shop in Noida",
     locale: "en_IN",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Terms & Conditions | Vape Shop in Noida",
+    description:
+      "Official terms of service for express vape delivery in Noida. 21+ only.",
   },
 };
 

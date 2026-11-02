@@ -134,3 +134,4 @@ export default function sitemap() {
 
   return [...staticRoutes, ...productRoutes, ...categoryRoutes, ...sectorRoutes];
 }
+
