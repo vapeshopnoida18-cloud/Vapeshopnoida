@@ -1,0 +1,165 @@
+import { notFound } from "next/navigation";
+import { products, getProductBySlug } from "@/data/products";
+import ProductDetailClient from "@/components/ProductDetailClient";
+
+export function generateStaticParams() {
+  return products.map((product) => ({
+    slug: product.slug,
+  }));
+}
+
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
+
+  if (!product) {
+    return {
+      title: "Product Not Found | Vape Shop Noida",
+      description: "The requested vape product was not found at Vape Shop Noida.",
+    };
+  }
+
+  return {
+    title: `${product.name} | Vape Shop Noida - Fast Delivery`,
+    description: `Buy ${product.name} in Noida with 60-90 mins express delivery. 100% authentic, ${product.specs}, Cash on Delivery available across all Noida sectors.`,
+    keywords: [
+      product.name,
+      `${product.brand} Noida`,
+      `buy ${product.name} online Noida`,
+      "vape shop noida",
+      "vape store noida",
+      "vape delivery noida",
+      "disposable vape noida",
+    ],
+    alternates: {
+      canonical: `https://vapeshopinnoida.com/products/${product.slug}`,
+    },
+    openGraph: {
+      title: `${product.name} | Vape Shop Noida`,
+      description: `Buy authentic ${product.name} in Noida with 60-90 mins express delivery and Cash on Delivery.`,
+      url: `https://vapeshopinnoida.com/products/${product.slug}`,
+      siteName: "Vape Shop Noida",
+      images: [
+        {
+          url: product.image,
+          width: 800,
+          height: 800,
+          alt: product.alt,
+        },
+      ],
+      locale: "en_IN",
+      type: "website",
+    },
+  };
+}
+
+export default async function ProductDetailPage({ params }) {
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
+
+  if (!product) {
+    notFound();
+  }
+
+  const relatedProducts = products.filter((p) => p.slug !== slug).slice(0, 3);
+
+  // Schema.org Product JSON-LD
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    image: `https://vapeshopinnoida.com${product.image}`,
+    description: product.description,
+    brand: {
+      "@type": "Brand",
+      name: product.brand,
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: product.rating,
+      reviewCount: product.reviewsCount,
+    },
+    offers: {
+      "@type": "Offer",
+      url: `https://vapeshopinnoida.com/products/${product.slug}`,
+      priceCurrency: "INR",
+      price: product.price,
+      priceValidUntil: "2027-12-31",
+      itemCondition: "https://schema.org/NewCondition",
+      availability: "https://schema.org/InStock",
+      seller: {
+        "@type": "Organization",
+        name: "Vape Shop Noida",
+      },
+    },
+  };
+
+  // Schema.org FAQPage JSON-LD
+  const faqJsonLd =
+    product.faqs && product.faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: product.faqs.map((faq) => ({
+            "@type": "Question",
+            name: faq.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: faq.a,
+            },
+          })),
+        }
+      : null;
+
+  // Schema.org BreadcrumbList JSON-LD
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://vapeshopinnoida.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Products",
+        item: "https://vapeshopinnoida.com/products",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: product.brand,
+        item: "https://vapeshopinnoida.com/products",
+      },
+      {
+        "@type": "ListItem",
+        position: 4,
+        name: product.name,
+        item: `https://vapeshopinnoida.com/products/${product.slug}`,
+      },
+    ],
+  };
+
+  return (
+    <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
+      />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <ProductDetailClient product={product} relatedProducts={relatedProducts} />
+    </main>
+  );
+}
