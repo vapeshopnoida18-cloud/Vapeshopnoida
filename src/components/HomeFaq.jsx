@@ -10,28 +10,32 @@ export default function HomeFaq() {
 
   const faqs = [
     {
+      q: "Where is the best authentic Vape Shop in Noida?",
+      a: "Vape Shop in Noida is headquartered in Sector 76, Amarpali Silicon City. We offer 100% authentic disposable vapes (up to 80,000 puffs), refillable pod mods, replacement coils, and imported nic salts with 60-90 minutes express home delivery across all sectors of Noida and Greater Noida.",
+    },
+    {
+      q: "How fast is vape delivery across Noida sectors and Greater Noida?",
+      a: "Orders are dispatched within 15 minutes of confirmation. Deliveries to Sector 76, Sector 50, and central Noida arrive in 30-45 minutes. Deliveries to Sector 18 (Atta Market), Sector 62 (Electronic City), Sector 137, Noida Expressway, and Greater Noida arrive within 60 to 90 minutes.",
+    },
+    {
+      q: "Can I order vapes online in Noida with Cash on Delivery (COD)?",
+      a: "Yes! 100% of orders placed at Vape Shop in Noida are eligible for Cash on Delivery (COD) or doorstep digital UPI (Google Pay, PhonePe, Paytm). You only pay after inspecting the package at your doorstep.",
+    },
+    {
+      q: "Are all vape devices 100% genuine with factory scratch QR codes?",
+      a: "Yes, every disposable vape and pod kit from Geek Bar, Elf Bar, Lost Mary, Yuoto, Voopoo, and Vaporesso comes in factory shrink-wrapped packaging with an authentic scratch-off QR verification code that you can verify directly on the official brand website.",
+    },
+    {
       q: "Is vaping legal in Noida and Greater Noida?",
-      a: "India's Electronic Cigarettes Act, 2019 prohibits the sale, distribution, import and advertising of e-cigarettes. These restrictions apply throughout Noida, Greater Noida and Delhi NCR.",
+      a: "India's Electronic Cigarettes Act, 2019 prohibits the sale, distribution, import and advertising of e-cigarettes. These statutory health notices and regulations apply throughout Noida, Greater Noida, and Delhi NCR.",
     },
     {
-      q: "Can disposable vapes and pod systems be sold online in Noida?",
-      a: "No. India's e-cigarette restrictions cover online sales, including disposable vaping devices and electronic nicotine delivery systems. The restrictions apply nationwide.",
+      q: "Do vape delivery regulations apply in Noida Sector 18, Sector 62 and Sector 137?",
+      a: "India's national e-cigarette legislation applies across all Noida sectors, including Sector 18, Sector 62, Sector 137, Noida Expressway, and Greater Noida.",
     },
     {
-      q: "Do vape regulations apply in Noida Sector 18, Sector 62 and Sector 137?",
-      a: "Yes. India's national e-cigarette legislation applies across all Noida sectors, including Sector 18, Sector 62, Sector 137, Noida Expressway and Greater Noida.",
-    },
-    {
-      q: "Are vape delivery services and online advertisements allowed in Delhi NCR?",
-      a: "The Electronic Cigarettes Act, 2019 prohibits the transport, sale, distribution and advertising of e-cigarettes. This includes commercial activities conducted through online platforms.",
-    },
-    {
-      q: "What is the Electronic Cigarettes Act, 2019 in India?",
-      a: "The Prohibition of Electronic Cigarettes Act, 2019 is a national law restricting the manufacture, import, export, transport, sale, distribution, storage and advertising of electronic cigarettes.",
-    },
-    {
-      q: "Where can I find reliable vaping health and safety information in Noida?",
-      a: "For trusted information about e-cigarette risks, nicotine dependence and quitting support, visit India's National Tobacco Control Programme or speak with a qualified healthcare professional.",
+      q: "Where can I find reliable vaping health and safety guidance in Noida?",
+      a: "For authentic information about e-cigarette risks, nicotine dependence, and cessation support, consult India's National Tobacco Control Programme or a certified healthcare practitioner.",
     },
   ];
 
