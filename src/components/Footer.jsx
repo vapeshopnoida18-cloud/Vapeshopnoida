@@ -19,61 +19,6 @@ export default function Footer() {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20Vape%20Shop%20Noida%2C%20I%20want%20to%20order%20vapes%20with%20express%20delivery.`;
   const callUrl = `tel:+918168738374`;
 
-  // Schema.org LocalBusiness / OnlineStore JSON-LD for Google Local SEO
-  const footerSchema = {
-    "@context": "https://schema.org",
-    "@type": "Store",
-    name: "Vape Shop Noida",
-    image: "https://vapeshopinnoida.com/logo.webp",
-    url: "https://vapeshopinnoida.com",
-    telephone: "+918168738374",
-    email: "vapeshopnoida18@gmail.com",
-    priceRange: "₹₹",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress:
-        "Shop no 38,39, Lower Ground Floor, Street 76, Market, Amarpali Silicon City, Sector 76",
-      addressLocality: "Noida",
-      addressRegion: "Uttar Pradesh",
-      postalCode: "201316",
-      addressCountry: "IN",
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: "28.5708",
-      longitude: "77.3260",
-    },
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday",
-        ],
-        opens: "10:00",
-        closes: "23:59",
-      },
-    ],
-    areaServed: [
-      "Sector 76 Noida",
-      "Amarpali Silicon City",
-      "Sector 18 Noida",
-      "Sector 62 Noida",
-      "Sector 50 Noida",
-      "Sector 75 Noida",
-      "Sector 137 Noida",
-      "Noida Expressway",
-      "Greater Noida",
-      "Delhi NCR",
-    ],
-    paymentAccepted: "Cash on Delivery, UPI, Google Pay, PhonePe, Paytm",
-  };
-
   const productGuides = [
     { name: "Disposable Vapes", href: "/products?category=disposable" },
     { name: "Pod Systems", href: "/products?category=pods" },
@@ -124,12 +69,6 @@ export default function Footer() {
       {/* Background Subtle Gradient Glow matching reference screenshot */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-600/5 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 right-10 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl pointer-events-none" />
-
-      {/* Schema.org Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(footerSchema) }}
-      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-8 pb-6 relative z-10">
         {/* ========================================================= */}

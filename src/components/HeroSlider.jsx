@@ -144,11 +144,6 @@ export default function HeroSlider() {
       onMouseEnter={stopAutoSlide}
       onMouseLeave={startAutoSlide}
     >
-      {/* Hidden H1 for 100% SEO Google Ranking Compliance */}
-      <h1 className="sr-only">
-        Vape Shop in Noida - Express 60-90 Mins Delivery Across All Sectors in Noida &amp; Greater Noida
-      </h1>
-
       {/* Main Slider Container with exact aspect ratios (1600x658 Desktop, 640x835 Mobile) */}
       <div
         className="relative w-full overflow-hidden rounded-2xl sm:rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] bg-gray-100 touch-pan-y"

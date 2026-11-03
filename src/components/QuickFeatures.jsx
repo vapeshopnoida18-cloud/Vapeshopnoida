@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { FiShoppingBag, FiPhoneCall, FiChevronRight, FiTrendingUp } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";

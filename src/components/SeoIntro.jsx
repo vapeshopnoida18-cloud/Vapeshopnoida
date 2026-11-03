@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { FiShield, FiClock, FiPackage, FiCreditCard, FiArrowUpRight } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
@@ -76,10 +74,10 @@ export default function SeoIntro() {
               <span className="text-gray-600 font-normal truncate">All Sectors Covered</span>
             </div>
 
-            {/* Main H2 Heading */}
-            <h2 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight leading-snug sm:leading-tight">
-              Premium <span className="text-[#325f98]">Vape Shop in Noida</span> – Delivered in 60-90 Mins
-            </h2>
+            {/* Main H1 Heading for Top 3 Google Ranking */}
+            <h1 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight leading-snug sm:leading-tight">
+              Best <span className="text-[#325f98]">Vape Shop in Noida</span> – 100% Genuine with 60-90 Mins Delivery
+            </h1>
 
             {/* Keyword-Rich Content Tailored Exclusively for Noida */}
             <p className="text-xs sm:text-base text-gray-600 leading-relaxed font-normal">
