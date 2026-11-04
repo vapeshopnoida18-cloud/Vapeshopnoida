@@ -81,10 +81,10 @@ export default function SeoIntro() {
 
             {/* Keyword-Rich Content Tailored Exclusively for Noida */}
             <p className="text-xs sm:text-base text-gray-600 leading-relaxed font-normal">
-              Looking for a dependable <strong className="text-gray-900 font-semibold">Vape Shop in Noida</strong>?{" "}
+              Looking for a dependable <strong className="text-gray-900 font-semibold">Vape Shop in Noida</strong> or searching for a trusted <strong className="text-gray-900 font-semibold">vape shop near me</strong> with home delivery?{" "}
               We are Noida’s premier destination for original disposable vapes, advanced pod systems, replacement coils,
               and premium e-liquids. Our localized express dispatch network delivers straight to your doorstep across{" "}
-              <strong className="text-gray-900 font-semibold">Sector 15, 18 (Atta Market), Sector 50, Sector 62, Sector 75, Sector 137</strong>,{" "}
+              <strong className="text-gray-900 font-semibold">Sector 15, 18 (Atta Market), Sector 50, Sector 62, Sector 75, Sector 76, Sector 137</strong>,{" "}
               along the <strong className="text-gray-900 font-semibold">Noida-Greater Noida Expressway</strong>, and{" "}
               <strong className="text-gray-900 font-semibold">Pari Chowk (Greater Noida)</strong> with full Cash on Delivery support.
             </p>

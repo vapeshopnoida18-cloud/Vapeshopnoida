@@ -14,6 +14,10 @@ export default function HomeFaq() {
       a: "Vape Shop in Noida is headquartered in Sector 76, Amarpali Silicon City. We offer 100% authentic disposable vapes (up to 80,000 puffs), refillable pod mods, replacement coils, and imported nic salts with 60-90 minutes express home delivery across all sectors of Noida and Greater Noida.",
     },
     {
+      q: "Is there an authentic vape shop near me in Noida with home delivery?",
+      a: "Yes! If you are searching for a 'vape shop near me' or 'buy vape near me' in Noida, Vape Shop in Noida provides superfast 60-90 minutes express doorstep delivery across all sectors including Sector 15, 18 (Atta Market), Sector 50, Sector 62, Sector 76, Sector 137, Noida Expressway, and Greater Noida with Cash on Delivery (COD).",
+    },
+    {
       q: "How fast is vape delivery across Noida sectors and Greater Noida?",
       a: "Orders are dispatched within 15 minutes of confirmation. Deliveries to Sector 76, Sector 50, and central Noida arrive in 30-45 minutes. Deliveries to Sector 18 (Atta Market), Sector 62 (Electronic City), Sector 137, Noida Expressway, and Greater Noida arrive within 60 to 90 minutes.",
     },
