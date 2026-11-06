@@ -18,7 +18,7 @@ import { WHATSAPP_NUMBER } from "@/data/products";
 export const metadata = {
   title: "About Us | Vape Shop in Noida - Authentic Vapes & Express Delivery",
   description:
-    "Learn about Vape Shop in Noida, operating from Sector 76 Amarpali Silicon City. Delivering 100% genuine disposable vapes, pod systems & nic salts with 60-90 mins doorstep express dispatch across Noida & Greater Noida.",
+    "Learn about Vape Shop in Noida, operating from Sector 76 Amarpali Silicon City. Delivering 100% genuine disposable vapes, pod systems & nic salts with 30-45 mins doorstep express dispatch across Noida & Greater Noida.",
   keywords: [
     "vape shop in noida",
     "about vape shop noida",
@@ -35,7 +35,7 @@ export const metadata = {
   openGraph: {
     title: "About Us | Vape Shop in Noida - 100% Authentic Vapes & Express Delivery",
     description:
-      "Vape Shop in Noida is Gautam Buddha Nagar's trusted destination for genuine disposable vapes, refillable pod mods & nic salts. 60-90 min express dispatch across Noida.",
+      "Vape Shop in Noida is Gautam Buddha Nagar's trusted destination for genuine disposable vapes, refillable pod mods & nic salts. 30-45 min express dispatch across Noida.",
     url: "https://vapeshopinnoida.com/about",
     siteName: "Vape Shop in Noida",
     locale: "en_IN",
@@ -45,7 +45,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "About Us | Vape Shop in Noida",
     description:
-      "100% genuine vapes & pod systems delivered in 60-90 mins across Noida. COD available.",
+      "100% genuine vapes & pod systems delivered in 30-45 mins across Noida. Free Delivery & Instant UPI.",
   },
 };
 
@@ -61,7 +61,7 @@ export default function AboutPage() {
         url: "https://vapeshopinnoida.com/about",
         name: "About Vape Shop Noida",
         description:
-          "Official About Us page for Vape Shop Noida. Learn about our retail hub at Sector 76 Amarpali Silicon City, authenticity guarantee, and 60-90 min express delivery.",
+          "Official About Us page for Vape Shop Noida. Learn about our retail hub at Sector 76 Amarpali Silicon City, authenticity guarantee, and 30-45 min express delivery.",
         breadcrumb: {
           "@type": "BreadcrumbList",
           itemListElement: [
@@ -86,7 +86,7 @@ export default function AboutPage() {
         name: "Vape Shop Noida",
         image: "https://vapeshopinnoida.com/logo.webp",
         url: "https://vapeshopinnoida.com",
-        telephone: "+918168738374",
+        telephone: "+918053117437",
         email: "vapeshopnoida18@gmail.com",
         priceRange: "₹₹",
         address: {
@@ -130,7 +130,7 @@ export default function AboutPage() {
           "Greater Noida",
           "Delhi NCR",
         ],
-        paymentAccepted: "Cash on Delivery, UPI, Google Pay, PhonePe, Paytm",
+        paymentAccepted: "Instant UPI, UPI, Google Pay, PhonePe, Paytm",
       },
     ],
   };
@@ -146,14 +146,14 @@ export default function AboutPage() {
     {
       icon: FiTruck,
       iconColor: "text-emerald-600 bg-emerald-50 border-emerald-100",
-      value: "60-90 Min",
+      value: "30-45 min",
       label: "Express Noida Dispatch",
       subtext: "Live rider delivery to your door",
     },
     {
       icon: FiCreditCard,
       iconColor: "text-amber-600 bg-amber-50 border-amber-100",
-      value: "COD & UPI",
+      value: "Instant UPI & QR",
       label: "Doorstep Payment",
       subtext: "Pay after physical inspection",
     },
@@ -198,7 +198,7 @@ export default function AboutPage() {
     "Adults Only (21+): We strictly enforce age verification and never cater to minors.",
     "Tamper-Proof Packaging: Factory shrink-wrapped packaging so you know your device is untouched.",
     "Fresh Batch Guarantee: E-liquids and pre-filled pods are stored in temperature-controlled conditions.",
-    "Doorstep Verification: Inspect the seal and verify scratch codes before paying via COD or UPI.",
+    "Doorstep Verification: Inspect the seal and verify scratch codes before paying via UPI or UPI.",
   ];
 
   return (
@@ -226,7 +226,7 @@ export default function AboutPage() {
 
             <span className="inline-flex items-center gap-2 text-[11px] sm:text-xs font-bold text-[#325f98] bg-blue-50/80 border border-blue-100/80 px-3.5 py-1.5 rounded-full uppercase tracking-widest mb-3">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-              AUTHENTICITY FIRST • NOIDA SECTOR 76 HUB • 60-90 MIN DISPATCH
+              AUTHENTICITY FIRST • NOIDA SECTOR 76 HUB • 30-45 min DISPATCH
             </span>
 
             <h1 className="text-2xl sm:text-4xl md:text-5xl font-black text-gray-900 tracking-tight leading-tight mt-1">
@@ -409,11 +409,11 @@ export default function AboutPage() {
             </span>
 
             <h2 className="text-xl sm:text-3xl font-extrabold text-white tracking-tight leading-tight">
-              Need Authentic Vapes at Your Doorstep in 60-90 Mins?
+              Need Authentic Vapes at Your Doorstep in 30-45 mins?
             </h2>
 
             <p className="text-xs sm:text-sm text-gray-300 mt-3 leading-relaxed">
-              We cover Sector 76, Sector 18, Sector 62, Sector 137, Noida-Greater Noida Expressway, Pari Chowk, and Greater Noida West with reliable doorstep dispatch. Pay with Cash on Delivery or UPI after verifying the pack.
+              We cover Sector 76, Sector 18, Sector 62, Sector 137, Noida-Greater Noida Expressway, Pari Chowk, and Greater Noida West with reliable doorstep dispatch. Pay with Instant UPI or UPI after verifying the pack.
             </p>
 
             <div className="pt-6 flex flex-wrap items-center gap-4">
@@ -424,11 +424,11 @@ export default function AboutPage() {
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white text-xs font-bold transition-all shadow-lg active:scale-95 cursor-pointer"
               >
                 <FaWhatsapp className="w-4 h-4" />
-                <span>Order on WhatsApp (+91 81687 38374)</span>
+                <span>Order on WhatsApp (+91 80531 17437)</span>
               </a>
 
               <a
-                href="tel:+918168738374"
+                href="tel:+918053117437"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white text-xs font-bold transition-all active:scale-95 cursor-pointer"
               >
                 <FiPhone className="w-4 h-4" />

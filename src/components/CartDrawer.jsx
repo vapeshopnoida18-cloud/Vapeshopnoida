@@ -85,7 +85,7 @@ export default function CartDrawer() {
                 </div>
                 <p className="text-[11px] text-emerald-600 font-medium flex items-center gap-1 truncate">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse shrink-0" />
-                  Express 60-90 Mins Delivery in Noida
+                  FREE 30-45 Mins Express in Noida
                 </p>
               </div>
             </div>
@@ -162,7 +162,7 @@ export default function CartDrawer() {
                       Popular Right Now
                     </span>
                     <span className="text-[10px] text-emerald-600 font-semibold bg-emerald-50 px-2 py-0.5 rounded-full">
-                      Fast 60m Delivery
+                      Free 30-45m Delivery
                     </span>
                   </div>
 
@@ -373,7 +373,7 @@ export default function CartDrawer() {
               <div className="flex items-center justify-between text-[10px] text-gray-500 pt-0.5 px-0.5">
                 <span className="flex items-center gap-1">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                  Cash on Delivery / UPI
+                  Instant UPI / Online Pay
                 </span>
                 <span>Direct WhatsApp Confirmation</span>
               </div>

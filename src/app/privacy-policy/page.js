@@ -161,7 +161,7 @@ export default function PrivacyPolicyPage() {
               </li>
               <li className="p-3.5 rounded-2xl bg-gray-50 border border-gray-200/70 flex items-start gap-2.5">
                 <FiCheckCircle className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-                <span><strong>Payment Method:</strong> Choice of Cash on Delivery (COD) or doorstep UPI (Google Pay, PhonePe, Paytm). No financial credentials stored.</span>
+                <span><strong>Payment Method:</strong> Choice of Instant UPI (Google Pay, PhonePe, Paytm) or doorstep UPI (Google Pay, PhonePe, Paytm). No financial credentials stored.</span>
               </li>
             </ul>
           </div>
@@ -244,8 +244,8 @@ export default function PrivacyPolicyPage() {
               </div>
               <div className="flex items-center gap-2">
                 <FiPhone className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                <a href="tel:+918168738374" className="hover:underline font-semibold">
-                  +91 81687 38374
+                <a href="tel:+918053117437" className="hover:underline font-semibold">
+                  +91 80531 17437
                 </a>
               </div>
             </div>

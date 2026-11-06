@@ -17,7 +17,7 @@ import { products, WHATSAPP_NUMBER } from "@/data/products";
 
 export default function Footer() {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20Vape%20Shop%20Noida%2C%20I%20want%20to%20order%20vapes%20with%20express%20delivery.`;
-  const callUrl = `tel:+918168738374`;
+  const callUrl = `tel:+918053117437`;
 
   const productGuides = [
     { name: "Disposable Vapes", href: "/products?category=disposable" },
@@ -40,11 +40,24 @@ export default function Footer() {
   // Best Google High-Intent Search Keywords for Top 3 Ranking
   const topGoogleKeywords = [
     { title: "Vape Shop Noida", href: "/products" },
-    { title: "Vape Shop Sector 76 Noida", href: "/products?search=Sector%2076" },
-    { title: "Vape Shop Sector 18 Noida", href: "/products?search=Sector%2018" },
+    { title: "Vape Shop Noida Sector 76", href: "/vape-delivery/sector-76-noida" },
+    { title: "Vape Shop Noida Sector 18", href: "/vape-delivery/sector-18-noida" },
+    { title: "Vape Shop Noida Sector 62", href: "/vape-delivery/sector-62-noida" },
+    { title: "Vape Shop Noida Sector 50", href: "/vape-delivery/sector-50-noida" },
+    { title: "Vape Shop Noida Sector 75", href: "/vape-delivery/sector-75-noida" },
+    { title: "Vape Shop Noida Sector 104", href: "/vape-delivery/sector-104-noida" },
+    { title: "Vape Shop Noida Sector 128", href: "/vape-delivery/sector-128-noida" },
+    { title: "Vape Shop Noida Sector 137", href: "/vape-delivery/sector-137-noida" },
+    { title: "Vape Shop Noida Sector 142", href: "/vape-delivery/sector-142-noida" },
+    { title: "Vape Shop Noida Greater Noida", href: "/vape-delivery/greater-noida" },
+    { title: "Vape Shop Noida Extension", href: "/vape-delivery/noida-extension" },
+    { title: "Vape Shop Noida Delivery Ghaziabad", href: "/vape-delivery/ghaziabad" },
+    { title: "Vape Shop Noida Delhi NCR", href: "/vape-delivery/delhi-ncr" },
+    { title: "Vape Shop Noida Gurugram", href: "/vape-delivery/gurugram" },
     { title: "Vape Store Near Me Noida", href: "/products" },
+    { title: "Smoke Shop Near Me", href: "/products" },
     { title: "Buy Vape Online Noida", href: "/products" },
-    { title: "Cash on Delivery Vape Noida", href: "/products" },
+    { title: "Free Vape Delivery Noida", href: "/products" },
     { title: "Geek Bar Burj 80000 Noida", href: "/products/geek-bar-burj-80000-disposable-vape" },
     { title: "Lost Mary Mega 70000 Noida", href: "/products/lost-mary-mega-fullview-70000-disposable-vape" },
     { title: "Yuoto Digi 15000 Noida", href: "/products/yuoto-digi-15000-disposable-vape" },
@@ -55,10 +68,9 @@ export default function Footer() {
     { title: "IGET Move 50000 Puffs", href: "/products/iget-move-b50000-disposable-vape" },
     { title: "Nasty Juice Nic Salt 30ml", href: "/products/nasty-juice-nic-salt-series-30ml" },
     { title: "Crown Bar 40K MegaMax", href: "/products/crown-bar-40k-megamax-disposable-vape" },
-    { title: "Same Day Vape Delivery Noida", href: "/products" },
-    { title: "Late Night Vape Delivery NCR", href: "/products" },
-    { title: "Authentic Vape Shop with QR Check", href: "/products" },
-    { title: "Amarpali Silicon City Vape Store", href: "/products?search=Sector%2076" },
+    { title: "Best Vape Shop Noida", href: "/products" },
+    { title: "Vape Shop Noida Express 30 Min", href: "/products" },
+    { title: "Instant UPI Online Payment", href: "/contact" },
   ];
 
   return (
@@ -283,10 +295,10 @@ export default function Footer() {
               <div className="flex items-center gap-2.5">
                 <FiPhone className="w-4 h-4 text-emerald-400 shrink-0" />
                 <a
-                  href="tel:+918168738374"
+                  href="tel:+918053117437"
                   className="text-gray-300 hover:text-emerald-400 transition-colors"
                 >
-                  +91 81687 38374 (Express Helpline)
+                  +91 80531 17437 (Express Helpline)
                 </a>
               </div>
             </div>

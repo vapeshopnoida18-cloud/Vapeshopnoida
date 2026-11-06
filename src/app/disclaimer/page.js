@@ -242,8 +242,8 @@ export default function DisclaimerPage() {
               </div>
               <div className="flex items-center gap-2">
                 <FiPhone className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                <a href="tel:+918168738374" className="hover:underline font-semibold">
-                  +91 81687 38374
+                <a href="tel:+918053117437" className="hover:underline font-semibold">
+                  +91 80531 17437
                 </a>
               </div>
             </div>

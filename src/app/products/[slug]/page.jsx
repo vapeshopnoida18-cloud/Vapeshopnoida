@@ -21,15 +21,16 @@ export async function generateMetadata({ params }) {
 
   return {
     title: `${product.name} | Vape Shop in Noida`,
-    description: `Buy original ${product.name} at Vape Shop in Noida with 60-90 mins express delivery. 100% authentic with scratch QR verification, ${product.specs}, Cash on Delivery available across all Noida sectors.`,
+    description: `Buy original ${product.name} at Vape Shop in Noida with 30-45 mins free express delivery. 100% authentic with scratch QR verification, ${product.specs}, Instant UPI payment available across all Noida sectors.`,
     keywords: [
       product.name,
       `${product.brand} Noida`,
       `buy ${product.name} online Noida`,
       "vape shop in noida",
       "vape shop noida",
+      "smoke shop near me",
       "vape store noida",
-      "vape delivery noida",
+      "free vape delivery noida",
       "disposable vape noida",
     ],
     alternates: {
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: `${product.name} | Vape Shop in Noida`,
-      description: `Buy authentic ${product.name} in Noida with 60-90 mins express delivery and Cash on Delivery.`,
+      description: `Buy authentic ${product.name} in Noida with 30-45 mins free express delivery across Noida & NCR.`,
       url: `https://vapeshopinnoida.com/products/${product.slug}`,
       siteName: "Vape Shop in Noida",
       images: [
@@ -54,7 +55,7 @@ export async function generateMetadata({ params }) {
     twitter: {
       card: "summary_large_image",
       title: `${product.name} | Vape Shop in Noida`,
-      description: `100% authentic ${product.name} with 60-90 mins delivery in Noida. COD available.`,
+      description: `100% authentic ${product.name} with 30-45 mins free delivery in Noida. Instant UPI available.`,
       images: [product.image],
     },
   };

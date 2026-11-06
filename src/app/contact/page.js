@@ -3,7 +3,7 @@ import ContactClient from "./ContactClient";
 export const metadata = {
   title: "Contact Us | Vape Shop in Noida Sector 76 - Store Location & Helpline",
   description:
-    "Contact Vape Shop in Noida. Visit our retail hub at Shop no 38,39, Lower Ground Floor, Street 76, Market, Amarpali Silicon City, Sector 76, Noida 201316. WhatsApp/Call: +91 81687 38374 for 60-90 min express delivery.",
+    "Contact Vape Shop in Noida. Visit our retail hub at Shop no 38,39, Lower Ground Floor, Street 76, Market, Amarpali Silicon City, Sector 76, Noida 201316. WhatsApp/Call: +91 80531 17437 for 30-45 min express delivery.",
   keywords: [
     "vape shop in noida",
     "contact vape shop noida",
@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "Contact Us | Vape Shop in Noida Sector 76 - Express Delivery & Store Support",
     description:
-      "Get in touch with Vape Shop in Noida at Sector 76, Amarpali Silicon City. Express 60-90 min vape delivery across all Noida sectors. Call/WhatsApp: +91 81687 38374.",
+      "Get in touch with Vape Shop in Noida at Sector 76, Amarpali Silicon City. Express 30-45 min vape delivery across all Noida sectors. Call/WhatsApp: +91 80531 17437.",
     url: "https://vapeshopinnoida.com/contact",
     siteName: "Vape Shop in Noida",
     locale: "en_IN",
@@ -31,7 +31,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Contact Us | Vape Shop in Noida Sector 76",
     description:
-      "Express 60-90 min vape delivery across Noida. Helpline: +91 81687 38374.",
+      "Express 30-45 min vape delivery across Noida. Helpline: +91 80531 17437.",
   },
 };
 
@@ -70,7 +70,7 @@ export default function ContactPage() {
         name: "Vape Shop Noida",
         image: "https://vapeshopinnoida.com/logo.webp",
         url: "https://vapeshopinnoida.com",
-        telephone: "+918168738374",
+        telephone: "+918053117437",
         email: "vapeshopnoida18@gmail.com",
         priceRange: "₹₹",
         address: {
@@ -115,7 +115,7 @@ export default function ContactPage() {
           "Greater Noida",
           "Delhi NCR",
         ],
-        paymentAccepted: "Cash on Delivery, UPI, Google Pay, PhonePe, Paytm",
+        paymentAccepted: "Instant UPI, UPI, Google Pay, PhonePe, Paytm",
       },
       {
         "@type": "FAQPage",
@@ -131,10 +131,10 @@ export default function ContactPage() {
           },
           {
             "@type": "Question",
-            name: "Can I order with Cash on Delivery (COD)?",
+            name: "Can I order with Instant UPI (Google Pay, PhonePe, Paytm)?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Yes, 100% of our orders in Noida and Greater Noida support Cash on Delivery (COD) as well as doorstep UPI (Google Pay, PhonePe, Paytm).",
+              text: "Yes, 100% of our orders in Noida and Greater Noida support Instant UPI (Google Pay, PhonePe, Paytm) as well as doorstep UPI (Google Pay, PhonePe, Paytm).",
             },
           },
           {

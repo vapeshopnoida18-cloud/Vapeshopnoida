@@ -1,4 +1,4 @@
-export const WHATSAPP_NUMBER = "918168738374";
+export const WHATSAPP_NUMBER = "918053117437";
 
 export const products = [
   {
@@ -41,8 +41,8 @@ export const products = [
         a: "We provide instant 60 to 90-minute express doorstep delivery across all sectors of Noida (Sector 18, 62, 50, 76, 137, Expressway), Greater Noida, and same-day delivery across Delhi NCR.",
       },
       {
-        q: "Can I order EBCREATE BC5000 with Cash on Delivery (COD)?",
-        a: "Yes! We accept Cash on Delivery (COD) as well as doorstep UPI (Google Pay, PhonePe, Paytm) across all locations in Noida.",
+        q: "How do I pay for this order in Noida?",
+        a: "Yes! We accept Instant UPI Payment (UPI) as well as doorstep UPI (Google Pay, PhonePe, Paytm) across all locations in Noida.",
       },
       {
         q: "How long will 5,000 puffs last?",
@@ -72,7 +72,7 @@ export const products = [
         time: "5 days ago",
         location: "Sector 62, Noida",
         comment:
-          "The dual mesh coil gives super rich clouds and pure flavor. Cash on delivery was seamless at my office in Sector 62. Will definitely order again.",
+          "The dual mesh coil gives super rich clouds and pure flavor. Instant UPI payment was seamless at my office in Sector 62. Will definitely order again.",
       },
       {
         id: 3,
@@ -127,11 +127,11 @@ export const products = [
       },
       {
         q: "Is same day delivery available in Greater Noida & Noida Sector 62?",
-        a: "Yes, our express riders deliver in 60-90 minutes across all Noida sectors, Greater Noida, and Delhi NCR.",
+        a: "Yes, our express riders deliver in 30-45 minutes across all Noida sectors, Greater Noida, and Delhi NCR.",
       },
       {
-        q: "Can I inspect the Geek Bar box before paying COD in Noida?",
-        a: "Yes! With our Cash on Delivery service in Noida, you can inspect the sealed packaging and tamper-evident holographic sticker upon delivery before payment.",
+        q: "Can I inspect the Geek Bar box before paying UPI in Noida?",
+        a: "Yes! With our Instant UPI Payment service in Noida, you can inspect the sealed packaging and tamper-evident holographic sticker upon delivery before payment.",
       },
       {
         q: "How accurate is the HD smart screen?",
@@ -147,7 +147,7 @@ export const products = [
         time: "3 days ago",
         location: "Sector 50, Noida",
         comment:
-          "80,000 puffs is an absolute game-changer. The digital screen shows battery and juice percentage accurately. Delivered in Sector 50 in 40 minutes flat with COD.",
+          "80,000 puffs is an absolute game-changer. The digital screen shows battery and juice percentage accurately. Delivered in Sector 50 in 40 minutes flat with Free Delivery.",
       },
       {
         id: 2,
@@ -186,7 +186,7 @@ export const products = [
     specs: "15,000 Puffs | Smart Digital Screen | Advanced Mesh Coil",
     inStock: true,
     image: "/products/yuoto-digi-15000-disposable-vape-noida.webp",
-    alt: "Yuoto Digi 15000 Disposable Vape Double Apple Noida - Authentic Delivery COD",
+    alt: "Yuoto Digi 15000 Disposable Vape Double Apple Noida - Authentic Delivery UPI",
     category: "disposable",
     puffs: "15,000 Puffs",
     coil: "Advanced Mesh Coil",
@@ -211,8 +211,8 @@ export const products = [
         a: "The high-capacity battery easily powers a full day of heavy vaping and recharges in just 35-45 minutes via standard Type-C port.",
       },
       {
-        q: "Can I inspect the Yuoto box before paying COD in Noida?",
-        a: "Yes! With our Cash on Delivery service in Noida, you can verify the sealed packaging and security code upon delivery before completing payment.",
+        q: "Can I inspect the Yuoto box before paying UPI in Noida?",
+        a: "Yes! With our Instant UPI Payment service in Noida, you can verify the sealed packaging and security code upon delivery before completing payment.",
       },
       {
         q: "Is doorstep delivery available across all Noida residential sectors?",
@@ -305,7 +305,7 @@ export const products = [
       },
       {
         q: "How fast can I get replacement pods in Noida?",
-        a: "We offer 60 to 90-minute express courier dispatch across all sectors of Noida, Greater Noida, and Delhi NCR with Cash on Delivery option.",
+        a: "We offer 60 to 90-minute express courier dispatch across all sectors of Noida, Greater Noida, and Delhi NCR with Instant UPI Payment option.",
       },
     ],
     reviews: [
@@ -386,7 +386,7 @@ export const products = [
       },
       {
         q: "How fast is delivery for Elfliq Nic Salts in Noida?",
-        a: "We provide instant 60 to 90-minute express courier delivery across all sectors of Noida, Greater Noida, and same-day delivery in Delhi NCR with Cash on Delivery (COD).",
+        a: "We provide instant 60 to 90-minute express courier delivery across all sectors of Noida, Greater Noida, and same-day delivery in Delhi NCR with Instant UPI Payment (UPI).",
       },
       {
         q: "How many refills do I get from a 30ml bottle?",
@@ -412,7 +412,7 @@ export const products = [
         time: "5 days ago",
         location: "Sector 62, Noida",
         comment:
-          "Best iced mint juice on the market. Verifiable authenticity QR on the bottle. Very fast doorstep delivery with Cash on Delivery.",
+          "Best iced mint juice on the market. Verifiable authenticity QR on the bottle. Very fast doorstep delivery with Instant UPI Payment.",
       },
       {
         id: 3,
@@ -466,8 +466,8 @@ export const products = [
         a: "The smart dual display shows real-time numerical percentages for both battery level and remaining e-liquid volume.",
       },
       {
-        q: "Is Cash on Delivery (COD) available for Crown Bar in Noida?",
-        a: "Yes! We accept Cash on Delivery (COD) and doorstep UPI (GPay, PhonePe, Paytm) across all sectors of Noida and Greater Noida.",
+        q: "How do I pay for this in Noida?",
+        a: "Yes! We accept Instant UPI Payment (UPI) and doorstep UPI (GPay, PhonePe, Paytm) across all sectors of Noida and Greater Noida.",
       },
       {
         q: "How fast is delivery for Crown Bar 40K in Noida?",
@@ -497,7 +497,7 @@ export const products = [
         time: "3 days ago",
         location: "Sector 62, Noida",
         comment:
-          "The dual display is super clear and accurate. Heavy clouds and no burnt taste at all. Cash on delivery was fast and smooth.",
+          "The dual display is super clear and accurate. Heavy clouds and no burnt taste at all. Instant UPI Payment was fast and smooth.",
       },
       {
         id: 3,
@@ -551,8 +551,8 @@ export const products = [
         a: "For moderate to regular users, 25,000 puffs typically last between 3 to 4 weeks depending on daily usage and draw frequency.",
       },
       {
-        q: "Can I inspect the box upon delivery in Noida before paying COD?",
-        a: "Yes! With our Cash on Delivery service in Noida, you can verify the sealed packaging and authenticity code upon delivery.",
+        q: "How is the package delivered in Noida?",
+        a: "Yes! With our Instant UPI Payment service in Noida, you can verify the sealed packaging and authenticity code upon delivery.",
       },
       {
         q: "How fast is delivery for Geek Bar CLR in Noida & Delhi NCR?",
@@ -592,7 +592,7 @@ export const products = [
         time: "1 week ago",
         location: "Sector 75, Noida",
         comment:
-          "Super smooth draw and pure taste till the very end. Rider came right to my flat door with Cash on Delivery. Highly recommend!",
+          "Super smooth draw and pure taste till the very end. Rider came right to my flat door with Instant UPI Payment. Highly recommend!",
       },
     ],
   },
@@ -636,8 +636,8 @@ export const products = [
         a: "70,000 puffs typically last between 5 to 7 weeks for regular daily users, making it one of the most cost-effective disposable vape kits available.",
       },
       {
-        q: "Can I inspect the box upon delivery in Noida before paying COD?",
-        a: "Yes! With our Cash on Delivery service in Noida, you can verify the sealed packaging and security scratch code upon delivery before making payment.",
+        q: "How is the package delivered in Noida?",
+        a: "Yes! With our Instant UPI Payment service in Noida, you can verify the sealed packaging and security scratch code upon delivery before making payment.",
       },
       {
         q: "How fast is delivery for Lost Mary 70K in Noida & Delhi NCR?",
@@ -657,7 +657,7 @@ export const products = [
         time: "1 day ago",
         location: "Sector 18, Noida",
         comment:
-          "70,000 puffs is phenomenal. Seeing the actual juice level through the window is so practical. Delivered to Sector 18 in 30 mins with Cash on Delivery!",
+          "70,000 puffs is phenomenal. Seeing the actual juice level through the window is so practical. Delivered to Sector 18 in 30 mins with Instant UPI Payment!",
       },
       {
         id: 2,
@@ -721,8 +721,8 @@ export const products = [
         a: "It features a built-in 1500mAh high-density battery that charges rapidly via Type-C charging port, reaching full power in about 45 minutes.",
       },
       {
-        q: "Can I inspect the Voopoo Drag H40 Pro before paying Cash on Delivery in Noida?",
-        a: "Yes! We offer 100% Cash on Delivery (COD) across all sectors of Noida. You can inspect the factory-sealed box and scratch verification code upon arrival.",
+        q: "Can I inspect the Voopoo Drag H40 Pro before paying Instant UPI Payment in Noida?",
+        a: "Yes! We offer 100% Instant UPI Payment (UPI) across all sectors of Noida. You can inspect the factory-sealed box and scratch verification code upon arrival.",
       },
       {
         q: "How fast is delivery for Voopoo Drag H40 Pro in Noida?",
@@ -742,7 +742,7 @@ export const products = [
         time: "1 day ago",
         location: "Sector 18, Noida",
         comment:
-          "The build quality of Drag H40 Pro is phenomenal! Leather grip feels super premium in hand. PnP coils give incredible flavor. Arrived in 35 minutes via COD!",
+          "The build quality of Drag H40 Pro is phenomenal! Leather grip feels super premium in hand. PnP coils give incredible flavor. Arrived in 35 minutes via Free Express Delivery!",
       },
       {
         id: 2,
@@ -806,8 +806,8 @@ export const products = [
         a: "Nasty Juice is globally celebrated for its signature Malaysian fruit aromatics, combining ripe exotic mangoes and dark blackcurrant with subtle refreshing low-mint cooling.",
       },
       {
-        q: "Can I get Cash on Delivery (COD) for Nasty Juice in Noida?",
-        a: "Yes, we provide 100% Cash on Delivery (COD) and doorstep UPI (GPay, PhonePe, Paytm) across all sectors of Noida and Greater Noida.",
+        q: "Can I get Instant UPI Payment (UPI) for Nasty Juice in Noida?",
+        a: "Yes, we provide 100% Instant UPI Payment (UPI) and doorstep UPI (GPay, PhonePe, Paytm) across all sectors of Noida and Greater Noida.",
       },
       {
         q: "How fast is delivery for Nasty Juice Nic Salts across Noida?",
@@ -827,7 +827,7 @@ export const products = [
         time: "1 day ago",
         location: "Sector 18, Noida",
         comment:
-          "Cush Man Mango is unmatched! Super smooth throat hit at 50mg and coil life in my XROS is fantastic. Received in 35 mins via Cash on Delivery!",
+          "Cush Man Mango is unmatched! Super smooth throat hit at 50mg and coil life in my XROS is fantastic. Received in 35 mins via Instant UPI Payment!",
       },
       {
         id: 2,
@@ -894,8 +894,8 @@ export const products = [
       a: "We offer express 60 to 90-minute doorstep courier delivery across all sectors of Noida, Greater Noida, and same-day delivery across Delhi NCR."
     },
     {
-      q: "Can I pay using Cash on Delivery (COD) for JUUL in Noida?",
-      a: "Yes! Cash on Delivery (COD) and doorstep UPI payments (GPay, PhonePe, Paytm) are fully supported across Noida."
+      q: "Can I pay using Instant UPI Payment (UPI) for JUUL in Noida?",
+      a: "Yes! Instant UPI Payment (UPI) and doorstep UPI payments (GPay, PhonePe, Paytm) are fully supported across Noida."
     },
     {
       q: "How long does a full charge last on the JUUL device?",
@@ -919,7 +919,7 @@ export const products = [
       rating: 5,
       time: "3 days ago",
       location: "Sector 62, Noida",
-      comment: "Very discrete and reliable. The magnetic dock is super handy. Rider arrived on time with Cash on Delivery."
+      comment: "Very discrete and reliable. The magnetic dock is super handy. Rider arrived on time with Instant UPI Payment."
     },
     {
       id: 3,
@@ -971,8 +971,8 @@ export const products = [
       a: "The smart circular display shows real-time percentage indicators for battery level and remaining e-liquid volume."
     },
     {
-      q: "Is Cash on Delivery available for Yuoto 50K in Noida?",
-      a: "Yes, we accept Cash on Delivery (COD) as well as UPI at your doorstep throughout Noida and Greater Noida."
+      q: "Is Free Express Delivery & Instant UPI for Yuoto 50K in Noida?",
+      a: "Yes, we accept Instant UPI Payment (UPI) as well as UPI at your doorstep throughout Noida and Greater Noida."
     },
     {
       q: "How fast is delivery for Yuoto Uoto 50000 across Noida sectors?",
@@ -1009,7 +1009,7 @@ export const products = [
       rating: 5,
       time: "1 week ago",
       location: "Sector 137 Expressway, Noida",
-      comment: "Excellent delivery service right to my apartment. Cash on delivery was seamless and the device performs beautifully."
+      comment: "Excellent delivery service right to my apartment. Instant UPI payment was seamless and the device performs beautifully."
     }
   ]
 },
@@ -1056,8 +1056,8 @@ export const products = [
       a: "No, Vaporesso incorporates SSS Leak-Resistant Technology and convenient clamshell top-filling, making it virtually leak-proof."
     },
     {
-      q: "Is Cash on Delivery (COD) available in Noida for XROS 5?",
-      a: "Yes! Cash on Delivery and doorstep UPI payment options are available across all sectors of Noida and Greater Noida."
+      q: "Is Free Express Delivery & Instant UPI in Noida for XROS 5?",
+      a: "We offer instant UPI payments (Google Pay, PhonePe, Paytm) with 100% Free Express Delivery in 30-45 minutes across Noida."
     },
     {
       q: "How fast will I receive my XROS 5 in Noida?",
@@ -1133,8 +1133,8 @@ export const products = [
       a: "For regular daily users, 30,000 puffs typically last between 3 to 5 weeks."
     },
     {
-      q: "Is Cash on Delivery (COD) supported in Noida for Elf Bar Nic King?",
-      a: "Yes, we accept 100% Cash on Delivery (COD) and doorstep UPI across all Noida sectors."
+      q: "Is Instant UPI Payment (UPI) supported in Noida for Elf Bar Nic King?",
+      a: "We offer instant UPI payments (Google Pay, PhonePe, Paytm) with 100% Free Express Delivery in 30-45 minutes across Noida."
     },
     {
       q: "How fast is delivery across Noida?",
@@ -1162,7 +1162,7 @@ export const products = [
       rating: 5,
       time: "4 days ago",
       location: "Sector 76, Noida",
-      comment: "Original factory-sealed Elf Bar. The design looks very high-end and battery backup is great. Cash on delivery made it easy."
+      comment: "Original factory-sealed Elf Bar. The design looks very high-end and battery backup is great. UPI payment made it fast and easy."
     },
     {
       id: 3,
@@ -1214,8 +1214,8 @@ export const products = [
       a: "Yes, you can vape by simply inhaling through the mouthpiece or by pressing the tactile firing button."
     },
     {
-      q: "Can I inspect the box upon delivery in Noida before paying COD?",
-      a: "Yes, our Cash on Delivery service lets you inspect the factory packaging before completing payment."
+      q: "How is the package delivered in Noida?",
+      a: "Our express delivery service brings your factory-sealed package with scratch QR verification directly to your doorstep in 30-45 mins."
     },
     {
       q: "How fast is delivery for Caliburn A2 in Noida?",
@@ -1243,7 +1243,7 @@ export const products = [
       rating: 5,
       time: "4 days ago",
       location: "Sector 62, Noida",
-      comment: "Authentic Uwell with scratch verification. The e-liquid window is so helpful. Fast delivery with Cash on Delivery."
+      comment: "Authentic Uwell with scratch verification. The e-liquid window is so helpful. Superfast free delivery with UPI."
     },
     {
       id: 3,
@@ -1295,8 +1295,8 @@ export const products = [
       a: "50,000 puffs typically provides between 4 to 6 weeks of regular everyday use."
     },
     {
-      q: "Is Cash on Delivery available for IGET Move in Noida?",
-      a: "Yes! We offer 100% Cash on Delivery (COD) and doorstep UPI across all sectors of Noida and Greater Noida."
+      q: "Is Free Express Delivery & Instant UPI for IGET Move in Noida?",
+      a: "We offer instant UPI payments (Google Pay, PhonePe, Paytm) with 100% Free Express Delivery in 30-45 minutes across Noida."
     },
     {
       q: "How fast is delivery for IGET Move in Noida?",
@@ -1372,8 +1372,8 @@ export const products = [
       a: "With 18,000 puffs, moderate to regular users enjoy 2.5 to 3.5 weeks of consistent everyday vaping."
     },
     {
-      q: "Can I inspect the package upon delivery in Noida before paying COD?",
-      a: "Yes! We offer 100% Cash on Delivery (COD) with full package inspection upon arrival."
+      q: "How is the package delivered in Noida?",
+      a: "Our express delivery service brings your factory-sealed package with scratch QR verification directly to your doorstep in 30-45 mins."
     },
     {
       q: "How fast is delivery for IGET Pro in Noida?",
@@ -1396,7 +1396,7 @@ export const products = [
       rating: 5,
       time: "1 day ago",
       location: "Sector 18, Noida",
-      comment: "Very smooth throat hit and intense fruit flavor! The tank illumination looks very cool at night. Arrived in 30 mins via COD."
+      comment: "Very smooth throat hit and intense fruit flavor! The tank illumination looks very cool at night. Arrived in 30 mins via Free Express Delivery."
     },
     {
       id: 2,
@@ -1457,8 +1457,8 @@ export const products = [
       a: "For regular daily vapers, 30,000 puffs provides roughly 3 to 5 weeks of steady satisfaction."
     },
     {
-      q: "Is Cash on Delivery (COD) supported in Noida for Raya D3 Pro?",
-      a: "Yes! Cash on Delivery and doorstep UPI payments are accepted across all sectors of Noida."
+      q: "Is Instant UPI Payment (UPI) supported in Noida for Raya D3 Pro?",
+      a: "We offer instant UPI payments (Google Pay, PhonePe, Paytm) with 100% Free Express Delivery in 30-45 minutes across Noida."
     },
     {
       q: "How fast is delivery across Noida?",
@@ -1477,7 +1477,7 @@ export const products = [
       rating: 5,
       time: "1 day ago",
       location: "Sector 18, Noida",
-      comment: "The Black Gold finish looks stunning in real life! Side screen is super sharp. Delivered in 35 mins with COD."
+      comment: "The Black Gold finish looks stunning in real life! Side screen is super sharp. Delivered in 35 mins with Free Delivery."
     },
     {
       id: 2,
@@ -1520,7 +1520,7 @@ export const products = [
   coil: "Precision Mesh Coil System",
   shape: "Two-Tone Gloss & Matte Cylindrical Box",
   charging: "Rapid Type-C Fast Charge",
-  description: "The crowd-favorite Elf Bar Raya D1 Pro delivers up to 25,000 puffs of pure fruity bliss, featuring a vibrant real-time smart LED display, ultra-efficient mesh coil heating, and instant 60-90 min delivery across all Noida sectors.",
+  description: "The crowd-favorite Elf Bar Raya D1 Pro delivers up to 25,000 puffs of pure fruity bliss, featuring a vibrant real-time smart LED display, ultra-efficient mesh coil heating, and instant 30-45 min delivery across all Noida sectors.",
   keyDetails: [
     "100% Authentic Elf Bar device with factory scratch holographic QR code",
     "High-capacity 25,000 puff capacity for long-lasting daily convenience",
@@ -1538,8 +1538,8 @@ export const products = [
       a: "The smart LED screen displays exact real-time percentages for remaining battery life and e-liquid volume."
     },
     {
-      q: "Is Cash on Delivery (COD) available for Raya D1 Pro in Noida?",
-      a: "Yes, COD and doorstep UPI payments (GPay, PhonePe, Paytm) are available across Noida."
+      q: "How do I pay for this in Noida?",
+      a: "Instant UPI payments (GPay, PhonePe, Paytm) are available with 100% Free Express Delivery across Noida."
     },
     {
       q: "How fast will my order arrive in Noida?",
@@ -1619,8 +1619,8 @@ export const products = [
       a: "Depending on whether you use Normal or Boost mode, it typically lasts between 2.5 to 4 weeks."
     },
     {
-      q: "Is Cash on Delivery (COD) supported across Noida?",
-      a: "Yes! Cash on Delivery and doorstep UPI are available across all Noida and Greater Noida sectors."
+      q: "How do I pay for this in Noida?",
+      a: "We offer instant UPI payments (Google Pay, PhonePe, Paytm) with 100% Free Express Delivery in 30-45 minutes across Noida."
     },
     {
       q: "How fast will I receive my order?",
@@ -1639,7 +1639,7 @@ export const products = [
       rating: 5,
       time: "1 day ago",
       location: "Sector 18, Noida",
-      comment: "Boost mode is unbelievable! Massive clouds and incredible flavor warmth. Delivered in 30 minutes with COD."
+      comment: "Boost mode is unbelievable! Massive clouds and incredible flavor warmth. Delivered in 30 minutes with Free Delivery."
     },
     {
       id: 2,

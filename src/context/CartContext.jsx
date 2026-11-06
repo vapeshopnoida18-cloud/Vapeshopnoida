@@ -112,7 +112,7 @@ export function CartProvider({ children }) {
       )
       .join("\n\n");
 
-    const message = `Hi *Vape Shop Noida*, I would like to place an order:\n\n📦 *ORDER ITEMS:*\n${itemsText}\n\n💰 *Total Amount:* ₹${cartTotal.toLocaleString("en-IN")}\n🚚 *Delivery:* FREE 60-90 Mins Express in Noida\n💵 *Payment:* Cash on Delivery (COD) / UPI\n\nPlease confirm my delivery address in Noida.`;
+    const message = `Hi *Vape Shop Noida*, I would like to place an order:\n\n📦 *ORDER ITEMS:*\n${itemsText}\n\n💰 *Total Amount:* ₹${cartTotal.toLocaleString("en-IN")}\n🚚 *Delivery:* FREE 30-45 Mins Express in Noida & NCR\n💳 *Payment:* Instant UPI (Google Pay / PhonePe / Paytm)\n\nPlease confirm my delivery address in Noida.`;
 
     return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
   };

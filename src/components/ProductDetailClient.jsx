@@ -55,7 +55,7 @@ export default function ProductDetailClient({ product, relatedProducts = [] }) {
   // WhatsApp direct checkout message
   const totalPrice = product.price * quantity;
   const productPageUrl = getProductUrl(product.slug);
-  const whatsappMessage = `Hi *Vape Shop Noida*, I want to order:\n\n*Product:* ${product.name}\n*Quantity:* ${quantity}\n*Total Price:* ₹${totalPrice.toLocaleString("en-IN")}\n🔗 *Product Link:* ${productPageUrl}\n\n📍 *Delivery Area:* [Please enter your Noida Sector]\n🚚 *Delivery:* 60-90 Mins Express in Noida\n💵 *Payment:* Cash on Delivery (COD) / UPI\n\nPlease confirm fast delivery & availability.`;
+  const whatsappMessage = `Hi *Vape Shop Noida*, I want to order:\n\n*Product:* ${product.name}\n*Quantity:* ${quantity}\n*Total Price:* ₹${totalPrice.toLocaleString("en-IN")}\n🔗 *Product Link:* ${productPageUrl}\n\n📍 *Delivery Area:* [Please enter your Noida Sector]\n🚚 *Delivery:* FREE 30-45 Mins Express in Noida & NCR\n💳 *Payment:* Instant UPI (Google Pay / PhonePe / Paytm)\n\nPlease confirm fast delivery & availability.`;
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`;
 
   const toggleFaq = (idx) => {
@@ -148,8 +148,8 @@ export default function ProductDetailClient({ product, relatedProducts = [] }) {
                 <div className="w-7 h-7 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center mb-1">
                   <FiTruck className="w-3.5 h-3.5" />
                 </div>
-                <span className="text-[11px] sm:text-xs font-bold text-gray-900 leading-tight">60-90 Min Noida</span>
-                <span className="text-[9px] sm:text-[10px] text-gray-500 mt-0.5">Express Delivery</span>
+                <span className="text-[11px] sm:text-xs font-bold text-gray-900 leading-tight">30-45 Min Noida</span>
+                <span className="text-[9px] sm:text-[10px] text-gray-500 mt-0.5">Free Express Delivery</span>
               </div>
               <div className="p-2.5 sm:p-3 rounded-xl bg-white border border-gray-200/90 shadow-2xs hover:border-amber-500/40 transition-all flex flex-col items-center justify-center">
                 <div className="w-7 h-7 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center mb-1">
@@ -306,7 +306,7 @@ export default function ProductDetailClient({ product, relatedProducts = [] }) {
                 className="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-[#25D366] text-white text-xs sm:text-sm font-bold shadow-md shadow-emerald-500/20 hover:bg-[#1faa4b] active:scale-[0.99] transition-all"
               >
                 <FaWhatsapp className="w-4 h-4" />
-                <span>Buy Now via WhatsApp (+91 81687 38374)</span>
+                <span>Buy Now via WhatsApp (+91 80531 17437)</span>
               </a>
             </div>
 
@@ -369,8 +369,8 @@ export default function ProductDetailClient({ product, relatedProducts = [] }) {
               <FiTruck className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="text-xs sm:text-sm font-bold text-gray-900">COD & UPI</h3>
-              <p className="text-[10px] sm:text-[11px] text-gray-500">Doorstep payment</p>
+              <h3 className="text-xs sm:text-sm font-bold text-gray-900">Instant UPI</h3>
+              <p className="text-[10px] sm:text-[11px] text-gray-500">GPay, PhonePe, Paytm</p>
             </div>
           </div>
         </div>
@@ -496,7 +496,7 @@ export default function ProductDetailClient({ product, relatedProducts = [] }) {
           </div>
 
           <p className="text-xs sm:text-sm text-gray-600 leading-relaxed mb-5">
-            Looking to buy <strong>{product.name}</strong> in Noida or Delhi NCR? At <strong>Vape Shop Noida</strong>, we stock 100% factory-sealed, genuine units backed by verified scratch-off security codes. Whether you need express delivery to Sector 18, Sector 62, Sector 50, Sector 137, or anywhere along the Noida-Greater Noida Expressway, our express courier service guarantees doorstep delivery within 30 to 60 minutes with Cash on Delivery (COD) and UPI.
+            Looking to buy <strong>{product.name}</strong> in Noida or Delhi NCR? At <strong>Vape Shop Noida</strong>, we stock 100% factory-sealed, genuine units backed by verified scratch-off security codes. Whether you need express delivery to Sector 18, Sector 62, Sector 50, Sector 137, or anywhere along the Noida-Greater Noida Expressway, our express courier service guarantees free doorstep delivery within 30 to 45 minutes with instant UPI payment.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-5">
@@ -665,7 +665,7 @@ export default function ProductDetailClient({ product, relatedProducts = [] }) {
               const qty = relatedQuantities[rel.id] || 1;
               const isFavorited = isInWishlist(rel.id);
               const directWhatsAppUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-                `Hi *Vape Shop Noida*, I want to order:\n\n*Product:* ${rel.name}\n*Price:* ₹${rel.price.toLocaleString("en-IN")}\n*Quantity:* ${qty}\n🔗 *Product Link:* ${getProductUrl(rel.slug)}\n\nPlease confirm fast express 60-90 mins delivery in Noida.`
+                `Hi *Vape Shop Noida*, I want to order:\n\n*Product:* ${rel.name}\n*Price:* ₹${rel.price.toLocaleString("en-IN")}\n*Quantity:* ${qty}\n🔗 *Product Link:* ${getProductUrl(rel.slug)}\n\nPlease confirm fast free 30-45 mins express delivery in Noida.`
               )}`;
 
               return (

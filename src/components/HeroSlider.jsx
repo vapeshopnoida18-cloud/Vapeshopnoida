@@ -11,7 +11,7 @@ const banners = [
     desktopWebp: "/herobanner/banner3.webp",
     mobileAvif: "/herobanner/mobilebanner3.avif",
     mobileWebp: "/herobanner/mobilebanner3.webp",
-    alt: "Vape Shop Noida - Best Vapes, Pods & E-Liquids with 60-90 Mins Express Noida Delivery",
+    alt: "Vape Shop Noida - Best Vapes, Pods & E-Liquids with 30-45 Mins Free Express Delivery",
     href: "/products",
   },
   {
@@ -20,7 +20,7 @@ const banners = [
     desktopWebp: "/herobanner/banner2.webp",
     mobileAvif: "/herobanner/mobilebanner2.avif",
     mobileWebp: "/herobanner/mobilebanner2.webp",
-    alt: "Buy 100% Authentic Disposable Vapes in Noida - Cash on Delivery Available at Vape Shop Noida",
+    alt: "Buy 100% Authentic Disposable Vapes in Noida - Free Doorstep Delivery with Instant UPI at Vape Shop Noida",
     href: "/products",
   },
   {
@@ -29,7 +29,7 @@ const banners = [
     desktopWebp: "/herobanner/banner4.webp",
     mobileAvif: "/herobanner/mobilebanner4.avif",
     mobileWebp: "/herobanner/mobilebanner4.webp",
-    alt: "Vape Shop Noida - 100% Original Vapes with Scratch Code Verification and Express Delivery",
+    alt: "Vape Shop Noida - 100% Original Vapes with Scratch Code Verification and 30-45 Mins Free Delivery",
     href: "/products",
   },
 ];

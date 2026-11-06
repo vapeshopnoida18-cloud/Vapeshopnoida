@@ -4,11 +4,14 @@ import ProductsCatalogClient from "@/components/ProductsCatalogClient";
 export const metadata = {
   title: "All Vape Devices & Disposables | Vape Shop in Noida",
   description:
-    "Explore authentic disposable vapes (up to 80,000 puffs), refillable pod kits & nic salts at Vape Shop in Noida. Express 60-90 min delivery across Sector 18, 62, 76 & Noida with Cash on Delivery.",
+    "Explore authentic disposable vapes (up to 80,000 puffs), refillable pod kits & nic salts at Vape Shop in Noida. Free 30-45 min express delivery across Sector 18, 62, 76 & all Noida sectors with instant UPI.",
   keywords: [
     "vape shop in noida",
     "vape shop noida",
+    "smoke shop near me",
+    "vape stores near me",
     "buy vape online noida",
+    "free vape delivery noida",
     "disposable vapes noida",
     "geek bar noida",
     "ebcreate bc5000 noida",
@@ -24,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "All Vape Devices & Disposables | Vape Shop in Noida",
     description:
-      "Browse disposable vapes, refillable pod kits, coils & nic salts at Vape Shop in Noida. 100% authentic with 60-90 mins express delivery across Noida sectors.",
+      "Browse disposable vapes, refillable pod kits, coils & nic salts at Vape Shop in Noida. 100% authentic with free 30-45 mins express delivery across Noida & NCR.",
     url: "https://vapeshopinnoida.com/products",
     siteName: "Vape Shop in Noida",
     locale: "en_IN",
@@ -34,7 +37,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "All Vape Devices & Disposables | Vape Shop in Noida",
     description:
-      "Buy 100% genuine disposable vapes & pod kits with 60-90 mins express delivery in Noida.",
+      "Buy 100% genuine disposable vapes & pod kits with free 30-45 mins express delivery in Noida.",
   },
 };
 
@@ -45,7 +48,7 @@ export default function ProductsPage() {
     name: "Vape Products Catalog - Vape Shop Noida",
     url: "https://vapeshopinnoida.com/products",
     description:
-      "Official collection of disposable vapes, pod systems, coils and accessories delivered in Noida with 60-90 mins express shipping.",
+      "Official collection of disposable vapes, pod systems, coils and accessories delivered in Noida with free 30-45 mins express shipping.",
   };
 
   return (

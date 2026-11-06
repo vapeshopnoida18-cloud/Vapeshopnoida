@@ -1,4 +1,5 @@
 import { products } from "@/data/products";
+import { locations } from "@/data/locations";
 
 export default function sitemap() {
   const baseUrl = "https://vapeshopinnoida.com";
@@ -58,80 +59,14 @@ export default function sitemap() {
     priority: 0.85,
   }));
 
-  // 3. Category Filter Pages (High-Intent SEO Keywords)
-  const categoryRoutes = [
-    {
-      url: `${baseUrl}/products?category=disposable`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/products?category=pods`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.75,
-    },
-    {
-      url: `${baseUrl}/products?category=eliquids`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.75,
-    },
-  ];
+  // 3. Dedicated Local Delivery Landing Pages (Noida Sectors & NCR Hubs)
+  // These give Google 100% crawlable, high-ranking canonical URLs for "Vape Shop in Sector 18", etc.
+  const locationRoutes = locations.map((loc) => ({
+    url: `${baseUrl}/vape-delivery/${loc.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.9,
+  }));
 
-  // 4. Hyper-Local City & Sector Wise Indexing (Targeting "Vape Shop in Noida" across key sectors)
-  const sectorRoutes = [
-    {
-      url: `${baseUrl}/products?search=sector+18`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/products?search=sector+62`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/products?search=sector+76`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/products?search=sector+50`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/products?search=sector+137`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/products?search=greater+noida`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/products?search=noida+expressway`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/products?search=atta+market`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-  ];
-
-  return [...staticRoutes, ...productRoutes, ...categoryRoutes, ...sectorRoutes];
+  return [...staticRoutes, ...productRoutes, ...locationRoutes];
 }
-

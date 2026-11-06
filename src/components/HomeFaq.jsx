@@ -10,36 +10,36 @@ export default function HomeFaq() {
 
   const faqs = [
     {
-      q: "Where is the best authentic Vape Shop in Noida?",
-      a: "Vape Shop in Noida is headquartered in Sector 76, Amarpali Silicon City. We offer 100% authentic disposable vapes (up to 80,000 puffs), refillable pod mods, replacement coils, and imported nic salts with 60-90 minutes express home delivery across all sectors of Noida and Greater Noida.",
+      q: "Where is the best authentic Vape Shop Noida located?",
+      a: "Vape Shop Noida is headquartered at Sector 76, Amarpali Silicon City. As the #1 trusted Vape Shop in Noida, we offer 100% authentic disposable vapes (up to 80,000 puffs), refillable pod mods, replacement coils, and imported nic salts with 30-45 minutes free express home delivery across all sectors of Noida, Greater Noida, Ghaziabad, Delhi, and Gurugram.",
     },
     {
-      q: "Is there an authentic vape shop near me in Noida with home delivery?",
-      a: "Yes! If you are searching for a 'vape shop near me' or 'buy vape near me' in Noida, Vape Shop in Noida provides superfast 60-90 minutes express doorstep delivery across all sectors including Sector 15, 18 (Atta Market), Sector 50, Sector 62, Sector 76, Sector 137, Noida Expressway, and Greater Noida with Cash on Delivery (COD).",
+      q: "Is there an authentic Vape Shop Noida or smoke shop near me with free delivery?",
+      a: "Yes! If you are searching for a trusted Vape Shop Noida, 'vape shop near me', 'smoke shop near me', or 'buy vape near me' in Noida, Vape Shop Noida provides superfast 30-45 minutes free doorstep delivery across Sector 15, 16, 18, 50, 62, 75, 76, 104, 128, 137, 142, Noida Expressway, Greater Noida, and Delhi NCR with instant UPI payments.",
     },
     {
-      q: "How fast is vape delivery across Noida sectors and Greater Noida?",
-      a: "Orders are dispatched within 15 minutes of confirmation. Deliveries to Sector 76, Sector 50, and central Noida arrive in 30-45 minutes. Deliveries to Sector 18 (Atta Market), Sector 62 (Electronic City), Sector 137, Noida Expressway, and Greater Noida arrive within 60 to 90 minutes.",
+      q: "How fast is Vape Shop Noida express delivery across sectors?",
+      a: "Orders placed with Vape Shop Noida are dispatched within 10-15 minutes of WhatsApp confirmation. Deliveries to Sector 76, Sector 50, Sector 18, Sector 62, and central Noida arrive in just 30 to 45 minutes with 100% Free Express Shipping. Deliveries to Greater Noida, Ghaziabad, Delhi, and Gurugram arrive within 45 to 60 minutes.",
     },
     {
-      q: "Can I order vapes online in Noida with Cash on Delivery (COD)?",
-      a: "Yes! 100% of orders placed at Vape Shop in Noida are eligible for Cash on Delivery (COD) or doorstep digital UPI (Google Pay, PhonePe, Paytm). You only pay after inspecting the package at your doorstep.",
+      q: "How can I pay for my order at Vape Shop Noida?",
+      a: "Vape Shop Noida offers seamless, instant digital payments via UPI (Google Pay, PhonePe, Paytm, BHIM), direct bank transfer, and QR code scan at the time of order confirmation. Delivery across Noida is 100% FREE on all orders.",
     },
     {
-      q: "Are all vape devices 100% genuine with factory scratch QR codes?",
-      a: "Yes, every disposable vape and pod kit from Geek Bar, Elf Bar, Lost Mary, Yuoto, Voopoo, and Vaporesso comes in factory shrink-wrapped packaging with an authentic scratch-off QR verification code that you can verify directly on the official brand website.",
+      q: "Are all products from Vape Shop Noida 100% genuine with factory scratch QR codes?",
+      a: "Yes, every disposable vape and pod kit from Vape Shop Noida comes in factory shrink-wrapped packaging with an authentic scratch-off QR verification code that you can verify directly on the official brand website.",
+    },
+    {
+      q: "Does Vape Shop Noida deliver to Ghaziabad, Delhi, and Gurugram?",
+      a: "Yes! While our primary express hub is in Noida with 30-45 min delivery, our dedicated Vape Shop Noida NCR fleet also delivers across Indirapuram, Vaishali, Vasundhara (Ghaziabad), Mayur Vihar & Delhi NCR, and Gurugram on the same day.",
+    },
+    {
+      q: "How can I contact Vape Shop Noida helpline?",
+      a: "You can reach Vape Shop Noida directly via WhatsApp or phone call at +91 80531 17437 for quick menu inquiries, stock availability, and instant 30-45 min free express delivery.",
     },
     {
       q: "Is vaping legal in Noida and Greater Noida?",
       a: "India's Electronic Cigarettes Act, 2019 prohibits the sale, distribution, import and advertising of e-cigarettes. These statutory health notices and regulations apply throughout Noida, Greater Noida, and Delhi NCR.",
-    },
-    {
-      q: "Do vape delivery regulations apply in Noida Sector 18, Sector 62 and Sector 137?",
-      a: "India's national e-cigarette legislation applies across all Noida sectors, including Sector 18, Sector 62, Sector 137, Noida Expressway, and Greater Noida.",
-    },
-    {
-      q: "Where can I find reliable vaping health and safety guidance in Noida?",
-      a: "For authentic information about e-cigarette risks, nicotine dependence, and cessation support, consult India's National Tobacco Control Programme or a certified healthcare practitioner.",
     },
   ];
 
@@ -163,7 +163,7 @@ export default function HomeFaq() {
             className="inline-flex items-center gap-1.5 text-[#325f98] font-semibold hover:underline"
           >
             <FaWhatsapp className="w-3.5 h-3.5 text-emerald-600" />
-            <span>Chat on WhatsApp Helpline (+91 81687 38374)</span>
+            <span>Chat on WhatsApp Helpline (+91 80531 17437)</span>
           </a>
         </div>
       </div>

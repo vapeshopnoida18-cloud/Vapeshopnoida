@@ -3,15 +3,15 @@ import { FiShoppingBag, FiPhoneCall, FiChevronRight, FiTrendingUp } from "react-
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function QuickFeatures() {
-  const phoneNumber = "+918168738374";
-  const displayPhone = "+91 81687 38374";
-  const whatsappUrl = `https://wa.me/918168738374?text=Hi%20Vape%20Shop%20Noida%2C%20I%20want%20to%20order%20vapes%20in%20Noida.`;
+  const phoneNumber = "+918053117437";
+  const displayPhone = "+91 80531 17437";
+  const whatsappUrl = `https://wa.me/918053117437?text=Hi%20Vape%20Shop%20Noida%2C%20I%20want%20to%20order%20vapes%20in%20Noida.`;
 
   const features = [
     {
       id: 1,
-      badge: "100% GENUINE",
-      title: "Shop Products",
+      badge: "VAPE SHOP NOIDA",
+      title: "Genuine Vapes",
       href: "/products",
       icon: FiShoppingBag,
       iconBg: "bg-[#325f98]/10 text-[#325f98]",
@@ -19,7 +19,7 @@ export default function QuickFeatures() {
     },
     {
       id: 2,
-      badge: "24/7 HELPLINE",
+      badge: "VAPE SHOP NOIDA 24/7",
       title: `Call ${displayPhone}`,
       mobileTitle: "Call 24/7 Support",
       href: `tel:${phoneNumber}`,
@@ -29,7 +29,7 @@ export default function QuickFeatures() {
     },
     {
       id: 3,
-      badge: "60-90 MINS",
+      badge: "FREE 30-45 MIN",
       title: "WhatsApp Order",
       href: whatsappUrl,
       icon: FaWhatsapp,
@@ -39,7 +39,7 @@ export default function QuickFeatures() {
     },
     {
       id: 4,
-      badge: "TOP TRENDING",
+      badge: "VAPE SHOP NOIDA TRENDING",
       title: "Disposable Vapes",
       href: "/products?category=disposable",
       icon: FiTrendingUp,

@@ -8,8 +8,8 @@ import { WHATSAPP_NUMBER } from "@/data/products";
 export default function FloatingContactButtons() {
   const [hoveredBtn, setHoveredBtn] = useState(null);
 
-  const phoneUrl = `tel:+918168738374`;
-  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20Vape%20Shop%20Noida%2C%20I%20want%20to%20order%20vapes%20with%2060-90%20min%20express%20delivery.`;
+  const phoneUrl = `tel:+918053117437`;
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20Vape%20Shop%20Noida%2C%20I%20want%20to%20order%20vapes%20with%2030-45%20min%20free%20express%20delivery.`;
 
   return (
     <aside
@@ -21,7 +21,7 @@ export default function FloatingContactButtons() {
         {/* Tooltip on Desktop */}
         {hoveredBtn === "phone" && (
           <div className="hidden sm:flex items-center absolute right-full mr-3 px-3 py-1.5 rounded-xl bg-gray-900 text-white text-xs font-semibold whitespace-nowrap shadow-xl border border-gray-800 animate-in fade-in slide-in-from-right-1 duration-150">
-            <span>Call Helpline: +91 81687 38374</span>
+            <span>Call Helpline: +91 80531 17437</span>
             <div className="w-1.5 h-1.5 bg-gray-900 border-r border-b border-gray-800 rotate-[-45deg] absolute -right-1" />
           </div>
         )}
@@ -31,7 +31,7 @@ export default function FloatingContactButtons() {
           onMouseEnter={() => setHoveredBtn("phone")}
           onMouseLeave={() => setHoveredBtn(null)}
           className="group relative w-13 h-13 sm:w-14 sm:h-14 rounded-full bg-gradient-to-tr from-[#254977] via-[#325f98] to-[#3f76bd] text-white flex items-center justify-center shadow-[0_8px_24px_rgba(50,95,152,0.4)] hover:shadow-[0_10px_30px_rgba(50,95,152,0.6)] transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer"
-          aria-label="Call Vape Shop Noida Helpline at +91 81687 38374"
+          aria-label="Call Vape Shop Noida Helpline at +91 80531 17437"
         >
           {/* Ambient Blue Halo Glow */}
           <span className="absolute -inset-1.5 rounded-full bg-[#325f98]/20 blur-sm -z-10 group-hover:bg-[#325f98]/35 transition-all duration-300" />

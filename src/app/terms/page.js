@@ -17,7 +17,7 @@ import { WHATSAPP_NUMBER } from "@/data/products";
 export const metadata = {
   title: "Terms & Conditions | Vape Shop in Noida - Ordering & Delivery Policies",
   description:
-    "Official Terms and Conditions for ordering vapes, pod kits, and e-liquids at Vape Shop in Noida. Details on 21+ age eligibility, 60-90 mins express dispatch, COD, and return policy.",
+    "Official Terms and Conditions for ordering vapes, pod kits, and e-liquids at Vape Shop in Noida. Details on 21+ age eligibility, 30-45 mins express dispatch, UPI, and return policy.",
   keywords: [
     "vape shop in noida",
     "terms and conditions vape shop noida",
@@ -32,7 +32,7 @@ export const metadata = {
   openGraph: {
     title: "Terms & Conditions | Vape Shop in Noida",
     description:
-      "Review the official terms of service for Vape Shop in Noida. Express 60-90 min delivery, authentic sealed products, and COD guidelines.",
+      "Review the official terms of service for Vape Shop in Noida. Express 30-45 min delivery, authentic sealed products, and UPI guidelines.",
     url: "https://vapeshopinnoida.com/terms",
     siteName: "Vape Shop in Noida",
     locale: "en_IN",
@@ -55,7 +55,7 @@ export default function TermsPage() {
     name: "Terms & Conditions - Vape Shop Noida",
     url: "https://vapeshopinnoida.com/terms",
     description:
-      "Terms and conditions for Vape Shop Noida covering order processing, 60-90 min delivery, COD payments, and 21+ age compliance.",
+      "Terms and conditions for Vape Shop Noida covering order processing, 30-45 min delivery, UPI payments, and 21+ age compliance.",
     breadcrumb: {
       "@type": "BreadcrumbList",
       itemListElement: [
@@ -130,7 +130,7 @@ export default function TermsPage() {
               </h2>
             </div>
             <p>
-              By browsing, accessing, or placing orders on <strong>vapeshopinnoida.com</strong> or interacting with our order helpline on WhatsApp (+91 81687 38374), you explicitly acknowledge and agree to comply with these Terms and Conditions. If you do not agree to these terms in full, please refrain from using this website or initiating order requests.
+              By browsing, accessing, or placing orders on <strong>vapeshopinnoida.com</strong> or interacting with our order helpline on WhatsApp (+91 80531 17437), you explicitly acknowledge and agree to comply with these Terms and Conditions. If you do not agree to these terms in full, please refrain from using this website or initiating order requests.
             </p>
           </div>
 
@@ -175,7 +175,7 @@ export default function TermsPage() {
               </li>
               <li className="p-3.5 rounded-2xl bg-gray-50 border border-gray-200/70 flex items-start gap-2.5">
                 <FiShield className="w-4 h-4 text-[#325f98] shrink-0 mt-0.5" />
-                <span><strong>Inspection Before Payment:</strong> Customers are encouraged to inspect the factory seal at doorstep prior to completing COD payment.</span>
+                <span><strong>Inspection Before Payment:</strong> Customers are encouraged to inspect the factory seal at doorstep prior to completing UPI payment.</span>
               </li>
             </ul>
           </div>
@@ -187,7 +187,7 @@ export default function TermsPage() {
                 04
               </div>
               <h2 className="text-base sm:text-lg font-bold text-gray-900">
-                60-90 Mins Express Noida Delivery Policy
+                30-45 mins Express Noida Delivery Policy
               </h2>
             </div>
             <p>
@@ -212,7 +212,7 @@ export default function TermsPage() {
               </h2>
             </div>
             <p>
-              We accept <strong>Cash on Delivery (COD)</strong> and doorstep digital payments (UPI via Google Pay, PhonePe, and Paytm). Orders can be freely modified or cancelled prior to rider dispatch by messaging our helpline at <strong>+91 81687 38374</strong>. Due to health and hygiene standards, unsealed or opened consumable products cannot be returned after successful delivery.
+              We accept <strong>Instant UPI (Google Pay, PhonePe, Paytm)</strong> and doorstep digital payments (UPI via Google Pay, PhonePe, and Paytm). Orders can be freely modified or cancelled prior to rider dispatch by messaging our helpline at <strong>+91 80531 17437</strong>. Due to health and hygiene standards, unsealed or opened consumable products cannot be returned after successful delivery.
             </p>
           </div>
 
@@ -238,8 +238,8 @@ export default function TermsPage() {
               </div>
               <div className="flex items-center gap-2">
                 <FiPhone className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                <a href="tel:+918168738374" className="hover:underline font-semibold">
-                  +91 81687 38374
+                <a href="tel:+918053117437" className="hover:underline font-semibold">
+                  +91 80531 17437
                 </a>
               </div>
             </div>

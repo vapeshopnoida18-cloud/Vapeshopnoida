@@ -119,11 +119,11 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-center flex-wrap gap-x-2 gap-y-0.5 text-white select-none">
           <span className="font-semibold">Vape Shop Noida</span>
           <span className="text-white/60 hidden sm:inline">|</span>
-          <span>Express 60-90 Mins Delivery Across All Sectors</span>
+          <span>Express 30-45 Mins Free Delivery Across All Sectors</span>
           <span className="text-white/60 hidden md:inline">|</span>
-          <span className="hidden md:inline">100% Authentic Products</span>
+          <span className="hidden md:inline">100% Genuine Scratch QR</span>
           <span className="text-white/60 hidden sm:inline">|</span>
-          <span>Cash on Delivery Available</span>
+          <span>Instant UPI &amp; Online Payment</span>
         </div>
       </div>
 

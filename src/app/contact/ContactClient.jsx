@@ -26,8 +26,8 @@ const sectorsList = [
   { name: "Sector 18 & Atta Market", subtext: "Commercial Hub", time: "45-60 mins", badge: "Popular" },
   { name: "Sector 62 & Electronic City", subtext: "Corporate Zone", time: "45-60 mins", badge: "Active" },
   { name: "Sector 137 & Advant Navis", subtext: "Expressway Belt", time: "40-60 mins", badge: "Expressway" },
-  { name: "Greater Noida West (Noida Ext.)", subtext: "Residential Belt", time: "60-90 mins", badge: "Fast Route" },
-  { name: "Pari Chowk & Greater Noida", subtext: "Extended Reach", time: "60-90 mins", badge: "Available" },
+  { name: "Greater Noida West (Noida Ext.)", subtext: "Residential Belt", time: "30-45 mins", badge: "Fast Route" },
+  { name: "Pari Chowk & Greater Noida", subtext: "Extended Reach", time: "30-45 mins", badge: "Available" },
 ];
 
 const contactFaqs = [
@@ -36,8 +36,8 @@ const contactFaqs = [
     a: "Orders in Sector 76, 74, 75, 50, and Amarpali Silicon City reach within 30 to 45 minutes. Across all other Noida sectors, Expressway, and Greater Noida, our dedicated couriers deliver within 60 to 90 minutes.",
   },
   {
-    q: "Can I order via WhatsApp and pay Cash on Delivery (COD)?",
-    a: "Yes! 100% of orders placed through WhatsApp or phone can be paid via Cash on Delivery (COD) or doorstep UPI (Google Pay, PhonePe, Paytm). You only pay after inspecting the package at your door.",
+    q: "Can I order via WhatsApp and pay Instant UPI (Google Pay, PhonePe, Paytm)?",
+    a: "Yes! 100% of orders placed through WhatsApp or phone can be paid via Instant UPI (Google Pay, PhonePe, Paytm) or doorstep UPI (Google Pay, PhonePe, Paytm). You only pay after inspecting the package at your door.",
   },
   {
     q: "Are all vape devices 100% genuine with scratch QR codes?",
@@ -49,7 +49,7 @@ const contactFaqs = [
   },
   {
     q: "What is the fastest way to place an urgent order?",
-    a: "Clicking our 'Order on WhatsApp' button (+91 81687 38374) connects you instantly with our store team. We share live flavor menus and immediately dispatch your order via express courier.",
+    a: "Clicking our 'Order on WhatsApp' button (+91 80531 17437) connects you instantly with our store team. We share live flavor menus and immediately dispatch your order via express courier.",
   },
 ];
 
@@ -58,7 +58,7 @@ const topKeywords = [
   "Vape Shop Sector 76 Noida",
   "Amarpali Silicon City Vape Store",
   "Vape Delivery Sector 18",
-  "Cash on Delivery Vapes Noida",
+  "Instant UPI Vapes Noida",
   "Geek Bar Burj 80000 Noida",
   "Lost Mary 70K Noida",
   "Yuoto Digi 15000 Noida",
@@ -91,7 +91,7 @@ export default function ContactClient() {
 
             <span className="inline-flex items-center gap-2 text-[11px] sm:text-xs font-bold text-[#325f98] bg-blue-50/80 border border-blue-100/80 px-3.5 py-1.5 rounded-full uppercase tracking-widest mb-3">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-              Noida Sector 76 Hub • 60-90 Min Express Dispatch
+              Noida Sector 76 Hub • 30-45 min Express Dispatch
             </span>
 
             <h1 className="text-2xl sm:text-4xl md:text-5xl font-black text-gray-900 tracking-tight leading-tight mt-1">
@@ -99,7 +99,7 @@ export default function ContactClient() {
             </h1>
 
             <p className="text-xs sm:text-sm text-gray-600 mt-3 max-w-2xl mx-auto leading-relaxed">
-              Looking for 100% genuine disposable vapes, pod systems, or express 60-90 min doorstep delivery across Sector 76, Sector 18, Sector 62, and Delhi NCR? Connect with our team directly.
+              Looking for 100% genuine disposable vapes, pod systems, or express 30-45 min doorstep delivery across Sector 76, Sector 18, Sector 62, and Delhi NCR? Connect with our team directly.
             </p>
           </div>
         </div>
@@ -137,10 +137,10 @@ export default function ContactClient() {
                 className="w-full inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs py-3 px-4 rounded-xl shadow-xs transition-transform active:scale-98 cursor-pointer"
               >
                 <FaWhatsapp className="w-4 h-4" />
-                <span>Chat on WhatsApp (+91 81687 38374)</span>
+                <span>Chat on WhatsApp (+91 80531 17437)</span>
               </a>
               <div className="text-[11px] text-gray-400 text-center mt-2 font-medium">
-                ⚡ Express 60-90 Mins Delivery Across Noida
+                ⚡ Express 30-45 mins Delivery Across Noida
               </div>
             </div>
           </div>
@@ -168,11 +168,11 @@ export default function ContactClient() {
 
             <div>
               <a
-                href="tel:+918168738374"
+                href="tel:+918053117437"
                 className="w-full inline-flex items-center justify-center gap-2 bg-[#325f98] hover:bg-[#254977] text-white font-bold text-xs py-3 px-4 rounded-xl shadow-xs transition-transform active:scale-98 cursor-pointer"
               >
                 <FiPhone className="w-4 h-4" />
-                <span>Call Helpline: +91 81687 38374</span>
+                <span>Call Helpline: +91 80531 17437</span>
               </a>
               <div className="text-[11px] text-gray-400 text-center mt-2 font-medium">
                 📞 Available 7 Days a Week
@@ -232,7 +232,7 @@ export default function ContactClient() {
               </h2>
 
               <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-                Our central retail inventory is located at Amarpali Silicon City, Sector 76. Centrally connected via Blue Line &amp; Aqua Line metro, enabling swift 30-45 min delivery to Central Noida sectors and 60-90 min delivery across Greater Noida.
+                Our central retail inventory is located at Amarpali Silicon City, Sector 76. Centrally connected via Blue Line &amp; Aqua Line metro, enabling swift 30-45 min delivery to Central Noida sectors and 30-45 min delivery across Greater Noida.
               </p>
 
               {/* Exact Address Box */}
@@ -257,7 +257,7 @@ export default function ContactClient() {
                 </div>
                 <div className="flex items-center gap-2 p-2.5 rounded-xl bg-blue-50/80 border border-blue-100 text-[#325f98] font-semibold">
                   <FiCreditCard className="w-4 h-4 text-[#325f98] shrink-0" />
-                  <span>Cash on Delivery (COD)</span>
+                  <span>Instant UPI (Google Pay, PhonePe, Paytm)</span>
                 </div>
               </div>
 
@@ -336,7 +336,7 @@ export default function ContactClient() {
                     </span>
                   </div>
                   <h4 className="text-xs sm:text-sm font-bold text-gray-900 mb-0.5">{sec.name}</h4>
-                  <p className="text-[11px] text-gray-500">{sec.subtext} • COD Available</p>
+                  <p className="text-[11px] text-gray-500">{sec.subtext} • Free Delivery & Instant UPI</p>
                 </div>
 
                 <div className="pt-3 mt-3 border-t border-gray-200/60 flex items-center justify-between">
