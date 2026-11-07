@@ -126,7 +126,7 @@ export default function ContactPage() {
             name: "How fast is vape delivery from your Sector 76 Noida hub?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Orders in Sector 76 and adjacent sectors (Sector 74, 75, 50, 78) are dispatched within 30 to 45 minutes. Across other Noida sectors and Greater Noida, express riders reach within 60 to 90 minutes.",
+              text: "Orders in Sector 76 and adjacent sectors (Sector 74, 75, 50, 78) are dispatched within 30 to 45 minutes. Across other Noida sectors and Greater Noida, express riders reach within 30 to 45 minutes.",
             },
           },
           {

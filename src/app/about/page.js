@@ -302,7 +302,7 @@ export default function AboutPage() {
                   Sector 76, Amarpali Silicon City, Noida (Near Sector 76 Aqua Line Metro).
                 </p>
                 <p className="text-gray-500 text-[11px] pl-6">
-                  Allows our delivery fleet to reach Central Noida, Noida Expressway, and Greater Noida within 60 to 90 minutes.
+                  Allows our delivery fleet to reach Central Noida, Noida Expressway, and Greater Noida within 30 to 45 minutes.
                 </p>
               </div>
 

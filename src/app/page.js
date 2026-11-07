@@ -2,6 +2,8 @@ import HeroSlider from "@/components/HeroSlider";
 import QuickFeatures from "@/components/QuickFeatures";
 import SeoIntro from "@/components/SeoIntro";
 import FeaturedProducts from "@/components/FeaturedProducts";
+import HomeReviews from "@/components/HomeReviews";
+import VideoShowcase from "@/components/VideoShowcase";
 import ServiceAreas from "@/components/ServiceAreas";
 import SeoLegalInfo from "@/components/SeoLegalInfo";
 import HomeFaq from "@/components/HomeFaq";
@@ -78,13 +80,19 @@ export default function Home() {
       {/* 4. Featured Vape Devices & Disposables Product Cards */}
       <FeaturedProducts />
 
-      {/* 5. Key Service Areas Across Noida, Greater Noida & Delhi NCR */}
+      {/* 5. Verified Customer Reviews & Ratings for Noida */}
+      <HomeReviews />
+
+      {/* 6. Authentic Verification & Scratch QR Video Showcase */}
+      <VideoShowcase />
+
+      {/* 7. Key Service Areas Across Noida, Greater Noida & Delhi NCR */}
       <ServiceAreas />
 
-      {/* 6. E-Cigarette Laws, Safety & Local Information */}
+      {/* 8. E-Cigarette Laws, Safety & Local Information */}
       <SeoLegalInfo />
 
-      {/* 7. Frequently Asked Questions (FAQ) with Schema.org */}
+      {/* 9. Frequently Asked Questions (FAQ) with Schema.org */}
       <HomeFaq />
     </>
   );

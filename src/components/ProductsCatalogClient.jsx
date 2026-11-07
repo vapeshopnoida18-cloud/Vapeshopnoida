@@ -256,7 +256,7 @@ export default function ProductsCatalogClient() {
 
           {/* Subtitle */}
           <p className="text-xs sm:text-sm text-gray-500 max-w-3xl leading-relaxed">
-            Instant 60-90 minute express doorstep delivery across Sector 76, Sector 18, Sector 62, Noida Expressway &amp; all sectors of Noida with Cash on Delivery (COD).
+            Instant 30-45 minute free express doorstep delivery across Sector 76, Sector 18, Sector 62, Noida Expressway &amp; all sectors of Noida with Instant UPI Online Payment.
           </p>
         </div>
       </div>
@@ -551,7 +551,7 @@ export default function ProductsCatalogClient() {
             <div className="bg-white rounded-2xl p-4 sm:p-5 border border-gray-200/70">
               <h3 className="font-bold text-gray-900 mb-1.5 flex items-center gap-1.5">
                 <FiCheckCircle className="w-4 h-4 text-emerald-600" />
-                <span>60-90 Mins Express Noida Delivery</span>
+                <span>30-45 mins Express Noida Delivery</span>
               </h3>
               <p className="text-gray-500 leading-relaxed">
                 Stationed couriers deliver quickly to Sector 76, Sector 18 (Atta Market), Sector 50, Sector 62, Sector 137, Noida Expressway, and Greater Noida Pari Chowk.
@@ -588,7 +588,7 @@ export default function ProductsCatalogClient() {
     const qty = quantities[product.id] || 1;
     const isFavorited = isInWishlist(product.id);
     const directWhatsAppUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-      `Hi *Vape Shop Noida*, I want to order:\n\n*Product:* ${product.name}\n*Price:* ₹${product.price.toLocaleString("en-IN")}\n*Quantity:* ${qty}\n🔗 *Product Link:* ${getProductUrl(product.slug)}\n\nPlease confirm fast 60-90 mins express delivery in Noida.`
+      `Hi *Vape Shop Noida*, I want to order:\n\n*Product:* ${product.name}\n*Price:* ₹${product.price.toLocaleString("en-IN")}\n*Quantity:* ${qty}\n🔗 *Product Link:* ${getProductUrl(product.slug)}\n\nPlease confirm fast 30-45 mins express delivery in Noida.`
     )}`;
 
     return (

@@ -125,7 +125,7 @@ export default function CartDrawer() {
                 </span>
               </div>
               <span className="font-bold text-[10px] bg-emerald-600 text-white px-1.5 py-0.5 rounded">
-                60-90 MINS
+                30-45 mins
               </span>
             </div>
           )}
@@ -297,7 +297,7 @@ export default function CartDrawer() {
                     <FiTruck className="w-4 h-4 text-emerald-600 shrink-0" />
                     <div className="min-w-0">
                       <p className="text-[11px] font-bold text-emerald-900 leading-tight">
-                        60-90 Min Dispatch
+                        30-45 Min Dispatch
                       </p>
                       <p className="text-[9px] text-emerald-700 truncate">
                         All Noida Sectors

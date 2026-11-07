@@ -63,7 +63,7 @@ export default function FeaturedProducts() {
           const qty = quantities[product.id] || 1;
           const isFavorited = isInWishlist(product.id);
           const directWhatsAppUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-            `Hi *Vape Shop Noida*, I want to order:\n\n*Product:* ${product.name}\n*Price:* ₹${product.price.toLocaleString("en-IN")}\n*Quantity:* ${qty}\n🔗 *Product Link:* ${getProductUrl(product.slug)}\n\nPlease confirm fast 60-90 mins express delivery in Noida.`
+            `Hi *Vape Shop Noida*, I want to order:\n\n*Product:* ${product.name}\n*Price:* ₹${product.price.toLocaleString("en-IN")}\n*Quantity:* ${qty}\n🔗 *Product Link:* ${getProductUrl(product.slug)}\n\nPlease confirm fast 30-45 mins express delivery in Noida.`
           )}`;
 
           return (

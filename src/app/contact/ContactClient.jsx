@@ -33,7 +33,7 @@ const sectorsList = [
 const contactFaqs = [
   {
     q: "How fast is vape delivery from your Sector 76 Noida hub?",
-    a: "Orders in Sector 76, 74, 75, 50, and Amarpali Silicon City reach within 30 to 45 minutes. Across all other Noida sectors, Expressway, and Greater Noida, our dedicated couriers deliver within 60 to 90 minutes.",
+    a: "Orders in Sector 76, 74, 75, 50, and Amarpali Silicon City reach within 30 to 45 minutes. Across all other Noida sectors, Expressway, and Greater Noida, our dedicated couriers deliver within 30 to 45 minutes.",
   },
   {
     q: "Can I order via WhatsApp and pay Instant UPI (Google Pay, PhonePe, Paytm)?",

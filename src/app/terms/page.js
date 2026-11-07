@@ -196,7 +196,7 @@ export default function TermsPage() {
             <ul className="space-y-2 pl-4 list-disc text-gray-600">
               <li><strong>Sector 76, 74, 75, 50, 78:</strong> Dispatched immediately with typical arrival in 30 to 45 minutes.</li>
               <li><strong>Sector 18, Sector 62, Sector 137, Expressway:</strong> Dispatched via dedicated courier with arrival in 45 to 60 minutes.</li>
-              <li><strong>Greater Noida &amp; Greater Noida West:</strong> Direct express dispatch within 60 to 90 minutes.</li>
+              <li><strong>Greater Noida &amp; Greater Noida West:</strong> Direct express dispatch within 30 to 45 minutes.</li>
               <li>Delivery timeframes are subject to severe weather, peak traffic hours, or unforeseen road diversions, which will be communicated in advance via WhatsApp.</li>
             </ul>
           </div>

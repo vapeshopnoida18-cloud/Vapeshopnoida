@@ -38,7 +38,7 @@ export const products = [
       },
       {
         q: "How fast is delivery for EBCREATE BC5000 in Noida & Delhi NCR?",
-        a: "We provide instant 60 to 90-minute express doorstep delivery across all sectors of Noida (Sector 18, 62, 50, 76, 137, Expressway), Greater Noida, and same-day delivery across Delhi NCR.",
+        a: "We provide instant 30 to 45-minute express doorstep delivery across all sectors of Noida (Sector 18, 62, 50, 76, 137, Expressway), Greater Noida, and same-day delivery across Delhi NCR.",
       },
       {
         q: "How do I pay for this order in Noida?",
@@ -83,6 +83,26 @@ export const products = [
         location: "Sector 137 Expressway, Noida",
         comment:
           "Genuine sealed pack in plain discreet packaging. Very fast response on WhatsApp helpline and prompt rider delivery along the Expressway.",
+      },
+          {
+        id: 4,
+        name: "Harshit Singhal",
+        verified: true,
+        rating: 5,
+        time: "3 days ago",
+        location: "Sector 75, Noida",
+        comment:
+          "Ordered EBCREATE BC5000 from Vape Shop Noida. Delivered to my society in Sector 75 within 22 minutes! Scratched the QR code, checked on the official site—100% original. Instant UPI payment was very smooth.",
+      },
+      {
+        id: 5,
+        name: "Tanya M.",
+        verified: true,
+        rating: 5,
+        time: "5 days ago",
+        location: "Sector 104 (Starling Mall), Noida",
+        comment:
+          "Super compact and great vapor output. The dual mesh coil makes watermelon ice taste amazing. Delivered to Sector 104 in plain discreet packaging. Best vape shop in Noida!",
       },
     ],
   },
@@ -169,6 +189,26 @@ export const products = [
         comment:
           "Premium build quality and long lasting battery. Rider came directly to my society gate within 50 minutes. Excellent service by Vape Shop Noida.",
       },
+      {
+        id: 4,
+        name: "Aditya Roy",
+        verified: true,
+        rating: 5,
+        time: "Yesterday",
+        location: "Sector 18, Noida",
+        comment:
+          "This 80K puffs beast is insane! The pulse engine gives massive clouds and strawberry taste is heavenly. Delivered in 30 mins to Atta Market Sector 18. Verified authentic scratch QR on official Geek Bar site.",
+      },
+      {
+        id: 5,
+        name: "Kunal Bansal",
+        verified: true,
+        rating: 5,
+        time: "4 days ago",
+        location: "Sector 142 (Advant Navis), Noida",
+        comment:
+          "Ordered directly from office at Advant Navis Sector 142. Rider arrived in 32 minutes with sealed factory box. Paid via Google Pay on inspection. Truly top-tier Vape Shop Noida service.",
+      },
     ],
   },
   {
@@ -216,7 +256,7 @@ export const products = [
       },
       {
         q: "Is doorstep delivery available across all Noida residential sectors?",
-        a: "Yes, our courier team covers all sectors (Sector 1 to 168), Central Noida, Expressway societies, and Greater Noida within 60 to 90 minutes.",
+        a: "Yes, our courier team covers all sectors (Sector 1 to 168), Central Noida, Expressway societies, and Greater Noida within 30 to 45 minutes.",
       },
       {
         q: "Is Yuoto Digi 15000 guaranteed original?",
@@ -253,6 +293,26 @@ export const products = [
         location: "Sector 128 Expressway, Noida",
         comment:
           "Ordered via WhatsApp helpline, rider came right on time. Great battery backup and pure crisp double apple flavor till the end.",
+      },
+      {
+        id: 4,
+        name: "Naveen Tyagi",
+        verified: true,
+        rating: 5,
+        time: "2 days ago",
+        location: "Sector 50, Noida",
+        comment:
+          "The digital display showing battery & liquid level is super convenient. Double Apple flavor is sweet and crisp. Delivered to Sector 50 in 25 mins by Vape Shop Noida. 100% authentic.",
+      },
+      {
+        id: 5,
+        name: "Varun Mehta",
+        verified: true,
+        rating: 5,
+        time: "6 days ago",
+        location: "Jaypee Wish Town Sector 128, Noida",
+        comment:
+          "Genuine Yuoto with scratch code. Prompt rider delivery to Jaypee Wish Town gate in 35 mins. Hassle-free WhatsApp ordering and instant UPI payment.",
       },
     ],
   },
@@ -305,7 +365,7 @@ export const products = [
       },
       {
         q: "How fast can I get replacement pods in Noida?",
-        a: "We offer 60 to 90-minute express courier dispatch across all sectors of Noida, Greater Noida, and Delhi NCR with Instant UPI Payment option.",
+        a: "We offer 30 to 45-minute express courier dispatch across all sectors of Noida, Greater Noida, and Delhi NCR with Instant UPI Payment option.",
       },
     ],
     reviews: [
@@ -338,6 +398,26 @@ export const products = [
         location: "Sector 137, Noida",
         comment:
           "VPU mesh coils last significantly longer than older pods. 100% authentic products at the best prices in Noida.",
+      },
+      {
+        id: 4,
+        name: "Gaurav Joshi",
+        verified: true,
+        rating: 5,
+        time: "3 days ago",
+        location: "Sector 62, Noida",
+        comment:
+          "Original Geekvape Q 0.6 ohm pods are hard to find in Noida. Vape Shop Noida delivered the authentic 3-pack to Sector 62 in 30 mins. Zero leakage and amazing flavor longevity.",
+      },
+      {
+        id: 5,
+        name: "Pawan S.",
+        verified: true,
+        rating: 5,
+        time: "1 week ago",
+        location: "Sector 76 Silicon City, Noida",
+        comment:
+          "Picked up at Sector 76 within 15 mins. Perfect fit for Sonder Q and Wenax. Factory sealed with genuine barcode. Recommended store for original coils in Noida.",
       },
     ],
   },
@@ -386,7 +466,7 @@ export const products = [
       },
       {
         q: "How fast is delivery for Elfliq Nic Salts in Noida?",
-        a: "We provide instant 60 to 90-minute express courier delivery across all sectors of Noida, Greater Noida, and same-day delivery in Delhi NCR with Instant UPI Payment (UPI).",
+        a: "We provide instant 30 to 45-minute express courier delivery across all sectors of Noida, Greater Noida, and same-day delivery in Delhi NCR with Instant UPI Payment (UPI).",
       },
       {
         q: "How many refills do I get from a 30ml bottle?",
@@ -423,6 +503,26 @@ export const products = [
         location: "Sector 50, Noida",
         comment:
           "Much cheaper than buying disposables every week. 30ml lasts me almost a month. Excellent customer support on WhatsApp.",
+      },
+      {
+        id: 4,
+        name: "Ayush Mathur",
+        verified: true,
+        rating: 5,
+        time: "Yesterday",
+        location: "Sector 104, Noida",
+        comment:
+          "The menthol throat hit is ice cold and smooth. Exactly what I needed for my refillable pod. Delivered to Sector 104 in 28 mins with free express shipping. 100% original imported nic salt.",
+      },
+      {
+        id: 5,
+        name: "Sameer Khan",
+        verified: true,
+        rating: 5,
+        time: "4 days ago",
+        location: "Sector 137 Expressway, Noida",
+        comment:
+          "Sealed 30ml bottle with verifiable batch number. Express delivery along the Expressway in 35 mins. Smooth ordering via WhatsApp.",
       },
     ],
   },
@@ -471,7 +571,7 @@ export const products = [
       },
       {
         q: "How fast is delivery for Crown Bar 40K in Noida?",
-        a: "Our express delivery riders dispatch immediately, reaching Sector 18, 62, 50, 75, 76, 137, and Expressway within 60 to 90 minutes.",
+        a: "Our express delivery riders dispatch immediately, reaching Sector 18, 62, 50, 75, 76, 137, and Expressway within 30 to 45 minutes.",
       },
       {
         q: "Is this authentic Crown Bar with verification code?",
@@ -508,6 +608,26 @@ export const products = [
         location: "Sector 137, Noida",
         comment:
           "Great battery life and high build quality. Very fast response on WhatsApp helpline. Definitely ordering again from Vape Shop Noida.",
+      },
+          {
+        id: 4,
+        name: "Manish Agarwal",
+        verified: true,
+        rating: 5,
+        time: "2 days ago",
+        location: "Sector 18, Noida",
+        comment:
+          "40,000 puffs with sub-ohm DTL mode feels like a real shisha! Mango pineapple flavor is bursting with tropical sweetness. Express delivered to Sector 18 in 25 mins by Vape Shop Noida.",
+      },
+      {
+        id: 5,
+        name: "Sahil Grover",
+        verified: true,
+        rating: 5,
+        time: "5 days ago",
+        location: "Gaur City, Greater Noida West",
+        comment:
+          "Fast delivery to Gaur City 1. Rider arrived with tamper-proof packaging. Verified scratch QR without issues and paid via PhonePe. Excellent customer support!",
       },
     ],
   },
@@ -556,7 +676,7 @@ export const products = [
       },
       {
         q: "How fast is delivery for Geek Bar CLR in Noida & Delhi NCR?",
-        a: "We offer instant 60 to 90-minute express doorstep courier across all sectors of Noida, Greater Noida, and same-day delivery in Delhi NCR.",
+        a: "We offer instant 30 to 45-minute express doorstep courier across all sectors of Noida, Greater Noida, and same-day delivery in Delhi NCR.",
       },
       {
         q: "How fast does the 800mAh battery charge?",
@@ -593,6 +713,26 @@ export const products = [
         location: "Sector 75, Noida",
         comment:
           "Super smooth draw and pure taste till the very end. Rider came right to my flat door with Instant UPI Payment. Highly recommend!",
+      },
+          {
+        id: 4,
+        name: "Rishabh Jain",
+        verified: true,
+        rating: 5,
+        time: "3 days ago",
+        location: "Sector 76, Noida",
+        comment:
+          "The crystal clear tank design looks super futuristic and you can actually see the liquid. Delivered in 18 minutes in Sector 76! 100% authentic Geek Bar.",
+      },
+      {
+        id: 5,
+        name: "Akash Sharma",
+        verified: true,
+        rating: 5,
+        time: "1 week ago",
+        location: "Sector 62 (IT Park), Noida",
+        comment:
+          "Huge 25,000 puffs capacity and dual mesh hits smoothly. Best disposable vape I have tried this year. Vape Shop Noida provides the fastest delivery in NCR.",
       },
     ],
   },
@@ -641,7 +781,7 @@ export const products = [
       },
       {
         q: "How fast is delivery for Lost Mary 70K in Noida & Delhi NCR?",
-        a: "We offer 60 to 90-minute express doorstep delivery across all sectors of Noida, Greater Noida, and same-day delivery across Delhi NCR.",
+        a: "We offer 30 to 45-minute express doorstep delivery across all sectors of Noida, Greater Noida, and same-day delivery across Delhi NCR.",
       },
       {
         q: "Does this device support Type-C fast charging?",
@@ -678,6 +818,26 @@ export const products = [
         location: "Sector 137 Expressway, Noida",
         comment:
           "Super fast rider delivery along Noida Expressway. The battery backup is extraordinary and clouds are ultra thick and smooth.",
+      },
+          {
+        id: 4,
+        name: "Dhruv Kapoor",
+        verified: true,
+        rating: 5,
+        time: "Yesterday",
+        location: "Sector 104, Noida",
+        comment:
+          "The curved full-view smart screen looks high-tech and shows real-time puff count. Lost Mary quality is unbeatable. Delivered to Sector 104 in 28 mins with instant UPI.",
+      },
+      {
+        id: 5,
+        name: "Chirag Sethi",
+        verified: true,
+        rating: 5,
+        time: "3 days ago",
+        location: "Jaypee Wish Town, Sector 128, Noida",
+        comment:
+          "Ordered via WhatsApp helpline. Received factory-sealed box with genuine scratch QR code. Delivered to Jaypee Wish Town in 32 mins. 10/10 service!",
       },
     ],
   },
@@ -726,7 +886,7 @@ export const products = [
       },
       {
         q: "How fast is delivery for Voopoo Drag H40 Pro in Noida?",
-        a: "We deliver within 60 to 90 minutes across all Noida sectors including Sector 18, 62, 50, 75, 76, 137, and Noida-Greater Noida Expressway.",
+        a: "We deliver within 30 to 45 minutes across all Noida sectors including Sector 18, 62, 50, 75, 76, 137, and Noida-Greater Noida Expressway.",
       },
       {
         q: "Is Voopoo Drag H40 Pro suitable for beginners and advanced vapers?",
@@ -763,6 +923,26 @@ export const products = [
         location: "Sector 50, Noida",
         comment:
           "Zero leaks from the pod cartridge, stepless airflow works like magic. Very polite rider with fast doorstep delivery.",
+      },
+          {
+        id: 4,
+        name: "Siddhesh P.",
+        verified: true,
+        rating: 5,
+        time: "2 days ago",
+        location: "Sector 18 Atta Market, Noida",
+        comment:
+          "Best 40W compact pod mod kit! Dual airflow control gives dense flavor and PNP-VM coils last for weeks. Delivered to Sector 18 in 30 mins with genuine scratch security code.",
+      },
+      {
+        id: 5,
+        name: "Karan Johar",
+        verified: true,
+        rating: 5,
+        time: "5 days ago",
+        location: "Sector 142 (Advant Navis), Noida",
+        comment:
+          "Premium leather grip and solid 1500mAh battery life. Delivered to my office in Sector 142 in 35 mins. Paid online via UPI. Highly recommend Vape Shop Noida.",
       },
     ],
   },
@@ -811,7 +991,7 @@ export const products = [
       },
       {
         q: "How fast is delivery for Nasty Juice Nic Salts across Noida?",
-        a: "Our express delivery couriers deliver within 60 to 90 minutes to Sector 18, 50, 62, 75, 76, 137, Noida Expressway, and Greater Noida.",
+        a: "Our express delivery couriers deliver within 30 to 45 minutes to Sector 18, 50, 62, 75, 76, 137, Noida Expressway, and Greater Noida.",
       },
       {
         q: "How can I verify that my Nasty Juice bottle is 100% original?",
@@ -848,6 +1028,26 @@ export const products = [
         location: "Sector 137 Expressway, Noida",
         comment:
           "Delivered to my society within 45 minutes. Super smooth ordering process on WhatsApp. Best vape store in Noida.",
+      },
+          {
+        id: 4,
+        name: "Tarun Rawat",
+        verified: true,
+        rating: 5,
+        time: "3 days ago",
+        location: "Sector 50, Noida",
+        comment:
+          "The iconic Nasty Juice Slow Blow pineapple lemonade taste is world-class. Authentic imported bottle with tamper seal. Delivered to Sector 50 in 25 mins with free shipping.",
+      },
+      {
+        id: 5,
+        name: "Zaid Ali",
+        verified: true,
+        rating: 5,
+        time: "6 days ago",
+        location: "Indirapuram, Ghaziabad",
+        comment:
+          "Very hard to find authentic 50mg Nasty Juice in NCR. Delivered to Indirapuram in 45 mins. Verified original packaging and smooth throat hit.",
       },
     ],
   },
@@ -891,7 +1091,7 @@ export const products = [
     },
     {
       q: "How fast is delivery for JUUL Device in Noida?",
-      a: "We offer express 60 to 90-minute doorstep courier delivery across all sectors of Noida, Greater Noida, and same-day delivery across Delhi NCR."
+      a: "We offer express 30 to 45-minute doorstep courier delivery across all sectors of Noida, Greater Noida, and same-day delivery across Delhi NCR."
     },
     {
       q: "Can I pay using Instant UPI Payment (UPI) for JUUL in Noida?",
@@ -929,8 +1129,28 @@ export const products = [
       time: "1 week ago",
       location: "Sector 50, Noida",
       comment: "Genuine sealed pack. Best customer service on WhatsApp helpline. 10/10 recommended for anyone in Noida."
-    }
-  ]
+    },
+      {
+        id: 4,
+        name: "Anand Verma",
+        verified: true,
+        rating: 5,
+        time: "2 days ago",
+        location: "Sector 16 Film City, Noida",
+        comment:
+          "Original JUUL slate device delivered to Film City Sector 16A in 30 mins. Magnetic USB dock and ultra-lightweight draw. 100% original authentic kit.",
+      },
+      {
+        id: 5,
+        name: "Ravi Shankar",
+        verified: true,
+        rating: 5,
+        time: "4 days ago",
+        location: "Sector 76, Noida",
+        comment:
+          "Best pocket vape for cigarette switchers. Delivery was express and fast within 20 mins in Sector 76. Verified authentic with instant UPI payment.",
+      },
+    ]
 },
   {
   id: 12,
@@ -976,7 +1196,7 @@ export const products = [
     },
     {
       q: "How fast is delivery for Yuoto Uoto 50000 across Noida sectors?",
-      a: "We deliver within 60 to 90 minutes to Sector 18, 62, 50, 75, 76, 137, and all major residential societies in Noida."
+      a: "We deliver within 30 to 45 minutes to Sector 18, 62, 50, 75, 76, 137, and all major residential societies in Noida."
     },
     {
       q: "Can I verify product authenticity before purchase?",
@@ -1010,8 +1230,28 @@ export const products = [
       time: "1 week ago",
       location: "Sector 137 Expressway, Noida",
       comment: "Excellent delivery service right to my apartment. Instant UPI payment was seamless and the device performs beautifully."
-    }
-  ]
+    },
+      {
+        id: 4,
+        name: "Mohit Chauhan",
+        verified: true,
+        rating: 5,
+        time: "Yesterday",
+        location: "Sector 18, Noida",
+        comment:
+          "50,000 puffs monster device! Watermelon bubblegum flavor is sweet and long-lasting. Delivered to Sector 18 in 25 mins by Vape Shop Noida fleet. Outstanding quality.",
+      },
+      {
+        id: 5,
+        name: "Suraj Pal",
+        verified: true,
+        rating: 5,
+        time: "5 days ago",
+        location: "Noida Extension (Gaur City), Greater Noida",
+        comment:
+          "Delivered to Gaur City 2 in 40 mins with zero delivery charges. Scratched and checked authentication code on Yuoto site. Will definitely buy again.",
+      },
+    ]
 },
   {
   id: 13,
@@ -1061,7 +1301,7 @@ export const products = [
     },
     {
       q: "How fast will I receive my XROS 5 in Noida?",
-      a: "Our express couriers deliver directly to your doorstep in 60 to 90 minutes anywhere in Noida."
+      a: "Our express couriers deliver directly to your doorstep in 30 to 45 minutes anywhere in Noida."
     }
   ],
   reviews: [
@@ -1091,8 +1331,28 @@ export const products = [
       time: "1 week ago",
       location: "Sector 50, Noida",
       comment: "Upgraded from XROS 3 and the difference in battery life and vapor warmth is incredible. 10/10 shop in Noida."
-    }
-  ]
+    },
+      {
+        id: 4,
+        name: "Abhinav Saxena",
+        verified: true,
+        rating: 5,
+        time: "2 days ago",
+        location: "Sector 62, Noida",
+        comment:
+          "Corex 2.0 mesh pod technology gives unreal flavor. 1000mAh battery lasts 2 full days. Delivered to Sector 62 office in 32 mins with genuine scratch QR code.",
+      },
+      {
+        id: 5,
+        name: "Prateek Goel",
+        verified: true,
+        rating: 5,
+        time: "4 days ago",
+        location: "Sector 104, Noida",
+        comment:
+          "Top filling, zero spitback, zero leaks. Vape Shop Noida delivered the authentic kit to Sector 104 in 28 mins. Excellent customer service on WhatsApp.",
+      },
+    ]
 },
   {
   id: 14,
@@ -1138,7 +1398,7 @@ export const products = [
     },
     {
       q: "How fast is delivery across Noida?",
-      a: "Orders placed on WhatsApp or our site are dispatched instantly and delivered in 60 to 90 minutes."
+      a: "Orders placed on WhatsApp or our site are dispatched instantly and delivered in 30 to 45 minutes."
     },
     {
       q: "How can I verify the authenticity of Elf Bar Nic King?",
@@ -1172,8 +1432,28 @@ export const products = [
       time: "1 week ago",
       location: "Sector 137 Expressway, Noida",
       comment: "Peach Mango flavor is delicious and authentic. Rider was very courteous. Will always purchase from this shop."
-    }
-  ]
+    },
+      {
+        id: 4,
+        name: "Deepak Choudhary",
+        verified: true,
+        rating: 5,
+        time: "3 days ago",
+        location: "Sector 75 Capetown, Noida",
+        comment:
+          "The 3-level nicotine control button is revolutionary! Can switch between light and strong throat hit anytime. Delivered to Capetown Sector 75 in 18 mins!",
+      },
+      {
+        id: 5,
+        name: "Vikas Luthra",
+        verified: true,
+        rating: 5,
+        time: "1 week ago",
+        location: "Sector 137, Noida",
+        comment:
+          "30,000 puffs lasts easily over a month. Genuine Elf Bar scratch QR code confirmed. Fast express courier delivery in Sector 137.",
+      },
+    ]
 },
   {
   id: 15,
@@ -1219,7 +1499,7 @@ export const products = [
     },
     {
       q: "How fast is delivery for Caliburn A2 in Noida?",
-      a: "We provide instant 60 to 90-minute express courier delivery across all Noida sectors."
+      a: "We provide instant 30 to 45-minute express courier delivery across all Noida sectors."
     },
     {
       q: "Which e-liquids are best for Caliburn A2?",
@@ -1253,8 +1533,28 @@ export const products = [
       time: "1 week ago",
       location: "Sector 50, Noida",
       comment: "Lightweight, charges in half an hour, and smooth throat hit. Very polite delivery rider."
-    }
-  ]
+    },
+      {
+        id: 4,
+        name: "Nikhil Bhatt",
+        verified: true,
+        rating: 5,
+        time: "Yesterday",
+        location: "Sector 50, Noida",
+        comment:
+          "The PRO-FOCS flavor technology makes Caliburn A2 the king of MTL vaping. Delivered to Sector 50 in 24 mins. 100% original Uwell product with security code.",
+      },
+      {
+        id: 5,
+        name: "Arjun Dev",
+        verified: true,
+        rating: 5,
+        time: "5 days ago",
+        location: "Sector 18 Atta Market, Noida",
+        comment:
+          "Very lightweight aluminum alloy body. Quick Type-C charging in 35 mins. Great communication on WhatsApp and instant UPI payment at delivery.",
+      },
+    ]
 },
   {
   id: 16,
@@ -1300,7 +1600,7 @@ export const products = [
     },
     {
       q: "How fast is delivery for IGET Move in Noida?",
-      a: "Our express couriers deliver directly to your door in 60 to 90 minutes."
+      a: "Our express couriers deliver directly to your door in 30 to 45 minutes."
     },
     {
       q: "Is this authentic IGET with security code?",
@@ -1334,8 +1634,28 @@ export const products = [
       time: "1 week ago",
       location: "Sector 137, Noida",
       comment: "50K puffs lasts forever. The dual flavor feature keeps it fresh without flavor fatigue. Highly recommended!"
-    }
-  ]
+    },
+      {
+        id: 4,
+        name: "Yashvardhan K.",
+        verified: true,
+        rating: 5,
+        time: "2 days ago",
+        location: "Sector 128 (Jaypee Wish Town), Noida",
+        comment:
+          "2 flavors in 1 device is brilliant! Can switch between Blue Razz and Lush Ice with a simple toggle. Delivered to Jaypee Wish Town in 32 mins. 100% authentic IGET.",
+      },
+      {
+        id: 5,
+        name: "Raghav Suri",
+        verified: true,
+        rating: 5,
+        time: "4 days ago",
+        location: "Sector 76 Silicon City, Noida",
+        comment:
+          "50,000 puffs with dual taste switch. Arrived within 15 mins from Sector 76 hub. Discreet tamper-proof packaging and instant GPay payment.",
+      },
+    ]
 },
   {
   id: 17,
@@ -1377,7 +1697,7 @@ export const products = [
     },
     {
       q: "How fast is delivery for IGET Pro in Noida?",
-      a: "We deliver within 60 to 90 minutes across all Noida sectors and expressway communities."
+      a: "We deliver within 30 to 45 minutes across all Noida sectors and expressway communities."
     },
     {
       q: "Does IGET Pro 18000 have a rechargeable battery?",
@@ -1415,8 +1735,28 @@ export const products = [
       time: "1 week ago",
       location: "Sector 62, Noida",
       comment: "Strawberry Ice is super refreshing. Rider arrived promptly with change and UPI scanner. Great service!"
-    }
-  ]
+    },
+      {
+        id: 4,
+        name: "Sanjay Mishra",
+        verified: true,
+        rating: 5,
+        time: "3 days ago",
+        location: "Sector 142 (Advant Navis), Noida",
+        comment:
+          "18,000 puffs compact disposable with great draw resistance. Delivered to Advant Navis in 30 mins. Authentic manufacturer QR code verified on site.",
+      },
+      {
+        id: 5,
+        name: "Mukul Sharma",
+        verified: true,
+        rating: 5,
+        time: "6 days ago",
+        location: "Sector 62, Noida",
+        comment:
+          "Original IGET Pro with smooth airflow and rich nicotine satisfaction. Paid via PhonePe UPI. Best Vape Shop in Noida for express delivery.",
+      },
+    ]
 },
   {
   id: 18,
@@ -1462,7 +1802,7 @@ export const products = [
     },
     {
       q: "How fast is delivery across Noida?",
-      a: "Our dedicated riders deliver within 60 to 90 minutes to your exact location in Noida."
+      a: "Our dedicated riders deliver within 30 to 45 minutes to your exact location in Noida."
     },
     {
       q: "Can I verify the authentication code?",
@@ -1496,8 +1836,28 @@ export const products = [
       time: "1 week ago",
       location: "Sector 50, Noida",
       comment: "Dual mesh coil makes a huge difference in vapor density. Best vape service in Noida!"
-    }
-  ]
+    },
+      {
+        id: 4,
+        name: "Kartik Nair",
+        verified: true,
+        rating: 5,
+        time: "Yesterday",
+        location: "Sector 104, Noida",
+        comment:
+          "The black gold edition finish is so luxurious! Dual mesh coil gives dense clouds. Delivered to Sector 104 in 26 mins with free express shipping.",
+      },
+      {
+        id: 5,
+        name: "Harsh Vardhan",
+        verified: true,
+        rating: 5,
+        time: "4 days ago",
+        location: "Pari Chowk, Greater Noida",
+        comment:
+          "Express delivery reached Pari Chowk Greater Noida in 42 mins. Factory-sealed with genuine scratch security QR. 5-star experience!",
+      },
+    ]
 },
   {
   id: 19,
@@ -1543,7 +1903,7 @@ export const products = [
     },
     {
       q: "How fast will my order arrive in Noida?",
-      a: "Our couriers reach Sector 18, 50, 62, 75, 76, 137, and expressway sectors within 60 to 90 minutes."
+      a: "Our couriers reach Sector 18, 50, 62, 75, 76, 137, and expressway sectors within 30 to 45 minutes."
     },
     {
       q: "Is this genuine Elf Bar stock?",
@@ -1577,8 +1937,28 @@ export const products = [
       time: "1 week ago",
       location: "Sector 76, Noida",
       comment: "Very dependable battery backup and delicious flavor options. Highly recommend ordering here."
-    }
-  ]
+    },
+      {
+        id: 4,
+        name: "Bhavya Gupta",
+        verified: true,
+        rating: 5,
+        time: "2 days ago",
+        location: "Sector 18 Atta Market, Noida",
+        comment:
+          "25,000 puffs with vibrant digital display. Delivered in 25 mins to Sector 18. Verified authentic on official Elf Bar site. Best vape store in Noida.",
+      },
+      {
+        id: 5,
+        name: "Tanmay Dave",
+        verified: true,
+        rating: 5,
+        time: "5 days ago",
+        location: "Sector 75, Noida",
+        comment:
+          "Fast delivery to Sector 75 high-rise societies. Clean discreet packing and instant UPI payment. Very smooth flavor profile.",
+      },
+    ]
 },
   {
   id: 20,
@@ -1624,7 +2004,7 @@ export const products = [
     },
     {
       q: "How fast will I receive my order?",
-      a: "Our express couriers deliver in 60 to 90 minutes anywhere in Noida."
+      a: "Our express couriers deliver in 30 to 45 minutes anywhere in Noida."
     },
     {
       q: "How do I check authenticity of Elf Bar Raya D2?",
@@ -1658,8 +2038,28 @@ export const products = [
       time: "1 week ago",
       location: "Sector 137 Expressway, Noida",
       comment: "Compact design, beautiful screen, and great battery life. 5 stars all the way!"
-    }
-  ]
+    },
+      {
+        id: 4,
+        name: "Mayank Trivedi",
+        verified: true,
+        rating: 5,
+        time: "3 days ago",
+        location: "Sector 128 Wish Town, Noida",
+        comment:
+          "Dual mode turbo boost mode gives huge vapor clouds. Delivered to Jaypee Wish Town in 33 mins. Factory sealed with genuine anti-counterfeit scratch code.",
+      },
+      {
+        id: 5,
+        name: "Gaurav Kohli",
+        verified: true,
+        rating: 5,
+        time: "1 week ago",
+        location: "Sector 76, Noida",
+        comment:
+          "Super quick 15-min delivery in Sector 76! Authentic Elf Bar D2 with great flavor till the end. Highly recommended Vape Shop Noida.",
+      },
+    ]
 }
 ];
 
