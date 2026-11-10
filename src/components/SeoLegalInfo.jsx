@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function SeoLegalInfo() {
   const cards = [
     {
-      title: "Noida Express (60–90m)",
+      title: "Noida Express (30–45m)",
       titleColor: "text-[#325f98]",
-      text: "Direct doorstep dispatch to Sector 18 (Atta Market), Sector 50, Sector 62, Sector 75, Sector 76, Sector 137, and all Noida residential sectors with Cash on Delivery.",
+      text: "Direct doorstep dispatch to Sector 18 (Atta Market), Sector 50, Sector 62, Sector 75, Sector 76, Sector 137, and all Noida residential sectors with Instant UPI payment.",
     },
     {
       title: "Greater Noida & Expressway Delivery",
@@ -34,27 +34,28 @@ export default function SeoLegalInfo() {
     "Sector 62 Electronic City",
     "Sector 137 Expressway",
     "Atta Market Vape Delivery",
-    "Cash on Delivery Vapes NCR",
-    "Late Night Vape Delivery Noida",
+    "Instant UPI Vapes NCR",
+    "Express Vape Delivery Noida",
   ];
 
   return (
     <section
-      aria-label="Vape Shop Noida Local Coverage and Information"
+      id="legal-info"
+      aria-label="Local Coverage and Information"
       className="site-section site-container"
     >
       <div className="bg-white rounded-3xl border border-gray-200/80 shadow-[0_4px_25px_-5px_rgba(0,0,0,0.04)] p-5 sm:p-8 md:p-10 transition-all">
         {/* Top Header */}
         <div className="text-left mb-6 sm:mb-8">
           <h2 className="text-base sm:text-xl md:text-2xl font-extrabold text-gray-900 tracking-tight mb-2 sm:mb-2.5">
-            Vape Shop Noida – Authentic Vapes, Pods &amp; E-Liquids Delivery
+            Authentic Vapes, Pods &amp; E-Liquids Delivery Across Noida
           </h2>
           <p className="text-xs sm:text-sm text-gray-600 leading-relaxed max-w-4xl font-normal">
-            Welcome to <strong className="text-gray-900 font-semibold">Vape Shop Noida</strong>, your trusted online destination for 100% genuine vaping devices, disposable pod bars, refillable kits, and imported nicotine salt e-liquids in Noida, Greater Noida, and Delhi NCR. Whether you are searching for &quot;Vape Shop Noida&quot;, &quot;Best vape shop near me&quot;, or &quot;vape delivery in Noida Sector 18&quot;, we provide lightning-fast doorstep service with genuine factory scratch-code verification.
+            Your trusted destination for 100% genuine vaping devices, disposable pod bars, refillable kits, and imported nicotine salt e-liquids in Noida, Greater Noida, and Delhi NCR. We provide lightning-fast 30-45 minute doorstep delivery with genuine factory scratch-code verification.
           </p>
         </div>
 
-        {/* 3 Information Cards - Exact Reference Match */}
+        {/* 3 Information Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5 sm:gap-4 mb-7 sm:mb-8">
           {cards.map((card) => (
             <div
@@ -71,7 +72,7 @@ export default function SeoLegalInfo() {
           ))}
         </div>
 
-        {/* Trending Searches - Human Craft, Clean Pill Tags */}
+        {/* Trending Searches */}
         <div className="pt-6 border-t border-gray-100">
           <span className="block text-[11px] sm:text-xs font-bold text-gray-500 uppercase tracking-wider mb-3">
             TRENDING SEARCHES IN NOIDA, GREATER NOIDA &amp; DELHI NCR:

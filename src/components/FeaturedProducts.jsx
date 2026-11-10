@@ -39,13 +39,13 @@ export default function FeaturedProducts() {
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2 mb-6 sm:mb-8">
         <div>
           <span className="text-[11px] sm:text-xs font-bold text-[#325f98] uppercase tracking-widest block mb-1">
-            Vape Shop Noida Bestsellers
+            TOP TRENDING IN NOIDA
           </span>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 tracking-tight">
-            Featured Vapes at Vape Shop Noida
+            Featured Vape Devices &amp; Disposables
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mt-1 max-w-xl">
-            Order authentic disposable vapes and refillable pod mods from Vape Shop Noida with 30-45 mins free express delivery.
+            Order authentic disposable vapes, refillable pod mods, and nic salts with 30-45 mins free express delivery across Noida.
           </p>
         </div>
         <Link
@@ -63,7 +63,7 @@ export default function FeaturedProducts() {
           const qty = quantities[product.id] || 1;
           const isFavorited = isInWishlist(product.id);
           const directWhatsAppUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-            `Hi *Vape Shop Noida*, I want to order:\n\n*Product:* ${product.name}\n*Price:* ₹${product.price.toLocaleString("en-IN")}\n*Quantity:* ${qty}\n🔗 *Product Link:* ${getProductUrl(product.slug)}\n\nPlease confirm fast 30-45 mins express delivery in Noida.`
+            `Hi, I want to order:\n\n*Product:* ${product.name}\n*Price:* ₹${product.price.toLocaleString("en-IN")}\n*Quantity:* ${qty}\n🔗 *Product Link:* ${getProductUrl(product.slug)}\n\nPlease confirm express 30-45 mins delivery in Noida.`
           )}`;
 
           return (

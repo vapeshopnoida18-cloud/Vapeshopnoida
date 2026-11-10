@@ -10,36 +10,32 @@ export default function HomeFaq() {
 
   const faqs = [
     {
-      q: "Where is the best authentic Vape Shop Noida located?",
-      a: "Vape Shop Noida is headquartered at Sector 76, Amarpali Silicon City. As the #1 trusted Vape Shop in Noida, we offer 100% authentic disposable vapes (up to 80,000 puffs), refillable pod mods, replacement coils, and imported nic salts with 30-45 minutes free express home delivery across all sectors of Noida, Greater Noida, Ghaziabad, Delhi, and Gurugram.",
+      q: "Where is your store located in Noida?",
+      a: "Our local store is located at Shop no 38,39, Lower Ground Floor, Street 76 Market, Amarpali Silicon City, Sector 76, Noida. From this central fulfillment hub, we deliver authentic disposable vapes, pod mods, coils, and imported nic salts across all sectors of Noida, Greater Noida, and Delhi NCR.",
     },
     {
-      q: "Is there an authentic Vape Shop Noida or smoke shop near me with free delivery?",
-      a: "Yes! If you are searching for a trusted Vape Shop Noida, 'vape shop near me', 'smoke shop near me', or 'buy vape near me' in Noida, Vape Shop Noida provides superfast 30-45 minutes free doorstep delivery across Sector 15, 16, 18, 50, 62, 75, 76, 104, 128, 137, 142, Noida Expressway, Greater Noida, and Delhi NCR with instant UPI payments.",
+      q: "How fast is express delivery across Noida sectors?",
+      a: "Orders are dispatched within 10-15 minutes of WhatsApp order confirmation. Doorstep delivery to Sector 18, Sector 62, Sector 50, Sector 75, Sector 76, and Sector 104 takes just 30 to 45 minutes with 100% free delivery. Deliveries to Greater Noida, Expressway, and Ghaziabad arrive within 40 to 50 minutes.",
     },
     {
-      q: "How fast is Vape Shop Noida express delivery across sectors?",
-      a: "Orders placed with Vape Shop Noida are dispatched within 10-15 minutes of WhatsApp confirmation. Deliveries to Sector 76, Sector 50, Sector 18, Sector 62, and central Noida arrive in just 30 to 45 minutes with 100% Free Express Shipping. Deliveries to Greater Noida, Ghaziabad, Delhi, and Gurugram arrive within 45 to 60 minutes.",
+      q: "Are all vape products 100% genuine with scratch QR verification?",
+      a: "Yes, absolutely. Every device arrives in original brand-sealed shrink-wrap with an authentic manufacturer anti-counterfeit scratch-off QR code. You can verify the 16-digit security key instantly on the brand portal (Geek Bar, Elf Bar, Lost Mary, IGET, Voopoo) before unboxing.",
     },
     {
-      q: "How can I pay for my order at Vape Shop Noida?",
-      a: "Vape Shop Noida offers seamless, instant digital payments via UPI (Google Pay, PhonePe, Paytm, BHIM), direct bank transfer, and QR code scan at the time of order confirmation. Delivery across Noida is 100% FREE on all orders.",
+      q: "What payment methods are supported for doorstep orders?",
+      a: "We support seamless, instant digital payments via UPI (Google Pay, PhonePe, Paytm, BHIM QR scan) as well as net banking upon order confirmation. Delivery across Noida is completely free on all orders.",
     },
     {
-      q: "Are all products from Vape Shop Noida 100% genuine with factory scratch QR codes?",
-      a: "Yes, every disposable vape and pod kit from Vape Shop Noida comes in factory shrink-wrapped packaging with an authentic scratch-off QR verification code that you can verify directly on the official brand website.",
+      q: "Do you deliver to Greater Noida, Ghaziabad, and Delhi NCR?",
+      a: "Yes. Along with our 30-45 minute express delivery in Noida, our fleet provides fast same-day delivery to Pari Chowk, Greater Noida West (Noida Extension), Indirapuram, Vaishali, Vasundhara, Mayur Vihar, and Gurugram.",
     },
     {
-      q: "Does Vape Shop Noida deliver to Ghaziabad, Delhi, and Gurugram?",
-      a: "Yes! While our primary express hub is in Noida with 30-45 min delivery, our dedicated Vape Shop Noida NCR fleet also delivers across Indirapuram, Vaishali, Vasundhara (Ghaziabad), Mayur Vihar & Delhi NCR, and Gurugram on the same day.",
+      q: "How do I place an order or check stock availability?",
+      a: "You can place orders directly by adding products to your cart or messaging our dedicated WhatsApp helpline at +91 80531 17437. Our customer team responds instantly with flavor options, live stock, and delivery estimates.",
     },
     {
-      q: "How can I contact Vape Shop Noida helpline?",
-      a: "You can reach Vape Shop Noida directly via WhatsApp or phone call at +91 80531 17437 for quick menu inquiries, stock availability, and instant 30-45 min free express delivery.",
-    },
-    {
-      q: "Is vaping legal in Noida and Greater Noida?",
-      a: "India's Electronic Cigarettes Act, 2019 prohibits the sale, distribution, import and advertising of e-cigarettes. These statutory health notices and regulations apply throughout Noida, Greater Noida, and Delhi NCR.",
+      q: "What are the age restrictions and compliance regulations?",
+      a: "All vaping products are strictly meant for adults aged 21 and older. Age verification is mandatory prior to delivery dispatch. We strictly adhere to all applicable health regulations and consumer safety guidelines.",
     },
   ];
 
@@ -63,7 +59,8 @@ export default function HomeFaq() {
 
   return (
     <section
-      aria-label="Frequently Asked Questions - Vape Shop Noida"
+      id="faq-section"
+      aria-label="Frequently Asked Questions"
       className="site-section site-container"
     >
       {/* Schema.org FAQPage structured data */}
@@ -76,19 +73,17 @@ export default function HomeFaq() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-6 sm:mb-9">
           <span className="text-[11px] sm:text-xs font-bold text-[#325f98] uppercase tracking-widest block mb-1.5">
-            FAQS
+            FREQUENTLY ASKED QUESTIONS
           </span>
           <h2 className="text-base sm:text-xl md:text-2xl lg:text-3xl font-extrabold text-gray-900 tracking-tight mb-2 sm:mb-2.5">
-            Vape Shop Noida – Frequently Asked Questions
+            Everything You Need to Know About Ordering &amp; Delivery
           </h2>
           <p className="text-xs sm:text-sm text-gray-600 leading-relaxed font-normal">
-            Find answers to common questions about Vape Shop Noida searches,
-            e-cigarette regulations, vaping restrictions and health information
-            across Noida, Greater Noida and Delhi NCR.
+            Find answers to common questions about authenticity verification, delivery timings, accepted payment methods, and sector coverage in Noida.
           </p>
         </div>
 
-        {/* 6 FAQs Accordion */}
+        {/* FAQs Accordion */}
         <div className="max-w-4xl mx-auto space-y-3">
           {faqs.map((faq, index) => {
             const isOpen = openIndex === index;
@@ -153,11 +148,11 @@ export default function HomeFaq() {
         <div className="mt-8 pt-6 border-t border-gray-100 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-gray-600 font-medium">
           <span className="flex items-center gap-1.5 text-gray-700">
             <FiCheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-            <span>Have More Questions?</span>
+            <span>Still Have Questions?</span>
           </span>
           <span className="hidden sm:inline text-gray-300">•</span>
           <a
-            href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20Vape%20Shop%20Noida%2C%20I%20have%20a%20question%20about%20delivery%20in%20my%20sector.`}
+            href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hi%2C%20I%20have%20a%20question%20about%20ordering%20in%20Noida.`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-[#325f98] font-semibold hover:underline"
@@ -170,4 +165,3 @@ export default function HomeFaq() {
     </section>
   );
 }
-

@@ -36,7 +36,8 @@ export default function VideoShowcase() {
 
   return (
     <section
-      aria-label="Vape Shop Noida Authenticity & Scratch QR Verification Guide"
+      id="verification-guide"
+      aria-label="Authenticity and Scratch QR Verification Guide"
       className="site-section site-container"
     >
       <div className="bg-white rounded-3xl border border-gray-200/80 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-5 sm:p-8 md:p-10 transition-all">
@@ -50,19 +51,19 @@ export default function VideoShowcase() {
             How to Verify Authentic Vapes in Noida
           </h2>
           <p className="text-xs sm:text-sm text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            At Vape Shop Noida, we only deliver 100% original, factory-sealed devices with verifiable scratch-off QR codes. Here is our simple 4-step authenticity check before you pay:
+            We only deliver 100% original, factory-sealed devices with verifiable scratch-off QR codes. Here is our simple 4-step authenticity check before you pay:
           </p>
         </div>
 
         {/* 2-Column Grid: Real Product Image + 4-Step Verification Workflow */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
-          
+
           {/* Left Column: Real Website Product Banner Image (7 Cols) */}
           <div className="lg:col-span-7">
             <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden border border-gray-200/90 shadow-md bg-slate-950 aspect-[1448/1086] group">
               <Image
                 src="/vapes-in-noida.png"
-                alt="Vape Shop in Noida - One-Stop Shop for Vaping Essentials"
+                alt="Vape Shop Noida & Vape Shop in Noida - 100% Genuine Scratch QR Verification"
                 fill
                 sizes="(max-width: 1024px) 100vw, 680px"
                 className="object-contain transition-transform duration-500 group-hover:scale-102"

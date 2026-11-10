@@ -11,7 +11,7 @@ const banners = [
     desktopWebp: "/herobanner/banner3.webp",
     mobileAvif: "/herobanner/mobilebanner3.avif",
     mobileWebp: "/herobanner/mobilebanner3.webp",
-    alt: "Vape Shop Noida - Best Vapes, Pods & E-Liquids with 30-45 Mins Free Express Delivery",
+    alt: "Vape Shop Noida - Premium Vapes, Pods & E-Liquids with 30-45 Mins Free Delivery",
     href: "/products",
   },
   {
@@ -20,7 +20,7 @@ const banners = [
     desktopWebp: "/herobanner/banner2.webp",
     mobileAvif: "/herobanner/mobilebanner2.avif",
     mobileWebp: "/herobanner/mobilebanner2.webp",
-    alt: "Buy 100% Authentic Disposable Vapes in Noida - Free Doorstep Delivery with Instant UPI at Vape Shop Noida",
+    alt: "Vape Shop in Noida - 100% Authentic Disposable Vapes with Instant UPI & Doorstep Delivery",
     href: "/products",
   },
   {
@@ -29,7 +29,7 @@ const banners = [
     desktopWebp: "/herobanner/banner4.webp",
     mobileAvif: "/herobanner/mobilebanner4.avif",
     mobileWebp: "/herobanner/mobilebanner4.webp",
-    alt: "Vape Shop Noida - 100% Original Vapes with Scratch Code Verification and 30-45 Mins Free Delivery",
+    alt: "Vape Shop Noida Delivery - Factory Sealed Original Vapes with Scratch QR Verification",
     href: "/products",
   },
 ];
@@ -139,7 +139,7 @@ export default function HeroSlider() {
 
   return (
     <section
-      aria-label="Hero Featured Banners - Vape Shop Noida"
+      aria-label="Featured Offers and Deals"
       className="relative site-container pt-3 sm:pt-4 pb-5 sm:pb-7 md:pb-8"
       onMouseEnter={stopAutoSlide}
       onMouseLeave={startAutoSlide}

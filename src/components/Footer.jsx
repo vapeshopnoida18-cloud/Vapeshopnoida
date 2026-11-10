@@ -13,10 +13,10 @@ import {
   FiClock,
 } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
-import { products, WHATSAPP_NUMBER } from "@/data/products";
+import { WHATSAPP_NUMBER } from "@/data/products";
 
 export default function Footer() {
-  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20Vape%20Shop%20Noida%2C%20I%20want%20to%20order%20vapes%20with%20express%20delivery.`;
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=Hi%2C%20I%20want%20to%20order%20vapes%20with%20express%20delivery%20in%20Noida.`;
   const callUrl = `tel:+918053117437`;
 
   const productGuides = [
@@ -37,54 +37,52 @@ export default function Footer() {
     { name: "FAQs", href: "/#faq-section" },
   ];
 
-  // Best Google High-Intent Search Keywords for Top 3 Ranking
+  // Natural Google High-Intent Search Queries & Landing Pages
   const topGoogleKeywords = [
-    { title: "Vape Shop Noida", href: "/products" },
-    { title: "Vape Shop Noida Sector 76", href: "/vape-delivery/sector-76-noida" },
-    { title: "Vape Shop Noida Sector 18", href: "/vape-delivery/sector-18-noida" },
-    { title: "Vape Shop Noida Sector 62", href: "/vape-delivery/sector-62-noida" },
-    { title: "Vape Shop Noida Sector 50", href: "/vape-delivery/sector-50-noida" },
-    { title: "Vape Shop Noida Sector 75", href: "/vape-delivery/sector-75-noida" },
-    { title: "Vape Shop Noida Sector 104", href: "/vape-delivery/sector-104-noida" },
-    { title: "Vape Shop Noida Sector 128", href: "/vape-delivery/sector-128-noida" },
-    { title: "Vape Shop Noida Sector 137", href: "/vape-delivery/sector-137-noida" },
-    { title: "Vape Shop Noida Sector 142", href: "/vape-delivery/sector-142-noida" },
-    { title: "Vape Shop Noida Greater Noida", href: "/vape-delivery/greater-noida" },
-    { title: "Vape Shop Noida Extension", href: "/vape-delivery/noida-extension" },
-    { title: "Vape Shop Noida Delivery Ghaziabad", href: "/vape-delivery/ghaziabad" },
-    { title: "Vape Shop Noida Delhi NCR", href: "/vape-delivery/delhi-ncr" },
-    { title: "Vape Shop Noida Gurugram", href: "/vape-delivery/gurugram" },
-    { title: "Vape Store Near Me Noida", href: "/products" },
+    { title: "Vape Shop in Noida", href: "/products" },
+    { title: "Sector 76 Delivery", href: "/vape-delivery/sector-76-noida" },
+    { title: "Sector 18 Atta Market", href: "/vape-delivery/sector-18-noida" },
+    { title: "Sector 62 Electronic City", href: "/vape-delivery/sector-62-noida" },
+    { title: "Sector 50 Central Hub", href: "/vape-delivery/sector-50-noida" },
+    { title: "Sector 75 & 78 Capetown", href: "/vape-delivery/sector-75-noida" },
+    { title: "Sector 104 High Street", href: "/vape-delivery/sector-104-noida" },
+    { title: "Sector 128 Wish Town", href: "/vape-delivery/sector-128-noida" },
+    { title: "Sector 137 Expressway", href: "/vape-delivery/sector-137-noida" },
+    { title: "Sector 142 Advant", href: "/vape-delivery/sector-142-noida" },
+    { title: "Greater Noida & Pari Chowk", href: "/vape-delivery/greater-noida" },
+    { title: "Noida Extension (Gaur City)", href: "/vape-delivery/noida-extension" },
+    { title: "Indirapuram & Ghaziabad", href: "/vape-delivery/ghaziabad" },
+    { title: "Delhi NCR Doorstep Delivery", href: "/vape-delivery/delhi-ncr" },
+    { title: "Gurugram Same-Day Delivery", href: "/vape-delivery/gurugram" },
     { title: "Smoke Shop Near Me", href: "/products" },
-    { title: "Buy Vape Online Noida", href: "/products" },
-    { title: "Free Vape Delivery Noida", href: "/products" },
-    { title: "Geek Bar Burj 80000 Noida", href: "/products/geek-bar-burj-80000-disposable-vape" },
-    { title: "Lost Mary Mega 70000 Noida", href: "/products/lost-mary-mega-fullview-70000-disposable-vape" },
-    { title: "Yuoto Digi 15000 Noida", href: "/products/yuoto-digi-15000-disposable-vape" },
-    { title: "Elf Bar BC5000 Noida", href: "/products/ebcreate-bc5000-disposable-pod-device" },
-    { title: "Voopoo Drag H40 Noida", href: "/products/voopoo-drag-h40-pro-pod-mod-kit" },
+    { title: "Buy Vape Online", href: "/products" },
+    { title: "Express Vape Delivery", href: "/products" },
+    { title: "Geek Bar Burj 80000", href: "/products/geek-bar-burj-80000-disposable-vape" },
+    { title: "Lost Mary Mega 70000", href: "/products/lost-mary-mega-fullview-70000-disposable-vape" },
+    { title: "Yuoto Digi 15000", href: "/products/yuoto-digi-15000-disposable-vape" },
+    { title: "Elf Bar BC5000", href: "/products/ebcreate-bc5000-disposable-pod-device" },
+    { title: "Voopoo Drag H40 Kit", href: "/products/voopoo-drag-h40-pro-pod-mod-kit" },
     { title: "Vaporesso XROS 5 Kit", href: "/products/vaporesso-xros-5-pod-kit" },
     { title: "Uwell Caliburn A2 Pod", href: "/products/uwell-caliburn-a2-pod-system" },
     { title: "IGET Move 50000 Puffs", href: "/products/iget-move-b50000-disposable-vape" },
     { title: "Nasty Juice Nic Salt 30ml", href: "/products/nasty-juice-nic-salt-series-30ml" },
     { title: "Crown Bar 40K MegaMax", href: "/products/crown-bar-40k-megamax-disposable-vape" },
-    { title: "Best Vape Shop Noida", href: "/products" },
-    { title: "Vape Shop Noida Express 30 Min", href: "/products" },
-    { title: "Instant UPI Online Payment", href: "/contact" },
+    { title: "30-45 Min Free Delivery", href: "/products" },
+    { title: "Instant UPI Doorstep Payment", href: "/contact" },
   ];
 
   return (
     <footer
-      aria-label="Vape Shop Noida Official Footer"
+      aria-label="Official Footer"
       className="relative bg-[#050b17] text-gray-300 border-t border-slate-800/80 overflow-hidden"
     >
-      {/* Background Subtle Gradient Glow matching reference screenshot */}
+      {/* Background Subtle Gradient Glow */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-600/5 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 right-10 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-8 pb-6 relative z-10">
         {/* ========================================================= */}
-        {/* TOP FLOATING CARD: 4 Highlights (Exact match to reference) */}
+        {/* TOP FLOATING CARD: 4 Highlights */}
         {/* ========================================================= */}
         <div className="bg-[#0b1329]/90 border border-blue-900/40 rounded-2xl p-5 sm:p-6 mb-12 shadow-2xl backdrop-blur-md">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
@@ -151,17 +149,17 @@ export default function Footer() {
         </div>
 
         {/* ========================================================= */}
-        {/* MAIN 4-COLUMN FOOTER BODY (Exact match to reference) */}
+        {/* MAIN 4-COLUMN FOOTER BODY */}
         {/* ========================================================= */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-10 pb-10">
-          {/* Column 1: Brand & Tagline + Buttons (4.5 Cols) */}
+          {/* Column 1: Brand & Tagline + Buttons */}
           <div className="lg:col-span-4 space-y-4">
-            <Link href="/" className="inline-block" aria-label="Vape Shop Noida Home">
+            <Link href="/" className="inline-block" aria-label="Vape Shop in Noida Home">
               <div className="flex items-center gap-3">
                 <div className="relative h-10 w-44 brightness-0 invert">
                   <Image
                     src="/logo.webp"
-                    alt="Vape Shop Noida Logo"
+                    alt="Vape Shop in Noida Logo"
                     fill
                     sizes="176px"
                     className="object-contain object-left"
@@ -176,10 +174,10 @@ export default function Footer() {
             </div>
 
             <p className="text-xs sm:text-sm text-gray-400 leading-relaxed font-normal">
-              Vape Shop Noida is an information platform and authentic supplier for vaping regulations, product guides, and express doorstep service. Get genuine verified devices, safety tips and lightning-fast delivery across Sector 76, Sector 18, Greater Noida and Delhi NCR.
+              Your trusted platform for vaping regulations, authentic device guides, and express doorstep delivery. Enjoy genuine verified devices, scratch QR security, and lightning-fast 30-45 minute service across Sector 76, Sector 18, Greater Noida, and Delhi NCR.
             </p>
 
-            {/* Action Buttons: Chat on WhatsApp & Call Support (Exact screenshot styling) */}
+            {/* Action Buttons */}
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <a
                 href={whatsappUrl}
@@ -201,7 +199,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Column 2: PRODUCT GUIDES (2.5 Cols) */}
+          {/* Column 2: PRODUCT GUIDES */}
           <div className="lg:col-span-2 space-y-3">
             <div className="relative inline-block pb-1">
               <h3 className="text-xs font-bold text-white uppercase tracking-wider">
@@ -226,7 +224,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: INFORMATION (2.5 Cols) */}
+          {/* Column 3: INFORMATION */}
           <div className="lg:col-span-3 space-y-3">
             <div className="relative inline-block pb-1">
               <h3 className="text-xs font-bold text-white uppercase tracking-wider">
@@ -251,7 +249,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4: GET IN TOUCH (3 Cols) - User's exact address & email, NO social media */}
+          {/* Column 4: GET IN TOUCH */}
           <div className="lg:col-span-3 space-y-3">
             <div className="relative inline-block pb-1">
               <h3 className="text-xs font-bold text-white uppercase tracking-wider">
@@ -261,7 +259,7 @@ export default function Footer() {
             </div>
 
             <div className="space-y-3 text-xs text-gray-300">
-              {/* Address (Exact user instruction) */}
+              {/* Address */}
               <div className="flex items-start gap-2.5">
                 <FiMapPin className="w-4 h-4 text-blue-400 shrink-0 mt-0.5" />
                 <span className="text-gray-300 leading-relaxed">
@@ -269,7 +267,7 @@ export default function Footer() {
                 </span>
               </div>
 
-              {/* Email (Exact user instruction) */}
+              {/* Email */}
               <div className="flex items-center gap-2.5">
                 <FiMail className="w-4 h-4 text-blue-400 shrink-0" />
                 <a
@@ -306,13 +304,13 @@ export default function Footer() {
         </div>
 
         {/* ========================================================= */}
-        {/* BEST GOOGLE SEARCHING KEYWORDS (For Top 3 Rank & Indexing) */}
+        {/* POPULAR LOCAL SEARCHES & SECTOR HUBS */}
         {/* ========================================================= */}
         <div className="border-t border-slate-800/80 pt-6 pb-6">
           <div className="flex items-center gap-2 mb-3">
             <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
             <h4 className="text-[11px] font-bold text-gray-400 uppercase tracking-wider">
-              Trending Google Searches in Noida &amp; Delhi NCR:
+              Popular Local Searches &amp; Sector Hubs:
             </h4>
           </div>
           <div className="flex flex-wrap gap-2">
@@ -329,11 +327,11 @@ export default function Footer() {
         </div>
 
         {/* ========================================================= */}
-        {/* BOTTOM COPYRIGHT & POLICY BAR (Exact match to reference) */}
+        {/* BOTTOM COPYRIGHT & POLICY BAR */}
         {/* ========================================================= */}
         <div className="border-t border-slate-800/80 pt-5 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <div>
-            © 2026 Vape Shop Noida. All Rights Reserved.
+            © 2026 Vape Shop in Noida. All Rights Reserved.
           </div>
 
           <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-gray-400">

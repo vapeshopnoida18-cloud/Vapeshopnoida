@@ -2,6 +2,7 @@ import HeroSlider from "@/components/HeroSlider";
 import QuickFeatures from "@/components/QuickFeatures";
 import SeoIntro from "@/components/SeoIntro";
 import FeaturedProducts from "@/components/FeaturedProducts";
+import KnowledgeHub from "@/components/KnowledgeHub";
 import HomeReviews from "@/components/HomeReviews";
 import VideoShowcase from "@/components/VideoShowcase";
 import ServiceAreas from "@/components/ServiceAreas";
@@ -9,14 +10,14 @@ import SeoLegalInfo from "@/components/SeoLegalInfo";
 import HomeFaq from "@/components/HomeFaq";
 
 export const metadata = {
-  title: "Vape Shop in Noida | 30-45 Min Free Delivery",
+  title: "Vape Shop Noida | Vape Shop in Noida - 30-45 Min Free Delivery",
   description:
-    "Looking for the #1 Vape Shop in Noida? Buy 100% authentic disposable vapes, refillable pod mods, mesh coils & nic salts with 30-45 mins free express delivery across Sector 18, 62, 50, 76, 137, Greater Noida, Ghaziabad, Delhi & Gurugram. Instant UPI payment.",
+    "Looking for the #1 Vape Shop Noida or Vape Shop in Noida? Buy 100% authentic disposable vapes (Elf Bar, Geek Bar, Lost Mary, IGET) & pod mods with 30-45 mins free delivery across all Noida sectors. Instant UPI payment.",
   keywords: [
-    "vape shop in noida",
     "vape shop noida",
-    "smoke shop near me",
+    "vape shop in noida",
     "vape stores near me",
+    "smoke shop near me",
     "vape near me",
     "free vape delivery noida",
     "vape delivery noida",
@@ -40,9 +41,9 @@ export const metadata = {
     canonical: "https://vapeshopinnoida.com",
   },
   openGraph: {
-    title: "Vape Shop in Noida | 30-45 Min Free Delivery",
+    title: "Vape Shop Noida | Vape Shop in Noida - 30-45 Min Free Delivery",
     description:
-      "Looking for the best Vape Shop in Noida? Buy 100% authentic disposable vapes, pods & e-liquids with 30-45 mins free express delivery across Noida, Greater Noida, Ghaziabad, Delhi & Gurugram.",
+      "Looking for the best Vape Shop Noida or Vape Shop in Noida? Buy 100% authentic disposable vapes (Elf Bar, Geek Bar, Lost Mary, IGET) & pod mods with 30-45 mins free express delivery across Noida & NCR.",
     url: "https://vapeshopinnoida.com",
     siteName: "Vape Shop in Noida",
     locale: "en_IN",
@@ -52,13 +53,13 @@ export const metadata = {
         url: "https://vapeshopinnoida.com/herobanner/banner3.webp",
         width: 1600,
         height: 658,
-        alt: "Vape Shop in Noida - Express 30-45 Mins Free Doorstep Delivery",
+        alt: "Vape Shop Noida - Express 30-45 Mins Free Doorstep Delivery",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vape Shop in Noida | 30-45 Min Free Delivery",
+    title: "Vape Shop Noida | Vape Shop in Noida - 30-45 Min Free Delivery",
     description:
       "Buy authentic vapes in Noida with 30-45 min free express doorstep delivery across Sector 18, 62, 76 & Noida. Instant UPI payment.",
     images: ["https://vapeshopinnoida.com/herobanner/banner3.webp"],
@@ -80,7 +81,10 @@ export default function Home() {
       {/* 4. Featured Vape Devices & Disposables Product Cards */}
       <FeaturedProducts />
 
-      {/* 5. Verified Customer Reviews & Ratings for Noida */}
+      {/* 5. Vaping Guides, Authenticity & Noida Insights Hub */}
+      <KnowledgeHub />
+
+      {/* 6. Verified Customer Reviews & Ratings for Noida */}
       <HomeReviews />
 
       {/* 6. Authentic Verification & Scratch QR Video Showcase */}

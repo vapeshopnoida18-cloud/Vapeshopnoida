@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { FiStar, FiCheckCircle, FiMapPin, FiPackage, FiClock } from "react-icons/fi";
+import { FiStar, FiCheckCircle, FiMapPin, FiClock } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import { WHATSAPP_NUMBER } from "@/data/products";
 
@@ -20,7 +20,7 @@ export default function HomeReviews() {
       time: "Yesterday",
       title: "Fastest delivery in Atta Market, 100% authentic QR code!",
       comment:
-        "Ordered the Geek Bar Burj 80000 puffs on WhatsApp. The rider reached Sector 18 Atta Market in just 28 minutes. Scratched the QR code on the spot and verified it on the official Geek Bar website. Zero hassle, paid via Google Pay after inspecting. Best Vape Shop in Noida!",
+        "Ordered the Geek Bar Burj 80000 puffs on WhatsApp. The rider reached Sector 18 Atta Market in just 28 minutes. Scratched the QR code on the spot and verified it on the official Geek Bar website. Zero hassle, paid via Google Pay after inspecting. Best vape service in Noida!",
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ export default function HomeReviews() {
       time: "2 days ago",
       title: "Discreet packaging & instant delivery in 18 minutes",
       comment:
-        "Since the store is located in Sector 76, delivery was super quick—under 20 minutes! The box was completely sealed in plain tamper-evident packaging. Lost Mary 70K flavor is incredibly smooth. Highly recommend Vape Shop Noida for genuine stock.",
+        "Since the store is located in Sector 76, delivery was super quick—under 20 minutes! The box was completely sealed in plain tamper-evident packaging. Lost Mary 70K flavor is incredibly smooth. Highly recommend for genuine stock.",
     },
     {
       id: 3,
@@ -68,7 +68,7 @@ export default function HomeReviews() {
       time: "5 days ago",
       title: "Delivered straight to Jaypee Wish Town gate",
       comment:
-        "Living along the Noida Expressway, usually deliveries take hours. Vape Shop Noida rider delivered in 35 minutes directly to Klassic Towers gate. Authentic Voopoo kit, factory shrink-wrapped. Paid via PhonePe UPI.",
+        "Living along the Noida Expressway, usually deliveries take hours. Rider delivered in 35 minutes directly to Klassic Towers gate. Authentic Voopoo kit, factory shrink-wrapped. Paid via PhonePe UPI.",
     },
     {
       id: 6,
@@ -78,9 +78,9 @@ export default function HomeReviews() {
       product: "IGET Move 50000 Puffs",
       rating: 5,
       time: "1 week ago",
-      title: "Best vape shop near me with Greater Noida West delivery",
+      title: "Best vape delivery service in Greater Noida West",
       comment:
-        "Hard to find original IGET 50K dual flavor devices in Greater Noida West. Vape Shop Noida delivered to Gaur City 2 in 40 minutes with zero delivery charge. Official scratch code verified genuine. Will order regularly!",
+        "Hard to find original IGET 50K dual flavor devices in Greater Noida West. Delivered to Gaur City 2 in 40 minutes with zero delivery charge. Official scratch code verified genuine. Will order regularly!",
     },
   ];
 
@@ -89,45 +89,11 @@ export default function HomeReviews() {
       ? reviews
       : reviews.filter((r) => r.sector === activeFilter);
 
-  // Schema.org Review & AggregateRating JSON-LD
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Store",
-    name: "Vape Shop in Noida",
-    url: "https://vapeshopinnoida.com",
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "1280",
-      bestRating: "5",
-      worstRating: "1",
-    },
-    review: reviews.map((r) => ({
-      "@type": "Review",
-      author: {
-        "@type": "Person",
-        name: r.name,
-      },
-      datePublished: "2025-01-15",
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: r.rating,
-        bestRating: 5,
-      },
-      reviewBody: r.comment,
-    })),
-  };
-
   return (
     <section
-      aria-label="Customer Reviews & Ratings for Vape Shop Noida"
+      aria-label="Verified Customer Reviews and Experiences in Noida"
       className="site-section site-container"
     >
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
-      />
-
       <div className="bg-white rounded-3xl border border-gray-200/80 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-5 sm:p-8 md:p-10 transition-all">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6 sm:mb-8 pb-5 border-b border-gray-100">
@@ -143,7 +109,7 @@ export default function HomeReviews() {
               <span className="text-gray-600 font-normal">Based on 1,280+ Verified Buyers</span>
             </div>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 tracking-tight">
-              Customer Reviews – Vape Shop Noida
+              Customer Reviews &amp; Experiences in Noida
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 mt-1 max-w-2xl">
               Real feedback from verified buyers across Sector 18, Sector 62, Sector 76, Sector 104, Expressway &amp; NCR enjoying 30-45 mins free delivery.
@@ -310,12 +276,12 @@ export default function HomeReviews() {
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
             <span className="font-medium text-gray-700">
-              Have you ordered with Vape Shop Noida? Share your experience with us!
+              Have you ordered with us? Share your experience with our team!
             </span>
           </div>
 
           <a
-            href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20Vape%20Shop%20Noida%2C%20I%20want%20to%20share%20my%20review%20and%20feedback.`}
+            href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hi%2C%20I%20want%20to%20share%20my%20review%20and%20feedback.`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 px-3.5 py-1.5 rounded-full transition-colors cursor-pointer"
@@ -328,4 +294,3 @@ export default function HomeReviews() {
     </section>
   );
 }
-

@@ -17,44 +17,44 @@ export default function SeoIntro() {
     {
       id: 1,
       title: "100% Authentic Guarantee",
-      desc: "Every product at Vape Shop Noida features an official scratch-and-verify QR authentication code. Zero clones, zero fakes.",
+      desc: "Every device features an official scratch-and-verify QR authentication code. Zero clones, zero fakes.",
       icon: FiShield,
       iconColor: "text-[#325f98]",
       bgHover: "hover:border-[#325f98]/40",
-      pill: "Vape Shop Noida Stock",
+      pill: "Verified Stock",
     },
     {
       id: 2,
       title: "30-45 Min Free Fleet",
-      desc: "Vape Shop Noida dedicated local riders stationed across Sector 18, 62, 76, 137, Greater Noida, Ghaziabad & Delhi NCR for free rapid delivery.",
+      desc: "Dedicated local riders stationed across Noida Sector 18, 62, 76, 137, Greater Noida, Ghaziabad & Delhi NCR for free rapid delivery.",
       icon: FiClock,
       iconColor: "text-emerald-600",
       bgHover: "hover:border-emerald-500/40",
-      pill: "Vape Shop Noida Express",
+      pill: "Free Express Noida",
     },
     {
       id: 3,
       title: "100% Discreet Packaging",
-      desc: "Vape Shop Noida delivers in plain, unmarked, tamper-evident sealed packaging to protect your privacy completely.",
+      desc: "Delivered in plain, unmarked, tamper-evident sealed packaging to protect your privacy completely.",
       icon: FiPackage,
       iconColor: "text-indigo-600",
       bgHover: "hover:border-indigo-500/40",
-      pill: "Vape Shop Noida Privacy",
+      pill: "Total Privacy",
     },
     {
       id: 4,
       title: "Instant UPI & QR Payment",
-      desc: "Vape Shop Noida convenient digital payment. Inspect your tamper-evident package and pay via Google Pay, PhonePe, or Paytm.",
+      desc: "Convenient digital payment at your doorstep. Inspect your tamper-evident package and pay via Google Pay, PhonePe, or Paytm.",
       icon: FiCreditCard,
       iconColor: "text-amber-600",
       bgHover: "hover:border-amber-500/40",
-      pill: "Vape Shop Noida Payment",
+      pill: "Instant Pay",
     },
   ];
 
   return (
     <section
-      aria-label="About Vape Shop Noida - Authentic Devices & Express Delivery"
+      aria-label="About Vape Shop in Noida - Authentic Devices & Express Delivery"
       className="site-section site-container"
     >
       {/* Outer Premium Frame with subtle ambient glow */}
@@ -69,19 +69,19 @@ export default function SeoIntro() {
             {/* Top Micro Pill */}
             <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 py-1 sm:py-1.5 rounded-full bg-[#325f98]/10 border border-[#325f98]/20 text-[#325f98] text-[11px] sm:text-xs font-semibold tracking-wide">
               <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-[#325f98] animate-pulse shrink-0" />
-              <span>Vape Shop Noida Official Hub</span>
+              <span>Noida&apos;s Verified Express Vape Hub</span>
               <span className="text-gray-300">|</span>
               <span className="text-gray-600 font-normal truncate">All Sectors &amp; NCR Covered</span>
             </div>
 
             {/* Main H1 Heading for Top 3 Google Ranking */}
             <h1 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight leading-snug sm:leading-tight">
-              Best <span className="text-[#325f98]">Vape Shop in Noida</span> – Authentic Vape Shop Noida with 30-45 Min Free Delivery
+              #1 <span className="text-[#325f98]">Vape Shop Noida</span> &amp; <span className="text-[#325f98]">Vape Shop in Noida</span> – 100% Genuine with 30-45 Min Free Delivery
             </h1>
 
             {/* Keyword-Rich Content Tailored Exclusively for Noida */}
             <p className="text-xs sm:text-base text-gray-600 leading-relaxed font-normal">
-              Looking for the premier <strong className="text-gray-900 font-semibold">Vape Shop Noida</strong> or trusted <strong className="text-gray-900 font-semibold">Vape Shop in Noida</strong>? As the top-rated <strong className="text-gray-900 font-semibold">Vape Shop Noida</strong> store and leading <strong className="text-gray-900 font-semibold">smoke shop near me</strong>, we deliver 100% factory-sealed disposable vapes, pod systems, replacement coils, and imported nic salts. Our localized <strong className="text-gray-900 font-semibold">Vape Shop Noida</strong> fleet delivers free straight to your doorstep across <strong className="text-gray-900 font-semibold">Sector 15, Sector 16, Sector 18 (Atta Market), Sector 50, Sector 62, Sector 75, Sector 76, Sector 104, Sector 128, Sector 137, Sector 142</strong>, along the <strong className="text-gray-900 font-semibold">Noida Expressway</strong>, <strong className="text-gray-900 font-semibold">Noida Extension &amp; Greater Noida</strong>, and across <strong className="text-gray-900 font-semibold">Ghaziabad, Delhi &amp; Gurugram</strong> with instant UPI payment.
+              Looking for a dependable <strong className="text-gray-900 font-semibold">Vape Shop Noida</strong> or searching for the best <strong className="text-gray-900 font-semibold">Vape Shop in Noida</strong> and trusted <strong className="text-gray-900 font-semibold">smoke shop near me</strong> with fast doorstep delivery? As Noida’s premier destination for original disposable vapes (Elf Bar, Geek Bar, Lost Mary, IGET), advanced pod systems, replacement coils, and imported nic salts, we ensure every device arrives with verified scratch-off authentication. Our dedicated express fleet delivers 100% free straight to your society gate or office across <strong className="text-gray-900 font-semibold">Sector 15, Sector 18 (Atta Market), Sector 50, Sector 62, Sector 75, Sector 76, Sector 104, Sector 128, Sector 137, Sector 142</strong>, along the <strong className="text-gray-900 font-semibold">Noida Expressway</strong>, <strong className="text-gray-900 font-semibold">Noida Extension &amp; Greater Noida</strong>, and across <strong className="text-gray-900 font-semibold">Ghaziabad, Delhi &amp; Gurugram</strong> with instant UPI payment.
             </p>
 
             {/* Trending Quick Links Badges */}

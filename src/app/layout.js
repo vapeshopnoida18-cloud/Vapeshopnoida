@@ -8,16 +8,16 @@ import { WishlistProvider } from "@/context/WishlistContext";
 
 export const metadata = {
   title: {
-    default: "Vape Shop in Noida | 30-45 Min Free Delivery",
+    default: "Vape Shop Noida | Vape Shop in Noida - 30-45 Min Free Delivery",
     template: "%s | Vape Shop in Noida",
   },
   description:
-    "Best Vape Shop in Noida offering 100% genuine disposable vapes, pod mods & e-liquids with 30-45 mins free express delivery across Sector 18, 62, 50, 76, 137, Greater Noida, Ghaziabad, Delhi & Gurugram. Instant UPI payment.",
+    "Best Vape Shop Noida and Vape Shop in Noida offering 100% genuine disposable vapes (Elf Bar, Geek Bar, Lost Mary, IGET) with 30-45 mins free express delivery across Sector 18, 62, 50, 76, 137, Greater Noida & Delhi NCR. Instant UPI payment.",
   keywords: [
-    "vape shop in noida",
     "vape shop noida",
-    "smoke shop near me",
+    "vape shop in noida",
     "vape stores near me",
+    "smoke shop near me",
     "vape near me",
     "free vape delivery noida",
     "vape delivery noida",
@@ -65,9 +65,9 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "Vape Shop in Noida | 30-45 Min Free Delivery",
+    title: "Vape Shop Noida | Vape Shop in Noida - 30-45 Min Free Delivery",
     description:
-      "Buy 100% genuine disposable vapes, pods & e-liquids in Noida. Superfast 30-45 mins free express delivery across Noida, Greater Noida, Ghaziabad, Delhi & Gurugram.",
+      "Buy 100% genuine disposable vapes (Elf Bar, Geek Bar, Lost Mary, IGET), pods & e-liquids in Noida. Superfast 30-45 mins free express delivery across Noida, Greater Noida, Ghaziabad & Delhi NCR.",
     url: "https://vapeshopinnoida.com",
     siteName: "Vape Shop in Noida",
     locale: "en_IN",
@@ -77,13 +77,13 @@ export const metadata = {
         url: "/herobanner/banner3.webp",
         width: 1600,
         height: 658,
-        alt: "Vape Shop in Noida - 30-45 Min Free Express Delivery",
+        alt: "Vape Shop Noida - 30-45 Min Free Express Delivery",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vape Shop in Noida | 30-45 Min Free Delivery",
+    title: "Vape Shop Noida | Vape Shop in Noida - 30-45 Min Free Delivery",
     description:
       "Buy 100% genuine disposable vapes, pods & e-liquids in Noida with 30-45 mins free express delivery across Noida & NCR.",
     images: ["/herobanner/banner3.webp"],

@@ -8,84 +8,84 @@ export default function ServiceAreas() {
     {
       name: "Sector 18 & Atta Market",
       slug: "sector-18-noida",
-      subtext: "Vape Shop Noida Central Retail Hub",
+      subtext: "Central Commercial & Retail Hub",
       badge: "30 Mins",
       badgeStyle: "bg-emerald-50 text-emerald-700 border border-emerald-200/60",
     },
     {
       name: "Sector 62 & Electronic City",
       slug: "sector-62-noida",
-      subtext: "Vape Shop Noida Corporate Tech Belt",
+      subtext: "Corporate Tech Parks & Institutional Area",
       badge: "35 Mins",
       badgeStyle: "bg-emerald-50 text-emerald-700 border border-emerald-200/60",
     },
     {
       name: "Sector 76 & Silicon City",
       slug: "sector-76-noida",
-      subtext: "Vape Shop Noida Store Location Hub",
+      subtext: "Express Hub & Storefront Vicinity",
       badge: "15-20 Mins",
       badgeStyle: "bg-blue-50 text-[#325f98] border border-blue-200/60",
     },
     {
       name: "Sector 75 & 78 Capetown",
       slug: "sector-75-noida",
-      subtext: "Vape Shop Noida High-Rise Societies",
+      subtext: "High-Rise Gated Residential Societies",
       badge: "15-20 Mins",
       badgeStyle: "bg-blue-50 text-[#325f98] border border-blue-200/60",
     },
     {
       name: "Sector 50 & Central Noida",
       slug: "sector-50-noida",
-      subtext: "Vape Shop Noida Residential Hub",
+      subtext: "Central Residential Sectors & Markets",
       badge: "25 Mins",
       badgeStyle: "bg-emerald-50 text-emerald-700 border border-emerald-200/60",
     },
     {
       name: "Sector 104 & Starling Mall",
       slug: "sector-104-noida",
-      subtext: "Vape Shop Noida High-Street Cafes",
+      subtext: "High-Street Cafes & Sector 100/105 Belt",
       badge: "25-30 Mins",
       badgeStyle: "bg-emerald-50 text-emerald-700 border border-emerald-200/60",
     },
     {
       name: "Sector 137 & Expressway",
       slug: "sector-137-noida",
-      subtext: "Vape Shop Noida Expressway Belt",
+      subtext: "Expressway High-Rise Condominiums",
       badge: "35 Mins",
       badgeStyle: "bg-emerald-50 text-emerald-700 border border-emerald-200/60",
     },
     {
       name: "Sector 128 Jaypee Wish Town",
       slug: "sector-128-noida",
-      subtext: "Vape Shop Noida Luxury Condos",
+      subtext: "Jaypee Wish Town & Golf Course Societies",
       badge: "25-35 Mins",
       badgeStyle: "bg-emerald-50 text-emerald-700 border border-emerald-200/60",
     },
     {
       name: "Sector 142 & Advant Navis",
       slug: "sector-142-noida",
-      subtext: "Vape Shop Noida Corporate IT Park",
+      subtext: "Corporate IT Park & Commercial Corridor",
       badge: "30-35 Mins",
       badgeStyle: "bg-emerald-50 text-emerald-700 border border-emerald-200/60",
     },
     {
       name: "Greater Noida & Pari Chowk",
       slug: "greater-noida",
-      subtext: "Vape Shop Noida Knowledge Park",
+      subtext: "Knowledge Park, Delta & Alpha Sectors",
       badge: "45 Mins",
       badgeStyle: "bg-indigo-50 text-indigo-700 border border-indigo-200/60",
     },
     {
       name: "Noida Extension (Gaur City)",
       slug: "noida-extension",
-      subtext: "Vape Shop Noida West High-Rise Belt",
+      subtext: "Greater Noida West High-Rise Belt",
       badge: "35-45 Mins",
       badgeStyle: "bg-indigo-50 text-indigo-700 border border-indigo-200/60",
     },
     {
       name: "Indirapuram & Ghaziabad",
       slug: "ghaziabad",
-      subtext: "Vape Shop Noida NCR Vaishali Fleet",
+      subtext: "Indirapuram, Vaishali & Vasundhara Fleet",
       badge: "Same Day",
       badgeStyle: "bg-amber-50 text-amber-700 border border-amber-200/60",
     },
@@ -93,20 +93,20 @@ export default function ServiceAreas() {
 
   return (
     <section
-      aria-label="Vape Shop Noida NCR Service Areas"
+      aria-label="Doorstep Service Areas Across Noida and NCR"
       className="site-section site-container"
     >
       <div className="bg-white rounded-3xl border border-gray-200/80 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-5 sm:p-8 md:p-10 transition-all">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-6 sm:mb-8">
           <span className="text-[11px] sm:text-xs font-bold text-[#325f98] uppercase tracking-widest block mb-1.5">
-            VAPE SHOP NOIDA EXPRESS DELIVERY
+            LOCAL DELIVERY HUBS
           </span>
           <h2 className="text-base sm:text-xl md:text-2xl lg:text-3xl font-extrabold text-gray-900 tracking-tight mb-2 sm:mb-2.5">
-            Vape Shop Noida Local Service Areas
+            Express Vape Delivery Coverage in Noida
           </h2>
           <p className="text-xs sm:text-sm text-gray-600 leading-relaxed max-w-2xl mx-auto">
-            Looking for authentic Vape Shop Noida delivery? Enjoy 100% Free Express 30-45 Min Doorstep Delivery across all Noida sectors, Greater Noida, Ghaziabad, Delhi, and Gurugram.
+            Enjoy 100% Free Express 30-45 Min Doorstep Delivery across all residential and commercial sectors in Noida, Greater Noida, Ghaziabad, Delhi, and Gurugram.
           </p>
         </div>
 
@@ -154,7 +154,7 @@ export default function ServiceAreas() {
         <div className="mt-6 pt-5 border-t border-gray-100 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-gray-600 font-medium">
           <span className="flex items-center gap-1.5 text-gray-700">
             <FiCheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-            <span>Vape Shop Noida: 30-45 Mins Free Delivery in All Sectors</span>
+            <span>30-45 Mins Free Delivery in All Sectors</span>
           </span>
           <span className="hidden sm:inline text-gray-300">•</span>
           <span className="flex items-center gap-1.5 text-gray-700">
@@ -163,7 +163,7 @@ export default function ServiceAreas() {
           </span>
           <span className="hidden sm:inline text-gray-300">•</span>
           <a
-            href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20Vape%20Shop%20Noida%2C%20what%20is%20the%20delivery%20time%20to%20my%20sector%3F`}
+            href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20there%2C%20what%20is%20the%20delivery%20time%20to%20my%20sector%20in%20Noida%3F`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-[#325f98] font-semibold hover:underline"

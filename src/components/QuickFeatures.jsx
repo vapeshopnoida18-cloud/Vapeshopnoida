@@ -10,7 +10,7 @@ export default function QuickFeatures() {
   const features = [
     {
       id: 1,
-      badge: "VAPE SHOP NOIDA",
+      badge: "100% GENUINE",
       title: "Genuine Vapes",
       href: "/products",
       icon: FiShoppingBag,
@@ -19,7 +19,7 @@ export default function QuickFeatures() {
     },
     {
       id: 2,
-      badge: "VAPE SHOP NOIDA 24/7",
+      badge: "24/7 HELPLINE",
       title: `Call ${displayPhone}`,
       mobileTitle: "Call 24/7 Support",
       href: `tel:${phoneNumber}`,
@@ -39,7 +39,7 @@ export default function QuickFeatures() {
     },
     {
       id: 4,
-      badge: "VAPE SHOP NOIDA TRENDING",
+      badge: "TOP TRENDING",
       title: "Disposable Vapes",
       href: "/products?category=disposable",
       icon: FiTrendingUp,
@@ -50,7 +50,7 @@ export default function QuickFeatures() {
 
   return (
     <section
-      aria-label="Vape Shop Noida Express Services & Quick Support"
+      aria-label="Express Services and Quick Support"
       className="site-section site-container"
     >
       {/* 2-Column on Mobile, 4-Column on Desktop for Compact Non-Stretched UX */}
@@ -97,7 +97,7 @@ export default function QuickFeatures() {
               target={item.href.startsWith("http") ? "_blank" : undefined}
               rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
               className="block focus:outline-none h-full"
-              aria-label={`${item.badge} - ${item.title} - Vape Shop Noida`}
+              aria-label={`${item.badge} - ${item.title}`}
             >
               {CardContent}
             </a>
@@ -106,7 +106,7 @@ export default function QuickFeatures() {
               key={item.id}
               href={item.href}
               className="block focus:outline-none h-full"
-              aria-label={`${item.badge} - ${item.title} - Vape Shop Noida`}
+              aria-label={`${item.badge} - ${item.title}`}
             >
               {CardContent}
             </Link>

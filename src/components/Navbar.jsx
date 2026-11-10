@@ -130,19 +130,19 @@ export default function Navbar() {
       {/* 2. Main Capsule Navbar */}
       <div className="max-w-7xl mx-auto px-3 sm:px-6 py-3 sm:py-4">
         <nav
-          aria-label="Main Navigation - Vape Shop Noida"
+          aria-label="Main Navigation"
           className="bg-white rounded-full border border-gray-200/90 shadow-[0_4px_25px_-5px_rgba(0,0,0,0.07)] px-4 sm:px-7 py-3 sm:py-3.5 md:py-4 flex items-center justify-between gap-3 md:gap-6"
         >
           {/* Brand Logo with Strict SEO Alt Tag */}
           <Link
             href="/"
             className="flex items-center shrink-0 group focus:outline-none"
-            aria-label="Vape Shop Noida Homepage"
+            aria-label="Vape Shop in Noida Home"
           >
             <div className="relative h-9 sm:h-11 md:h-12 w-40 sm:w-48 md:w-52 transition-transform duration-200 group-hover:scale-[1.02]">
               <Image
                 src="/logo.webp"
-                alt="Vape Shop Noida - 100% Authentic Vapes & Fast Express Delivery"
+                alt="Vape Shop in Noida Logo"
                 fill
                 priority
                 sizes="(max-width: 640px) 160px, (max-width: 768px) 192px, 208px"
@@ -353,7 +353,7 @@ export default function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-2 bg-[#325f98] hover:bg-[#254977] text-white text-xs sm:text-sm font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-full shadow-sm hover:shadow transition-all duration-150 active:scale-95 cursor-pointer"
-              aria-label="Order on WhatsApp - Vape Shop Noida"
+              aria-label="Order on WhatsApp"
             >
               <FaWhatsapp className="w-4 h-4 sm:w-4.5 sm:h-4.5 text-white" />
               <span className="text-white">Order on WhatsApp</span>
@@ -516,7 +516,7 @@ export default function Navbar() {
               >
                 <FaWhatsapp className="w-4 h-4 text-white" />
                 <span className="text-white">
-                  Order on WhatsApp (60 Min Delivery)
+                  Order on WhatsApp (30-45 Min Delivery)
                 </span>
               </a>
             </div>
