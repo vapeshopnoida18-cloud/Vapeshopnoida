@@ -1,16 +1,16 @@
 import ContactClient from "./ContactClient";
 
 export const metadata = {
-  title: "Contact Us | Vape Shop in Noida Sector 76 - Store Location & Helpline",
+  title: "Contact Us | Vape Shop Noida - Sector 76 Store & Helpline",
   description:
-    "Contact Vape Shop in Noida. Visit our retail hub at Shop no 38,39, Lower Ground Floor, Street 76, Market, Amarpali Silicon City, Sector 76, Noida 201316. WhatsApp/Call: +91 80531 17437 for 30-45 min express delivery.",
+    "Contact Vape Shop in Noida. Visit our retail hub at Shop no 38,39, Lower Ground Floor, Street 76, Market, Amarpali Silicon City, Sector 76, Noida 201316. WhatsApp: +91 80531 17437 for 30-45 min express delivery.",
   keywords: [
     "vape shop in noida",
     "contact vape shop noida",
     "vape shop sector 76 noida",
     "vape shop amarpali silicon city",
     "vape delivery helpline noida",
-    "vape shop noida phone number",
+    "vape shop noida whatsapp number",
     "vape shop near me noida",
     "vape shop sector 18 noida",
     "vape delivery ncr contact",
@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "Contact Us | Vape Shop in Noida Sector 76 - Express Delivery & Store Support",
     description:
-      "Get in touch with Vape Shop in Noida at Sector 76, Amarpali Silicon City. Express 30-45 min vape delivery across all Noida sectors. Call/WhatsApp: +91 80531 17437.",
+      "Get in touch with Vape Shop in Noida at Sector 76, Amarpali Silicon City. Express 30-45 min vape delivery across all Noida sectors. WhatsApp: +91 80531 17437.",
     url: "https://vapeshopinnoida.com/contact",
     siteName: "Vape Shop in Noida",
     locale: "en_IN",
@@ -31,7 +31,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Contact Us | Vape Shop in Noida Sector 76",
     description:
-      "Express 30-45 min vape delivery across Noida. Helpline: +91 80531 17437.",
+      "Express 30-45 min vape delivery across Noida. WhatsApp: +91 80531 17437.",
   },
 };
 

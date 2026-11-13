@@ -9,10 +9,10 @@ import { WishlistProvider } from "@/context/WishlistContext";
 export const metadata = {
   title: {
     default: "Vape Shop Noida | Vape Shop in Noida - 30-45 Min Free Delivery",
-    template: "%s | Vape Shop in Noida",
+    template: "%s",
   },
   description:
-    "Best Vape Shop Noida and Vape Shop in Noida offering 100% genuine disposable vapes (Elf Bar, Geek Bar, Lost Mary, IGET) with 30-45 mins free express delivery across Sector 18, 62, 50, 76, 137, Greater Noida & Delhi NCR. Instant UPI payment.",
+    "Looking for the #1 Vape Shop Noida? Buy authentic disposable vapes (Elf Bar, Geek Bar, Lost Mary, IGET) & pod mods with 30-45 mins free delivery across all Noida sectors. Instant UPI.",
   keywords: [
     "vape shop noida",
     "vape shop in noida",
@@ -38,9 +38,7 @@ export const metadata = {
     "iget vape noida",
   ],
   metadataBase: new URL("https://vapeshopinnoida.com"),
-  alternates: {
-    canonical: "/",
-  },
+  // No global canonical in layout — each page sets its own specific canonical
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },

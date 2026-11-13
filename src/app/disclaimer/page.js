@@ -12,17 +12,13 @@ import { FaWhatsapp } from "react-icons/fa";
 import { WHATSAPP_NUMBER } from "@/data/products";
 
 export const metadata = {
-  title: "Disclaimer & Legal Notice | Vape Shop in Noida - Statutory Health Warning",
+  title: "Disclaimer & Legal Notice | Vape Shop Noida - Statutory Health Warning",
   description:
     "Official Disclaimer and Statutory Health Notice for Vape Shop in Noida. Important nicotine health warnings, PECA Act 2019 legal information, and adult consumer guidance.",
-  keywords: [
-    "vape shop in noida",
-    "disclaimer vape shop noida",
-    "nicotine health warning noida",
-    "peca act 2019 information",
-    "electronic cigarettes act india",
-    "vaping safety guidelines noida",
-  ],
+  robots: {
+    index: false,
+    follow: true,
+  },
   alternates: {
     canonical: "https://vapeshopinnoida.com/disclaimer",
   },

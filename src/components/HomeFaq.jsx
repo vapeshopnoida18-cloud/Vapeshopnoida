@@ -10,6 +10,18 @@ export default function HomeFaq() {
 
   const faqs = [
     {
+      q: "Where can I buy disposable vape online in Noida?",
+      a: "You can buy 100% authentic disposable vapes online directly from Vape Shop in Noida (vapeshopinnoida.com). We stock original Elf Bar, Geek Bar, Lost Mary, IGET, and Yuoto devices with 30-45 minutes free express doorstep delivery across all sectors of Noida and Delhi NCR.",
+    },
+    {
+      q: "Which is the best vape shop in Noida?",
+      a: "Vape Shop in Noida is rated the #1 most trusted vape store in Noida. Operating from Sector 76 Amarpali Silicon City, we guarantee 100% authentic products with verifiable anti-counterfeit scratch-off QR codes, instant doorstep UPI payment, and the fastest 30-45 minute free delivery fleet in Noida.",
+    },
+    {
+      q: "What vape brands are available at Vape Shop in Noida?",
+      a: "We stock an extensive collection of leading international vape brands including EBCREATE (Elf Bar), Geek Bar (Pulse & Burj 80000), Lost Mary, IGET (Move & Pro), Yuoto, Crown Bar 40K, Voopoo, Vaporesso, and premium imported nicotine salts like Nasty Juice and Elfliq.",
+    },
+    {
       q: "Where is your store located in Noida?",
       a: "Our local store is located at Shop no 38,39, Lower Ground Floor, Street 76 Market, Amarpali Silicon City, Sector 76, Noida. From this central fulfillment hub, we deliver authentic disposable vapes, pod mods, coils, and imported nic salts across all sectors of Noida, Greater Noida, and Delhi NCR.",
     },
@@ -19,11 +31,11 @@ export default function HomeFaq() {
     },
     {
       q: "Are all vape products 100% genuine with scratch QR verification?",
-      a: "Yes, absolutely. Every device arrives in original brand-sealed shrink-wrap with an authentic manufacturer anti-counterfeit scratch-off QR code. You can verify the 16-digit security key instantly on the brand portal (Geek Bar, Elf Bar, Lost Mary, IGET, Voopoo) before unboxing.",
+      a: "Yes, absolutely. Every device arrives in original brand-sealed shrink-wrap with an authentic manufacturer anti-counterfeit scratch-off QR code. You can verify the 16-digit security key instantly on the brand portal before unboxing.",
     },
     {
       q: "What payment methods are supported for doorstep orders?",
-      a: "We support seamless, instant digital payments via UPI (Google Pay, PhonePe, Paytm, BHIM QR scan) as well as net banking upon order confirmation. Delivery across Noida is completely free on all orders.",
+      a: "We support seamless, instant digital payments via UPI (Google Pay, PhonePe, Paytm, BHIM QR scan) upon order arrival at your doorstep. Delivery across Noida is completely free on all orders.",
     },
     {
       q: "Do you deliver to Greater Noida, Ghaziabad, and Delhi NCR?",
@@ -32,10 +44,6 @@ export default function HomeFaq() {
     {
       q: "How do I place an order or check stock availability?",
       a: "You can place orders directly by adding products to your cart or messaging our dedicated WhatsApp helpline at +91 80531 17437. Our customer team responds instantly with flavor options, live stock, and delivery estimates.",
-    },
-    {
-      q: "What are the age restrictions and compliance regulations?",
-      a: "All vaping products are strictly meant for adults aged 21 and older. Age verification is mandatory prior to delivery dispatch. We strictly adhere to all applicable health regulations and consumer safety guidelines.",
     },
   ];
 

@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${product.name} | Vape Shop in Noida`,
+    title: `${product.name} | Vape Shop Noida`,
     description: `Buy original ${product.name} at Vape Shop in Noida with 30-45 mins free express delivery. 100% authentic with scratch QR verification, ${product.specs}, Instant UPI payment available across all Noida sectors.`,
     keywords: [
       product.name,

@@ -31,24 +31,7 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.8,
     },
-    {
-      url: `${baseUrl}/privacy-policy`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/terms`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/disclaimer`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
+    // Note: terms, privacy-policy, disclaimer are noindex — excluded from sitemap intentionally
   ];
 
   // 2. All 20 Product Detail Pages

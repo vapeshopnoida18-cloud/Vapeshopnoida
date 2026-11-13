@@ -15,7 +15,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { WHATSAPP_NUMBER } from "@/data/products";
 
 export const metadata = {
-  title: "About Us | Vape Shop in Noida - Authentic Vapes & Express Delivery",
+  title: "About Us | Vape Shop Noida - Authentic Vapes & Express Delivery",
   description:
     "Learn about Vape Shop in Noida, operating from Sector 76 Amarpali Silicon City. Delivering 100% genuine disposable vapes, pod systems & nic salts with 30-45 mins doorstep express dispatch across Noida & Greater Noida.",
   keywords: [

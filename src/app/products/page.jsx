@@ -2,9 +2,9 @@ import { Suspense } from "react";
 import ProductsCatalogClient from "@/components/ProductsCatalogClient";
 
 export const metadata = {
-  title: "All Vape Devices & Disposables | Vape Shop in Noida",
+  title: "Buy Disposable Vapes Online in Noida | Vape Shop Noida",
   description:
-    "Explore authentic disposable vapes (up to 80,000 puffs), refillable pod kits & nic salts at Vape Shop in Noida. Free 30-45 min express delivery across Sector 18, 62, 76 & all Noida sectors with instant UPI.",
+    "Explore authentic disposable vapes (up to 80,000 puffs), refillable pod kits & nic salts in Noida. Free 30-45 min express delivery across all Noida sectors with instant UPI.",
   keywords: [
     "vape shop in noida",
     "vape shop noida",

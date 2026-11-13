@@ -2,6 +2,7 @@ import HeroSlider from "@/components/HeroSlider";
 import QuickFeatures from "@/components/QuickFeatures";
 import SeoIntro from "@/components/SeoIntro";
 import FeaturedProducts from "@/components/FeaturedProducts";
+import HomeSeoArticle from "@/components/HomeSeoArticle";
 import KnowledgeHub from "@/components/KnowledgeHub";
 import HomeReviews from "@/components/HomeReviews";
 import VideoShowcase from "@/components/VideoShowcase";
@@ -12,7 +13,7 @@ import HomeFaq from "@/components/HomeFaq";
 export const metadata = {
   title: "Vape Shop Noida | Vape Shop in Noida - 30-45 Min Free Delivery",
   description:
-    "Looking for the #1 Vape Shop Noida or Vape Shop in Noida? Buy 100% authentic disposable vapes (Elf Bar, Geek Bar, Lost Mary, IGET) & pod mods with 30-45 mins free delivery across all Noida sectors. Instant UPI payment.",
+    "Looking for the #1 Vape Shop Noida? Buy authentic disposable vapes (Elf Bar, Geek Bar, Lost Mary, IGET) & pod mods with 30-45 mins free delivery. Instant UPI.",
   keywords: [
     "vape shop noida",
     "vape shop in noida",
@@ -81,7 +82,10 @@ export default function Home() {
       {/* 4. Featured Vape Devices & Disposables Product Cards */}
       <FeaturedProducts />
 
-      {/* 5. Vaping Guides, Authenticity & Noida Insights Hub */}
+      {/* 5. Editorial SEO Content Block (Competitor-Outranking Structure) */}
+      <HomeSeoArticle />
+
+      {/* 6. Vaping Guides, Authenticity & Noida Insights Hub */}
       <KnowledgeHub />
 
       {/* 6. Verified Customer Reviews & Ratings for Noida */}

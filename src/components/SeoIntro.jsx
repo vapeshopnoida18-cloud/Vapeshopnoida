@@ -76,7 +76,7 @@ export default function SeoIntro() {
 
             {/* Main H1 Heading for Top 3 Google Ranking */}
             <h1 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight leading-snug sm:leading-tight">
-              #1 <span className="text-[#325f98]">Vape Shop Noida</span> &amp; <span className="text-[#325f98]">Vape Shop in Noida</span> – 100% Genuine with 30-45 Min Free Delivery
+              Vape Shop Noida – #1 Authentic Vapes with 30-45 Min Free Delivery
             </h1>
 
             {/* Keyword-Rich Content Tailored Exclusively for Noida */}

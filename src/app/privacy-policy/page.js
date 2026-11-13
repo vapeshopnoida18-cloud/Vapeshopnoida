@@ -13,17 +13,13 @@ import { FaWhatsapp } from "react-icons/fa";
 import { WHATSAPP_NUMBER } from "@/data/products";
 
 export const metadata = {
-  title: "Privacy Policy | Vape Shop in Noida - Data Protection & Age Compliance",
+  title: "Privacy Policy | Vape Shop Noida - Data Protection & Age Compliance",
   description:
     "Official Privacy Policy of Vape Shop in Noida. Learn how we handle customer order details, discreet express doorstep delivery, 21+ age verification, and data security.",
-  keywords: [
-    "vape shop in noida",
-    "privacy policy vape shop noida",
-    "vape delivery privacy noida",
-    "vape shop sector 76 customer data",
-    "discreet vape packaging noida",
-    "age verification 21+ vape noida",
-  ],
+  robots: {
+    index: false,
+    follow: true,
+  },
   alternates: {
     canonical: "https://vapeshopinnoida.com/privacy-policy",
   },
