@@ -10,7 +10,6 @@ import {
   FiCreditCard,
   FiPackage,
   FiArrowRight,
-  FiPhone,
 } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import { WHATSAPP_NUMBER } from "@/data/products";
@@ -425,14 +424,6 @@ export default function AboutPage() {
               >
                 <FaWhatsapp className="w-4 h-4" />
                 <span>Order on WhatsApp (+91 80531 17437)</span>
-              </a>
-
-              <a
-                href="tel:+918053117437"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white text-xs font-bold transition-all active:scale-95 cursor-pointer"
-              >
-                <FiPhone className="w-4 h-4" />
-                <span>Call Helpline Directly</span>
               </a>
             </div>
           </div>

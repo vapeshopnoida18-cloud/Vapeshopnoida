@@ -1,11 +1,10 @@
 import Link from "next/link";
-import { FiShoppingBag, FiPhoneCall, FiChevronRight, FiTrendingUp } from "react-icons/fi";
+import { FiShoppingBag, FiCreditCard, FiChevronRight, FiTrendingUp } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
+import { WHATSAPP_NUMBER } from "@/data/products";
 
 export default function QuickFeatures() {
-  const phoneNumber = "+918053117437";
-  const displayPhone = "+91 80531 17437";
-  const whatsappUrl = `https://wa.me/918053117437?text=Hi%20Vape%20Shop%20Noida%2C%20I%20want%20to%20order%20vapes%20in%20Noida.`;
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=Hi%2C%20I%20want%20to%20order%20vapes%20in%20Noida.`;
 
   const features = [
     {
@@ -19,13 +18,13 @@ export default function QuickFeatures() {
     },
     {
       id: 2,
-      badge: "24/7 HELPLINE",
-      title: `Call ${displayPhone}`,
-      mobileTitle: "Call 24/7 Support",
-      href: `tel:${phoneNumber}`,
-      icon: FiPhoneCall,
+      badge: "INSTANT UPI",
+      title: "Doorstep UPI Pay",
+      mobileTitle: "Instant UPI Pay",
+      href: "/contact",
+      icon: FiCreditCard,
       iconBg: "bg-blue-50 text-[#325f98]",
-      isExternal: true,
+      isExternal: false,
     },
     {
       id: 3,

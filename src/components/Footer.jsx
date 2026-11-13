@@ -8,7 +8,6 @@ import {
   FiMapPin,
   FiMail,
   FiGlobe,
-  FiPhone,
   FiChevronRight,
   FiClock,
 } from "react-icons/fi";
@@ -17,7 +16,6 @@ import { WHATSAPP_NUMBER } from "@/data/products";
 
 export default function Footer() {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=Hi%2C%20I%20want%20to%20order%20vapes%20with%20express%20delivery%20in%20Noida.`;
-  const callUrl = `tel:+918053117437`;
 
   const productGuides = [
     { name: "Disposable Vapes", href: "/products?category=disposable" },
@@ -183,18 +181,10 @@ export default function Footer() {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#06241a] hover:bg-[#093527] border border-emerald-500 text-emerald-400 text-xs font-semibold px-4 py-2.5 rounded-full transition-all duration-200 cursor-pointer shadow-sm hover:shadow-emerald-500/20"
+                className="inline-flex items-center gap-2 bg-[#06241a] hover:bg-[#093527] border border-emerald-500 text-emerald-400 text-xs font-semibold px-5 py-2.5 rounded-full transition-all duration-200 cursor-pointer shadow-sm hover:shadow-emerald-500/20"
               >
                 <FaWhatsapp className="w-4 h-4 text-emerald-400" />
                 <span>Chat on WhatsApp</span>
-              </a>
-
-              <a
-                href={callUrl}
-                className="inline-flex items-center gap-2 bg-[#0d1f3b] hover:bg-[#122b52] border border-blue-500 text-blue-400 text-xs font-semibold px-4 py-2.5 rounded-full transition-all duration-200 cursor-pointer shadow-sm hover:shadow-blue-500/20"
-              >
-                <FiPhone className="w-4 h-4 text-blue-400" />
-                <span>Call Support</span>
               </a>
             </div>
           </div>
@@ -289,14 +279,16 @@ export default function Footer() {
                 </Link>
               </div>
 
-              {/* Helpline Phone */}
+              {/* WhatsApp Helpline */}
               <div className="flex items-center gap-2.5">
-                <FiPhone className="w-4 h-4 text-emerald-400 shrink-0" />
+                <FaWhatsapp className="w-4 h-4 text-emerald-400 shrink-0" />
                 <a
-                  href="tel:+918053117437"
+                  href={whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-300 hover:text-emerald-400 transition-colors"
                 >
-                  +91 80531 17437 (Express Helpline)
+                  +91 80531 17437 (WhatsApp Helpline)
                 </a>
               </div>
             </div>

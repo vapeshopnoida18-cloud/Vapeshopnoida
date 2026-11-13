@@ -6,7 +6,6 @@ import {
   FiEye,
   FiMail,
   FiMapPin,
-  FiPhone,
   FiChevronRight,
   FiCheckCircle,
 } from "react-icons/fi";
@@ -243,9 +242,14 @@ export default function PrivacyPolicyPage() {
                 </a>
               </div>
               <div className="flex items-center gap-2">
-                <FiPhone className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                <a href="tel:+918053117437" className="hover:underline font-semibold">
-                  +91 80531 17437
+                <FaWhatsapp className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                <a
+                  href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hi%2C%20I%20have%20a%20query%20about%20the%20privacy%20policy.`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline font-semibold text-emerald-700"
+                >
+                  +91 80531 17437 (WhatsApp)
                 </a>
               </div>
             </div>

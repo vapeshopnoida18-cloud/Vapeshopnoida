@@ -5,7 +5,6 @@ import Link from "next/link";
 import {
   FiMapPin,
   FiMail,
-  FiPhone,
   FiClock,
   FiShield,
   FiTruck,
@@ -145,37 +144,39 @@ export default function ContactClient() {
             </div>
           </div>
 
-          {/* Card 2: Phone Helpline */}
-          <div className="bg-white rounded-3xl border border-gray-200/80 hover:border-[#325f98]/60 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl transition-all duration-200 p-6 flex flex-col justify-between">
+          {/* Card 2: WhatsApp Helpline */}
+          <div className="bg-white rounded-3xl border border-gray-200/80 hover:border-emerald-500/60 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl transition-all duration-200 p-6 flex flex-col justify-between">
             <div>
               <div className="flex items-center justify-between mb-4">
-                <div className="w-12 h-12 rounded-2xl bg-blue-50 text-[#325f98] flex items-center justify-center shadow-xs">
-                  <FiPhone className="w-6 h-6" />
+                <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center shadow-xs">
+                  <FaWhatsapp className="w-6 h-6" />
                 </div>
-                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-bold bg-blue-100/70 text-[#325f98]">
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-bold bg-emerald-100/70 text-emerald-800">
                   <FiClock className="w-3 h-3" />
                   10:00 AM – Midnight
                 </span>
               </div>
 
               <h3 className="text-base font-bold text-gray-900 mb-1.5">
-                Helpline &amp; Phone Support
+                WhatsApp Live Support
               </h3>
               <p className="text-xs text-gray-500 leading-relaxed mb-6">
-                Call our direct store phone line for urgent orders, device consultations, and order status updates.
+                Chat directly with our store support for urgent orders, device consultations, flavor options, and real-time order tracking.
               </p>
             </div>
 
             <div>
               <a
-                href="tel:+918053117437"
-                className="w-full inline-flex items-center justify-center gap-2 bg-[#325f98] hover:bg-[#254977] text-white font-bold text-xs py-3 px-4 rounded-xl shadow-xs transition-transform active:scale-98 cursor-pointer"
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full inline-flex items-center justify-center gap-2 bg-[#128C7E] hover:bg-[#075E54] text-white font-bold text-xs py-3 px-4 rounded-xl shadow-xs transition-transform active:scale-98 cursor-pointer"
               >
-                <FiPhone className="w-4 h-4" />
-                <span>Call Helpline: +91 80531 17437</span>
+                <FaWhatsapp className="w-4 h-4" />
+                <span>WhatsApp Helpline: +91 80531 17437</span>
               </a>
               <div className="text-[11px] text-gray-400 text-center mt-2 font-medium">
-                📞 Available 7 Days a Week
+                💬 Available 7 Days a Week
               </div>
             </div>
           </div>
