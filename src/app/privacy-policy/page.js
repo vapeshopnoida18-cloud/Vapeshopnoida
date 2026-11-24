@@ -245,7 +245,7 @@ export default function PrivacyPolicyPage() {
                   rel="noopener noreferrer"
                   className="hover:underline font-semibold text-emerald-700"
                 >
-                  +91 80531 17437 (WhatsApp)
+                  +91 74191 82564 (WhatsApp)
                 </a>
               </div>
             </div>

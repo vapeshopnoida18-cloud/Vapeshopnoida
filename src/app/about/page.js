@@ -85,7 +85,7 @@ export default function AboutPage() {
         name: "Vape Shop Noida",
         image: "https://vapeshopinnoida.com/logo.webp",
         url: "https://vapeshopinnoida.com",
-        telephone: "+918053117437",
+        telephone: "+917419182564",
         email: "vapeshopnoida18@gmail.com",
         priceRange: "₹₹",
         address: {
@@ -423,7 +423,7 @@ export default function AboutPage() {
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white text-xs font-bold transition-all shadow-lg active:scale-95 cursor-pointer"
               >
                 <FaWhatsapp className="w-4 h-4" />
-                <span>Order on WhatsApp (+91 80531 17437)</span>
+                <span>Order on WhatsApp (+91 74191 82564)</span>
               </a>
             </div>
           </div>

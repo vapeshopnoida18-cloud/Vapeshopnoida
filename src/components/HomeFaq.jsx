@@ -43,7 +43,7 @@ export default function HomeFaq() {
     },
     {
       q: "How do I place an order or check stock availability?",
-      a: "You can place orders directly by adding products to your cart or messaging our dedicated WhatsApp helpline at +91 80531 17437. Our customer team responds instantly with flavor options, live stock, and delivery estimates.",
+      a: "You can place orders directly by adding products to your cart or messaging our dedicated WhatsApp helpline at +91 74191 82564. Our customer team responds instantly with flavor options, live stock, and delivery estimates.",
     },
   ];
 
@@ -166,7 +166,7 @@ export default function HomeFaq() {
             className="inline-flex items-center gap-1.5 text-[#325f98] font-semibold hover:underline"
           >
             <FaWhatsapp className="w-3.5 h-3.5 text-emerald-600" />
-            <span>Chat on WhatsApp Helpline (+91 80531 17437)</span>
+            <span>Chat on WhatsApp Helpline (+91 74191 82564)</span>
           </a>
         </div>
       </div>

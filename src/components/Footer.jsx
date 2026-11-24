@@ -288,7 +288,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-emerald-400 transition-colors"
                 >
-                  +91 80531 17437 (WhatsApp Helpline)
+                  +91 74191 82564 (WhatsApp Helpline)
                 </a>
               </div>
             </div>

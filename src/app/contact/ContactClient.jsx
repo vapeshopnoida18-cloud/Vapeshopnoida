@@ -48,7 +48,7 @@ const contactFaqs = [
   },
   {
     q: "What is the fastest way to place an urgent order?",
-    a: "Clicking our 'Order on WhatsApp' button (+91 80531 17437) connects you instantly with our store team. We share live flavor menus and immediately dispatch your order via express courier.",
+    a: "Clicking our 'Order on WhatsApp' button (+91 74191 82564) connects you instantly with our store team. We share live flavor menus and immediately dispatch your order via express courier.",
   },
 ];
 
@@ -136,7 +136,7 @@ export default function ContactClient() {
                 className="w-full inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs py-3 px-4 rounded-xl shadow-xs transition-transform active:scale-98 cursor-pointer"
               >
                 <FaWhatsapp className="w-4 h-4" />
-                <span>Chat on WhatsApp (+91 80531 17437)</span>
+                <span>Chat on WhatsApp (+91 74191 82564)</span>
               </a>
               <div className="text-[11px] text-gray-400 text-center mt-2 font-medium">
                 ⚡ Express 30-45 mins Delivery Across Noida
@@ -173,7 +173,7 @@ export default function ContactClient() {
                 className="w-full inline-flex items-center justify-center gap-2 bg-[#128C7E] hover:bg-[#075E54] text-white font-bold text-xs py-3 px-4 rounded-xl shadow-xs transition-transform active:scale-98 cursor-pointer"
               >
                 <FaWhatsapp className="w-4 h-4" />
-                <span>WhatsApp Helpline: +91 80531 17437</span>
+                <span>WhatsApp Helpline: +91 74191 82564</span>
               </a>
               <div className="text-[11px] text-gray-400 text-center mt-2 font-medium">
                 💬 Available 7 Days a Week

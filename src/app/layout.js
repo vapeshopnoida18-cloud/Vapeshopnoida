@@ -111,7 +111,7 @@ const globalSchema = {
       url: "https://vapeshopinnoida.com",
       logo: "https://vapeshopinnoida.com/logo.webp",
       image: "https://vapeshopinnoida.com/herobanner/banner3.webp",
-      telephone: "+918053117437",
+      telephone: "+917419182564",
       email: "vapeshopnoida18@gmail.com",
       priceRange: "₹₹",
       paymentAccepted: "UPI, Google Pay, PhonePe, Paytm, QR Code, Net Banking, Credit/Debit Card",

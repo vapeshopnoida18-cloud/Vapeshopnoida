@@ -125,7 +125,7 @@ export default function TermsPage() {
               </h2>
             </div>
             <p>
-              By browsing, accessing, or placing orders on <strong>vapeshopinnoida.com</strong> or interacting with our order helpline on WhatsApp (+91 80531 17437), you explicitly acknowledge and agree to comply with these Terms and Conditions. If you do not agree to these terms in full, please refrain from using this website or initiating order requests.
+              By browsing, accessing, or placing orders on <strong>vapeshopinnoida.com</strong> or interacting with our order helpline on WhatsApp (+91 74191 82564), you explicitly acknowledge and agree to comply with these Terms and Conditions. If you do not agree to these terms in full, please refrain from using this website or initiating order requests.
             </p>
           </div>
 
@@ -207,7 +207,7 @@ export default function TermsPage() {
               </h2>
             </div>
             <p>
-              We accept <strong>Instant UPI (Google Pay, PhonePe, Paytm)</strong> and doorstep digital payments (UPI via Google Pay, PhonePe, and Paytm). Orders can be freely modified or cancelled prior to rider dispatch by messaging our helpline at <strong>+91 80531 17437</strong>. Due to health and hygiene standards, unsealed or opened consumable products cannot be returned after successful delivery.
+              We accept <strong>Instant UPI (Google Pay, PhonePe, Paytm)</strong> and doorstep digital payments (UPI via Google Pay, PhonePe, and Paytm). Orders can be freely modified or cancelled prior to rider dispatch by messaging our helpline at <strong>+91 74191 82564</strong>. Due to health and hygiene standards, unsealed or opened consumable products cannot be returned after successful delivery.
             </p>
           </div>
 
@@ -239,7 +239,7 @@ export default function TermsPage() {
                   rel="noopener noreferrer"
                   className="hover:underline font-semibold text-emerald-700"
                 >
-                  +91 80531 17437 (WhatsApp)
+                  +91 74191 82564 (WhatsApp)
                 </a>
               </div>
             </div>

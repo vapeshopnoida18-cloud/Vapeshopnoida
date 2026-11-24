@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function SeoIntro() {
   const whatsappUrl =
-    "https://wa.me/918053117437?text=Hi%20Vape%20Shop%20Noida%2C%20I%20want%20to%20order%20vapes%20in%20Noida.";
+    "https://wa.me/917419182564?text=Hi%20Vape%20Shop%20Noida%2C%20I%20want%20to%20order%20vapes%20in%20Noida.";
 
   const trendingCategories = [
     { name: "Disposable Vapes", count: "5000+ Puffs", href: "/products?category=disposable" },

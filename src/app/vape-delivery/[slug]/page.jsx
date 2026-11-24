@@ -70,7 +70,7 @@ export default async function LocationPage({ params }) {
     name: `Vape Shop Noida – ${location.name}`,
     image: "https://vapeshopinnoida.com/vape-shop-noida-hero.png",
     url: pageUrl,
-    telephone: "+918053117437",
+    telephone: "+917419182564",
     priceRange: "₹₹",
     currenciesAccepted: "INR",
     paymentAccepted: "Instant UPI, Google Pay, PhonePe, Paytm, QR Code Online Payment",
